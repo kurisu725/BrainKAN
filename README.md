@@ -24,5 +24,6 @@ According to the methods described in the paper, process the results to retain r
 
 Alternatively, select the parts where the normalized extreme value is less than 0.5, or the parts where the normalized z-score is less than 0
 
-Modify the input matrix for testKAN() to include only these extracted brain regions.
+Modify matrixAuto to the extracted sequence, and then modify anum to the number of extracted brain regions
+
 These steps will help you identify and focus on the most impactful areas of the brain according to the model's analysis.
