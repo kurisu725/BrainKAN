@@ -68,7 +68,6 @@ def infer(X_vaild, Y_vaild, model, criterion):
 
         logits = model(input)
         probabilities = torch.softmax(logits, dim=1)
-        # 预测类别
         predictions = torch.argmax(probabilities, dim=1)
         loss = criterion(logits, target.long())
         all_predictions.extend(predictions.cpu().numpy())
@@ -107,7 +106,6 @@ def infer2(X_vaild, Y_vaild, model, criterion):
 
         logits = model(input)
         probabilities = torch.softmax(logits, dim=1)
-        # 预测类别
         predictions = torch.argmax(probabilities, dim=1)
         loss = criterion(logits, target.long())
         all_predictions.extend(predictions.cpu().numpy())
@@ -142,8 +140,6 @@ def testKAN():
     sum_spe = 0
     fold_list = []
     load_data = sio.loadmat('E:\Brain\Convolutional_Architecture\data/ALLASD1_aal.mat')
-    template_matrix = np.load('E:\Brain\Convolutional_Architecture\save_csv/sample_arch_90_find.npy',
-                              allow_pickle=True)
     matrixAuto=[85, 78, 86, 79, 82, 19, 62, 15, 65, 52, 45, 80, 3, 28, 54, 56, 89, 32, 59, 42, 8, 55, 44, 31, 72,
                 60, 40, 9, 87, 81, 6, 53, 43, 46, 69, 66, 30, 5, 34, 21, 68, 57, 88, 1, 83, 75, 14, 84, 39, 11, 70,
                 76, 16, 12, 50, 77, 24, 18, 27, 63, 29, 20, 64, 35, 48, 74, 33, 47, 51, 4, 17, 2, 23, 61, 26, 10,
@@ -185,7 +181,7 @@ def testKAN():
         trainloader = X_train
         valloader = X_test
         # Define model
-        model = KAN([anum * anum,256,128,64,32,16,2])#90,512,256,128,64,32,16,8,4,2;30,512,256,128,64,32,16,2
+        model = KAN([anum * anum,256,128,64,32,16,2])#90,512,256,128,64,32,16,8,4,2;30,256,128,64,32,16,2
         #model.plot()
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
@@ -221,7 +217,6 @@ def testKAN():
                     #print(images.shape)
                     output = model(images)
                     probabilities = torch.softmax(output, dim=1)
-                    # 预测类别
                     predictions = torch.argmax(probabilities, dim=1)
                     all_predictions.extend(predictions.cpu().numpy())
                     all_targets.extend(labels.cpu().numpy())
