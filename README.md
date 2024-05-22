@@ -18,6 +18,11 @@ To extract the brain regions that contribute significantly, perform the followin
 
 Execute testKAN() to generate a model.
 Use the model with testXAI() as follows:testXAI()
-testXAI() will produce a 90x90 matrix of contributions. Summing these will yield the individual contributions of the 90 brain regions. According to the methods described in the paper, process the results to retain regions with a contribution less than zero.
+testXAI() will produce a 90x90 matrix of contributions. Summing these will yield the individual contributions of the 90 brain regions. 
+
+According to the methods described in the paper, process the results to retain regions with a contribution less than zero.
+
+Alternatively, select the parts where the normalized extreme value is less than 0.5, or the parts where the normalized z-score is less than 0
+
 Modify the input matrix for testKAN() to include only these extracted brain regions.
 These steps will help you identify and focus on the most impactful areas of the brain according to the model's analysis.
