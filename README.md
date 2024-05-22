@@ -3,12 +3,14 @@ Environment Setup
 Refer to requirements.txt for necessary packages.
 
 Dataset
+
 The dataset used is the ABIDE dataset, with inputs being 90x90 matrices of AAL brain regions. Labels are binary: 0 (non-patient, negative) and 1 (patient, positive).
 
 Usage
 Using KAN:
 Run the following to use the KAN model:
 testKAN()
+
 Automatic Extraction of High-impact Brain Regions:
 To extract the brain regions that contribute significantly, perform the following steps:
 Execute testKAN() to generate a model.
