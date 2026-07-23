@@ -95,9 +95,7 @@ After configuring the dataset path, run the experiment script:
 python test_model.py
 ```
 
-`test_model.py` imports `xai` when the module is loaded. Before using the command
-above, place the original `xai.py` helper in `BrainKAN-code` (or otherwise make it
-importable). For classification-only runs, the unused `import xai` line can be
+For classification-only runs, the unused `import xai` line can be
 disabled; `testXAI()` will then remain unavailable.
 
 The current `__main__` block calls `testKAN()`. The example implementation sweeps
