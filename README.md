@@ -6,16 +6,6 @@ contributions, aggregates them into ROI-level importance scores, selects an
 informative ROI subnetwork, and retrains a KAN classifier on the selected
 functional-connectivity matrix.
 
-## Version information
-
-- Repository: [kurisu725/BrainKAN](https://github.com/kurisu725/BrainKAN)
-- Base code commit: `bf4be84`
-- Documentation revision: `2026-07-23`
-- Optional fused CUDA extension: Windows/NVRTC implementation included
-
-The repository currently has no tagged semantic release. The versions below
-describe the software environments used to run the code.
-
 ## Requirements
 
 Miniconda with Python 3.9 is recommended for the original environment. The core
