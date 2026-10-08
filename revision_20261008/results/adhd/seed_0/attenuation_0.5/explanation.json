@@ -1,0 +1,1114 @@
+{
+  "method": "roi_attenuation",
+  "alpha": 0.5,
+  "baseline_loss": 0.8094717886978842,
+  "cohort": "development",
+  "final_test_used": false,
+  "repeats": 1,
+  "sign": "baseline cross entropy minus perturbed cross entropy",
+  "unit_scores": [
+    {
+      "unit": [
+        0,
+        0
+      ],
+      "loss_differences": [
+        -0.015334455234304989
+      ]
+    },
+    {
+      "unit": [
+        1,
+        1
+      ],
+      "loss_differences": [
+        0.03463160093454476
+      ]
+    },
+    {
+      "unit": [
+        2,
+        2
+      ],
+      "loss_differences": [
+        0.06625480656324956
+      ]
+    },
+    {
+      "unit": [
+        3,
+        3
+      ],
+      "loss_differences": [
+        -0.02195887166325694
+      ]
+    },
+    {
+      "unit": [
+        4,
+        4
+      ],
+      "loss_differences": [
+        -0.00965840687521613
+      ]
+    },
+    {
+      "unit": [
+        5,
+        5
+      ],
+      "loss_differences": [
+        0.015575443909372266
+      ]
+    },
+    {
+      "unit": [
+        6,
+        6
+      ],
+      "loss_differences": [
+        0.003934736946708428
+      ]
+    },
+    {
+      "unit": [
+        7,
+        7
+      ],
+      "loss_differences": [
+        -0.038240233066224816
+      ]
+    },
+    {
+      "unit": [
+        8,
+        8
+      ],
+      "loss_differences": [
+        -0.018041521867747545
+      ]
+    },
+    {
+      "unit": [
+        9,
+        9
+      ],
+      "loss_differences": [
+        0.007190950105217642
+      ]
+    },
+    {
+      "unit": [
+        10,
+        10
+      ],
+      "loss_differences": [
+        0.008938839973718804
+      ]
+    },
+    {
+      "unit": [
+        11,
+        11
+      ],
+      "loss_differences": [
+        0.008242725844834653
+      ]
+    },
+    {
+      "unit": [
+        12,
+        12
+      ],
+      "loss_differences": [
+        -0.018313868613198725
+      ]
+    },
+    {
+      "unit": [
+        13,
+        13
+      ],
+      "loss_differences": [
+        -0.044821208888442876
+      ]
+    },
+    {
+      "unit": [
+        14,
+        14
+      ],
+      "loss_differences": [
+        -0.033678314530494746
+      ]
+    },
+    {
+      "unit": [
+        15,
+        15
+      ],
+      "loss_differences": [
+        -0.043994699245360924
+      ]
+    },
+    {
+      "unit": [
+        16,
+        16
+      ],
+      "loss_differences": [
+        -0.013024582957439246
+      ]
+    },
+    {
+      "unit": [
+        17,
+        17
+      ],
+      "loss_differences": [
+        -0.03978456421269938
+      ]
+    },
+    {
+      "unit": [
+        18,
+        18
+      ],
+      "loss_differences": [
+        0.03193556694798749
+      ]
+    },
+    {
+      "unit": [
+        19,
+        19
+      ],
+      "loss_differences": [
+        0.027821776375914098
+      ]
+    },
+    {
+      "unit": [
+        20,
+        20
+      ],
+      "loss_differences": [
+        0.01765276774218083
+      ]
+    },
+    {
+      "unit": [
+        21,
+        21
+      ],
+      "loss_differences": [
+        0.01658888154327587
+      ]
+    },
+    {
+      "unit": [
+        22,
+        22
+      ],
+      "loss_differences": [
+        0.04000628283780905
+      ]
+    },
+    {
+      "unit": [
+        23,
+        23
+      ],
+      "loss_differences": [
+        0.08393323471579606
+      ]
+    },
+    {
+      "unit": [
+        24,
+        24
+      ],
+      "loss_differences": [
+        -0.06922907507445675
+      ]
+    },
+    {
+      "unit": [
+        25,
+        25
+      ],
+      "loss_differences": [
+        -0.031317593332379934
+      ]
+    },
+    {
+      "unit": [
+        26,
+        26
+      ],
+      "loss_differences": [
+        0.0443013055332907
+      ]
+    },
+    {
+      "unit": [
+        27,
+        27
+      ],
+      "loss_differences": [
+        -0.003171529718644317
+      ]
+    },
+    {
+      "unit": [
+        28,
+        28
+      ],
+      "loss_differences": [
+        0.029553628606868942
+      ]
+    },
+    {
+      "unit": [
+        29,
+        29
+      ],
+      "loss_differences": [
+        -0.003061250533926696
+      ]
+    },
+    {
+      "unit": [
+        30,
+        30
+      ],
+      "loss_differences": [
+        0.034713031978356734
+      ]
+    },
+    {
+      "unit": [
+        31,
+        31
+      ],
+      "loss_differences": [
+        -0.032538417926729624
+      ]
+    },
+    {
+      "unit": [
+        32,
+        32
+      ],
+      "loss_differences": [
+        -0.14173336288792449
+      ]
+    },
+    {
+      "unit": [
+        33,
+        33
+      ],
+      "loss_differences": [
+        -0.05495182302789847
+      ]
+    },
+    {
+      "unit": [
+        34,
+        34
+      ],
+      "loss_differences": [
+        0.0393590476302319
+      ]
+    },
+    {
+      "unit": [
+        35,
+        35
+      ],
+      "loss_differences": [
+        0.02759860122222879
+      ]
+    },
+    {
+      "unit": [
+        36,
+        36
+      ],
+      "loss_differences": [
+        0.03753258008879312
+      ]
+    },
+    {
+      "unit": [
+        37,
+        37
+      ],
+      "loss_differences": [
+        -0.011031227309180158
+      ]
+    },
+    {
+      "unit": [
+        38,
+        38
+      ],
+      "loss_differences": [
+        -0.006693878215699889
+      ]
+    },
+    {
+      "unit": [
+        39,
+        39
+      ],
+      "loss_differences": [
+        0.017187850813479955
+      ]
+    },
+    {
+      "unit": [
+        40,
+        40
+      ],
+      "loss_differences": [
+        -0.08350526999523966
+      ]
+    },
+    {
+      "unit": [
+        41,
+        41
+      ],
+      "loss_differences": [
+        -0.04503858829092311
+      ]
+    },
+    {
+      "unit": [
+        42,
+        42
+      ],
+      "loss_differences": [
+        -0.02674959788116338
+      ]
+    },
+    {
+      "unit": [
+        43,
+        43
+      ],
+      "loss_differences": [
+        0.044975846160027255
+      ]
+    },
+    {
+      "unit": [
+        44,
+        44
+      ],
+      "loss_differences": [
+        0.047469826367702805
+      ]
+    },
+    {
+      "unit": [
+        45,
+        45
+      ],
+      "loss_differences": [
+        -0.007678812332744811
+      ]
+    },
+    {
+      "unit": [
+        46,
+        46
+      ],
+      "loss_differences": [
+        -0.1647730641822559
+      ]
+    },
+    {
+      "unit": [
+        47,
+        47
+      ],
+      "loss_differences": [
+        -0.007759276062225817
+      ]
+    },
+    {
+      "unit": [
+        48,
+        48
+      ],
+      "loss_differences": [
+        -0.02218678496029347
+      ]
+    },
+    {
+      "unit": [
+        49,
+        49
+      ],
+      "loss_differences": [
+        -0.10791782371213643
+      ]
+    },
+    {
+      "unit": [
+        50,
+        50
+      ],
+      "loss_differences": [
+        0.04846038593038138
+      ]
+    },
+    {
+      "unit": [
+        51,
+        51
+      ],
+      "loss_differences": [
+        -0.042422175541114826
+      ]
+    },
+    {
+      "unit": [
+        52,
+        52
+      ],
+      "loss_differences": [
+        0.04970359167142535
+      ]
+    },
+    {
+      "unit": [
+        53,
+        53
+      ],
+      "loss_differences": [
+        -0.02532109920706549
+      ]
+    },
+    {
+      "unit": [
+        54,
+        54
+      ],
+      "loss_differences": [
+        -0.16237944328303255
+      ]
+    },
+    {
+      "unit": [
+        55,
+        55
+      ],
+      "loss_differences": [
+        -0.046036191134487425
+      ]
+    },
+    {
+      "unit": [
+        56,
+        56
+      ],
+      "loss_differences": [
+        0.008356648447170878
+      ]
+    },
+    {
+      "unit": [
+        57,
+        57
+      ],
+      "loss_differences": [
+        0.03860213975336024
+      ]
+    },
+    {
+      "unit": [
+        58,
+        58
+      ],
+      "loss_differences": [
+        0.040805223322181394
+      ]
+    },
+    {
+      "unit": [
+        59,
+        59
+      ],
+      "loss_differences": [
+        0.03943569105943112
+      ]
+    },
+    {
+      "unit": [
+        60,
+        60
+      ],
+      "loss_differences": [
+        0.04668356531788642
+      ]
+    },
+    {
+      "unit": [
+        61,
+        61
+      ],
+      "loss_differences": [
+        -0.0015113215276210124
+      ]
+    },
+    {
+      "unit": [
+        62,
+        62
+      ],
+      "loss_differences": [
+        -0.041887717070545394
+      ]
+    },
+    {
+      "unit": [
+        63,
+        63
+      ],
+      "loss_differences": [
+        -0.0118342452977791
+      ]
+    },
+    {
+      "unit": [
+        64,
+        64
+      ],
+      "loss_differences": [
+        0.03779763241765799
+      ]
+    },
+    {
+      "unit": [
+        65,
+        65
+      ],
+      "loss_differences": [
+        -0.027443698513652026
+      ]
+    },
+    {
+      "unit": [
+        66,
+        66
+      ],
+      "loss_differences": [
+        -0.023633510346171005
+      ]
+    },
+    {
+      "unit": [
+        67,
+        67
+      ],
+      "loss_differences": [
+        -0.06417016534832543
+      ]
+    },
+    {
+      "unit": [
+        68,
+        68
+      ],
+      "loss_differences": [
+        0.0016636438347457094
+      ]
+    },
+    {
+      "unit": [
+        69,
+        69
+      ],
+      "loss_differences": [
+        -0.10292737349645276
+      ]
+    },
+    {
+      "unit": [
+        70,
+        70
+      ],
+      "loss_differences": [
+        0.007151514135568027
+      ]
+    },
+    {
+      "unit": [
+        71,
+        71
+      ],
+      "loss_differences": [
+        -0.03379294450698611
+      ]
+    },
+    {
+      "unit": [
+        72,
+        72
+      ],
+      "loss_differences": [
+        0.004228834516284752
+      ]
+    },
+    {
+      "unit": [
+        73,
+        73
+      ],
+      "loss_differences": [
+        0.018281125391453212
+      ]
+    },
+    {
+      "unit": [
+        74,
+        74
+      ],
+      "loss_differences": [
+        -0.001837045695042172
+      ]
+    },
+    {
+      "unit": [
+        75,
+        75
+      ],
+      "loss_differences": [
+        0.019657911584515797
+      ]
+    },
+    {
+      "unit": [
+        76,
+        76
+      ],
+      "loss_differences": [
+        -0.11352414816328205
+      ]
+    },
+    {
+      "unit": [
+        77,
+        77
+      ],
+      "loss_differences": [
+        -0.05221460477749196
+      ]
+    },
+    {
+      "unit": [
+        78,
+        78
+      ],
+      "loss_differences": [
+        0.0382218580787721
+      ]
+    },
+    {
+      "unit": [
+        79,
+        79
+      ],
+      "loss_differences": [
+        -0.03337896177084698
+      ]
+    },
+    {
+      "unit": [
+        80,
+        80
+      ],
+      "loss_differences": [
+        -0.076998858427345
+      ]
+    },
+    {
+      "unit": [
+        81,
+        81
+      ],
+      "loss_differences": [
+        -0.023260154630122876
+      ]
+    },
+    {
+      "unit": [
+        82,
+        82
+      ],
+      "loss_differences": [
+        0.06589250425498328
+      ]
+    },
+    {
+      "unit": [
+        83,
+        83
+      ],
+      "loss_differences": [
+        -0.03821480390816501
+      ]
+    },
+    {
+      "unit": [
+        84,
+        84
+      ],
+      "loss_differences": [
+        0.04591368353094516
+      ]
+    },
+    {
+      "unit": [
+        85,
+        85
+      ],
+      "loss_differences": [
+        -0.09238872392615938
+      ]
+    },
+    {
+      "unit": [
+        86,
+        86
+      ],
+      "loss_differences": [
+        0.04124741471437143
+      ]
+    },
+    {
+      "unit": [
+        87,
+        87
+      ],
+      "loss_differences": [
+        0.004801802078498674
+      ]
+    },
+    {
+      "unit": [
+        88,
+        88
+      ],
+      "loss_differences": [
+        -0.05257321303517615
+      ]
+    },
+    {
+      "unit": [
+        89,
+        89
+      ],
+      "loss_differences": [
+        -0.03457644293385065
+      ]
+    }
+  ],
+  "structural_audit_scope": "sampled units, first repeat, sampled development subjects",
+  "structural_audits": [
+    {
+      "unit": [
+        0,
+        0
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.4049146463997315e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        9,
+        9
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.4305630513810047e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        17,
+        17
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.4059332001581502e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        31,
+        31
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.427264467468052e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        38,
+        38
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.4339705162448597e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        44,
+        44
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.4076446573005174e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        47,
+        47
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.367401652548619e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    },
+    {
+      "unit": [
+        56,
+        56
+      ],
+      "repeat": 0,
+      "subject_local_indices": [
+        4,
+        15,
+        26,
+        36,
+        41,
+        42,
+        51,
+        76
+      ],
+      "n": 8,
+      "tolerance": 1e-05,
+      "max_asymmetry": 0.0,
+      "max_diagonal_error": 0.0,
+      "out_of_range_fraction": 0.0,
+      "minimum_eigenvalue_of_symmetric_part": -1.414124118594504e-07,
+      "fraction_symmetric_part_below_tolerance": 0.0
+    }
+  ],
+  "original_structure": {
+    "n": 86,
+    "tolerance": 1e-05,
+    "max_asymmetry": 0.0,
+    "max_diagonal_error": 0.0,
+    "out_of_range_fraction": 0.0,
+    "minimum_eigenvalue_of_symmetric_part": -2.0525395940821607e-07,
+    "fraction_symmetric_part_below_tolerance": 0.0
+  },
+  "interpretation": "ROI connection attenuation sensitivity, not edge permutation or causal effect",
+  "pool_indices": [
+    679,
+    680,
+    681,
+    682,
+    683,
+    684,
+    685,
+    686,
+    687,
+    688,
+    689,
+    690,
+    691,
+    692,
+    693,
+    694,
+    695,
+    696,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    703,
+    704,
+    705,
+    706,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718,
+    719,
+    720,
+    721,
+    722,
+    723,
+    724,
+    725,
+    726,
+    727,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737,
+    738,
+    739,
+    740,
+    741,
+    742,
+    743,
+    744,
+    745,
+    746,
+    747,
+    748,
+    749,
+    750,
+    751,
+    752,
+    753,
+    754,
+    755,
+    756,
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    763,
+    764
+  ]
+}

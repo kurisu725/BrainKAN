@@ -1,0 +1,82 @@
+[
+  {
+    "arm_a": "entry_permutation",
+    "arm_b": "symmetric_permutation",
+    "spearman": 0.9697081944272955,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.9047619047619048,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "entry_permutation",
+    "arm_b": "attenuation_0.75",
+    "spearman": 0.8850063793884018,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.48148148148148145,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "entry_permutation",
+    "arm_b": "attenuation_0.5",
+    "spearman": 0.9092068979709428,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.48148148148148145,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "entry_permutation",
+    "arm_b": "attenuation_0",
+    "spearman": 0.9232662468617523,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.5384615384615384,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "symmetric_permutation",
+    "arm_b": "attenuation_0.75",
+    "spearman": 0.8716878626990985,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.42857142857142855,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "symmetric_permutation",
+    "arm_b": "attenuation_0.5",
+    "spearman": 0.8985553772070625,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.42857142857142855,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "symmetric_permutation",
+    "arm_b": "attenuation_0",
+    "spearman": 0.918607235461168,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.5384615384615384,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "attenuation_0.75",
+    "arm_b": "attenuation_0.5",
+    "spearman": 0.9886570358480469,
+    "matched_top_k": 20,
+    "top_k_jaccard": 1.0,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "attenuation_0.75",
+    "arm_b": "attenuation_0",
+    "spearman": 0.9259661686627977,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.7391304347826086,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  },
+  {
+    "arm_a": "attenuation_0.5",
+    "arm_b": "attenuation_0",
+    "spearman": 0.9674527719471538,
+    "matched_top_k": 20,
+    "top_k_jaccard": 0.7391304347826086,
+    "top_k_purpose": "size-controlled ranking comparison only; not the classifier ROI rule"
+  }
+]

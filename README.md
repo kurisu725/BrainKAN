@@ -1,5 +1,18 @@
 # BrainKAN
 
+## Updated automatic workflow and reproducible results
+
+The [2026-10-08 revision](revision_20261008/README.md) contains the executable end-to-end FC → ROI importance → automatic ROI selection → classifier training → final classification workflow, together with exact data assignments and the completed five-seed experiment records.
+
+- [Installation and experiment commands](revision_20261008/README.md)
+- [Code](revision_20261008/code/) and [results](revision_20261008/results/)
+- [Preprocessing reference and original passage](revision_20261008/PREPROCESSING.md): **for the preprocessing procedure, please refer to the original article (Section 4.1, p. 6).**
+
+The revised explanation is permutation loss importance. The instructions below document the original scripts and environment; use the revision above for automatic ROI selection and the new repeated-run evaluation.
+
+## Original implementation
+
+
 BrainKAN is an automated region-aware Kolmogorov-Arnold Network (KAN) for
 resting-state fMRI brain-network classification. It learns connection-level
 contributions, aggregates them into ROI-level importance scores, selects an

@@ -1,0 +1,12 @@
+{
+  "python": "3.11.2 (tags/v3.11.2:878ead1, Feb  7 2023, 16:38:35) [MSC v.1934 64 bit (AMD64)]",
+  "executable": "E:\\Brain\\BrainKAN\\_packaging_audit\\venv_cuda\\Scripts\\python.exe",
+  "torch": "2.2.1+cu121",
+  "numpy": "1.26.4",
+  "scipy": "1.12.0",
+  "sklearn": "1.4.1.post1",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch_threads": 4
+}

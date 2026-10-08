@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "completed": [
+    "abide_development",
+    "adhd_development",
+    "abide_final_test",
+    "adhd_final_test",
+    "write_report"
+  ],
+  "report": "E:\\Brain\\BrainKAN\\BrainKAN-complete\\outputs\\reviewer_20261001\\EXPERIMENT_REPORT.md",
+  "updated_at": "2026-10-02T02:37:44.820234+08:00",
+  "launcher_pid": 42420
+}

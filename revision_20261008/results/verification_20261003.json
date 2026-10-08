@@ -1,0 +1,16 @@
+{
+  "abide": {
+    "completed_models": 80,
+    "predictions_independently_recomputed": 80,
+    "max_metric_difference": 0,
+    "all_training_histories_50_final_epochs": true,
+    "no_validation_epoch_selection": true
+  },
+  "adhd": {
+    "completed_models": 80,
+    "predictions_independently_recomputed": 80,
+    "max_metric_difference": 0,
+    "all_training_histories_50_final_epochs": true,
+    "no_validation_epoch_selection": true
+  }
+}

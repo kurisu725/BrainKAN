@@ -1,0 +1,20 @@
+{
+  "dataset": "adhd",
+  "data_sha256": "6afc941a3925a0aa44cf081439cf26958524223758973b8c6860b1fca803d92d",
+  "label_column_zero_based": 3,
+  "index_space": "concatenated net_train, net_valid, net_test",
+  "source_net_mapping_verified": true,
+  "subjects": 847,
+  "historical_five_seeds_recovered": false,
+  "split_counts": {
+    "train": 679,
+    "valid": 86,
+    "test": 82
+  },
+  "phenotype_column_unique_counts": [
+    7,
+    847,
+    1,
+    2
+  ]
+}
