@@ -1,0 +1,47 @@
+{
+  "abide": {
+    "partitions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "kind": "five recorded random holdouts, overlapping between repetitions"
+  },
+  "adhd_all_ten": {
+    "partitions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "kind": "all recorded ADHD random holdouts"
+  },
+  "adhd_manuscript_five": {
+    "partitions": [
+      1,
+      2,
+      5,
+      6,
+      8
+    ],
+    "kind": "author-specified post-hoc subset of the ten completed partitions"
+  },
+  "nyu": {
+    "partitions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "kind": "five stochastic repeats of one site-disjoint subject assignment"
+  }
+}

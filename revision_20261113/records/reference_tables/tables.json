@@ -1,0 +1,4823 @@
+{
+  "fixed_hyperparameters": [
+    {
+      "id": "H01",
+      "candidate": "A_original_g5_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.53932584269663,
+          "sd": 5.892184540281748,
+          "values": [
+            68.53932584269663,
+            65.1685393258427,
+            60.67415730337079,
+            73.03370786516854,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 68.71624624688312,
+          "sd": 6.181679943074269,
+          "values": [
+            68.58585858585859,
+            65.12626262626262,
+            60.48632218844985,
+            74.05450500556174,
+            75.32828282828284
+          ]
+        },
+        "R": {
+          "mean": 68.37906504065042,
+          "sd": 5.815664767958275,
+          "values": [
+            68.69918699186992,
+            65.21849593495935,
+            60.518292682926834,
+            71.97662601626016,
+            75.48272357723577
+          ]
+        },
+        "F1": {
+          "mean": 68.27230947314465,
+          "sd": 5.773617967839717,
+          "values": [
+            68.5035389282103,
+            65.09803921568627,
+            60.494610019023455,
+            72.0125786163522,
+            75.25278058645097
+          ]
+        },
+        "AUC": {
+          "mean": 75.42682926829268,
+          "sd": 2.914027445331434,
+          "values": [
+            76.67682926829268,
+            74.84756097560975,
+            71.08739837398375,
+            75.45731707317074,
+            79.06504065040649
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H02",
+      "candidate": "A_original_g10_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 66.74157303370787,
+          "sd": 5.305941102524762,
+          "values": [
+            68.53932584269663,
+            65.1685393258427,
+            59.55056179775281,
+            66.29213483146067,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 66.60729609784487,
+          "sd": 5.324129876737033,
+          "values": [
+            68.58585858585859,
+            64.9234693877551,
+            59.42871587462083,
+            66.0862785862786,
+            74.01215805471124
+          ]
+        },
+        "R": {
+          "mean": 66.5701219512195,
+          "sd": 5.360874705222663,
+          "values": [
+            68.69918699186992,
+            64.86280487804879,
+            59.476626016260155,
+            65.72662601626016,
+            74.08536585365853
+          ]
+        },
+        "F1": {
+          "mean": 66.52387866831607,
+          "sd": 5.340565205227385,
+          "values": [
+            68.5035389282103,
+            64.88481608756523,
+            59.4224924012158,
+            65.76923076923077,
+            74.03931515535828
+          ]
+        },
+        "AUC": {
+          "mean": 75.22357723577235,
+          "sd": 2.7261072310538137,
+          "values": [
+            78.65853658536585,
+            75.3048780487805,
+            72.61178861788619,
+            72.45934959349594,
+            77.08333333333334
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H03",
+      "candidate": "A_original_g10_s5",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 5
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 66.74157303370787,
+          "sd": 5.246120238170227,
+          "values": [
+            69.66292134831461,
+            64.04494382022472,
+            60.67415730337079,
+            65.1685393258427,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 66.599445289088,
+          "sd": 5.253214062522129,
+          "values": [
+            69.62121212121211,
+            63.76923076923078,
+            60.631313131313135,
+            64.96331236897275,
+            74.01215805471124
+          ]
+        },
+        "R": {
+          "mean": 66.53455284552845,
+          "sd": 5.335075485710692,
+          "values": [
+            69.74085365853658,
+            63.643292682926834,
+            60.69613821138211,
+            64.5071138211382,
+            74.08536585365853
+          ]
+        },
+        "F1": {
+          "mean": 66.48649163823009,
+          "sd": 5.320466208044138,
+          "values": [
+            69.60151802656547,
+            63.6734693877551,
+            60.59456040480708,
+            64.52359521666452,
+            74.03931515535828
+          ]
+        },
+        "AUC": {
+          "mean": 75.10162601626016,
+          "sd": 2.688771657585964,
+          "values": [
+            78.25203252032522,
+            75.0,
+            72.56097560975611,
+            72.35772357723577,
+            77.33739837398373
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H04",
+      "candidate": "A_medium_g5_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.64044943820224,
+          "sd": 5.173422217178134,
+          "values": [
+            69.66292134831461,
+            62.92134831460674,
+            61.79775280898876,
+            69.66292134831461,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 67.70526316089698,
+          "sd": 5.304235849344986,
+          "values": [
+            69.50354609929079,
+            62.878787878787875,
+            61.67846309403438,
+            70.14802631578947,
+            74.31749241658241
+          ]
+        },
+        "R": {
+          "mean": 67.47459349593495,
+          "sd": 5.187669697441052,
+          "values": [
+            69.5630081300813,
+            62.957317073170735,
+            61.737804878048784,
+            68.67378048780488,
+            74.4410569105691
+          ]
+        },
+        "F1": {
+          "mean": 67.36829292967693,
+          "sd": 5.124596468663139,
+          "values": [
+            69.52441344324667,
+            62.84629981024668,
+            61.67679837892604,
+            68.64970645792563,
+            74.14424655803967
+          ]
+        },
+        "AUC": {
+          "mean": 75.6910569105691,
+          "sd": 2.3905346768824547,
+          "values": [
+            76.72764227642277,
+            74.03455284552845,
+            72.86585365853658,
+            75.8130081300813,
+            79.01422764227642
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H05",
+      "candidate": "A_medium_g10_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.31460674157303,
+          "sd": 6.123337794803914,
+          "values": [
+            71.91011235955057,
+            65.1685393258427,
+            59.55056179775281,
+            69.66292134831461,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 68.23578402067822,
+          "sd": 6.211340334337627,
+          "values": [
+            71.86868686868686,
+            64.99493414387032,
+            59.29878048780488,
+            69.83957219251337,
+            75.17694641051567
+          ]
+        },
+        "R": {
+          "mean": 68.09959349593495,
+          "sd": 6.215346956659653,
+          "values": [
+            72.0020325203252,
+            65.04065040650406,
+            59.29878048780488,
+            68.85162601626016,
+            75.3048780487805
+          ]
+        },
+        "F1": {
+          "mean": 68.05147755592552,
+          "sd": 6.1677454851133255,
+          "values": [
+            71.85325743200505,
+            65.00951173113508,
+            59.29878048780488,
+            68.89320388349515,
+            75.20263424518744
+          ]
+        },
+        "AUC": {
+          "mean": 75.58943089430895,
+          "sd": 2.895583626428866,
+          "values": [
+            78.5060975609756,
+            75.3048780487805,
+            72.30691056910568,
+            73.27235772357724,
+            78.5569105691057
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H06",
+      "candidate": "A_medium_g10_s5",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 5
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.31460674157304,
+          "sd": 5.234074021956008,
+          "values": [
+            73.03370786516854,
+            65.1685393258427,
+            61.79775280898876,
+            67.41573033707866,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 68.20949213494205,
+          "sd": 5.338617240885565,
+          "values": [
+            73.08080808080808,
+            64.99493414387032,
+            61.5599593495935,
+            67.29559748427673,
+            74.11616161616162
+          ]
+        },
+        "R": {
+          "mean": 68.17073170731706,
+          "sd": 5.4335894205253865,
+          "values": [
+            73.22154471544715,
+            65.04065040650406,
+            61.5599593495935,
+            66.76829268292683,
+            74.26321138211382
+          ]
+        },
+        "F1": {
+          "mean": 68.0979793620955,
+          "sd": 5.340432509016212,
+          "values": [
+            73.0030333670374,
+            65.00951173113508,
+            61.5599593495935,
+            66.81239552526681,
+            74.10499683744465
+          ]
+        },
+        "AUC": {
+          "mean": 75.54878048780488,
+          "sd": 3.1013423028718154,
+          "values": [
+            78.15040650406505,
+            75.40650406504065,
+            72.2560975609756,
+            72.76422764227642,
+            79.16666666666666
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H07",
+      "candidate": "A_compact_g5_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          64,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.08988764044945,
+          "sd": 4.605371130768362,
+          "values": [
+            69.66292134831461,
+            64.04494382022472,
+            62.92134831460674,
+            69.66292134831461,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 68.27892333587195,
+          "sd": 4.800624326786814,
+          "values": [
+            69.6278825995807,
+            63.76923076923078,
+            62.878787878787875,
+            71.10655737704919,
+            74.01215805471124
+          ]
+        },
+        "R": {
+          "mean": 67.60670731707317,
+          "sd": 4.522964298865678,
+          "values": [
+            69.02947154471545,
+            63.643292682926834,
+            62.957317073170735,
+            68.3180894308943,
+            74.08536585365853
+          ]
+        },
+        "F1": {
+          "mean": 67.54194833900148,
+          "sd": 4.5254514254066605,
+          "values": [
+            69.1011958338691,
+            63.6734693877551,
+            62.84629981024668,
+            68.04946150777822,
+            74.03931515535828
+          ]
+        },
+        "AUC": {
+          "mean": 75.0609756097561,
+          "sd": 3.5028558125165734,
+          "values": [
+            75.76219512195122,
+            72.86585365853658,
+            70.3760162601626,
+            76.98170731707317,
+            79.31910569105692
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H08",
+      "candidate": "A_compact_g10_s3",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          64,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 65.61797752808988,
+          "sd": 7.350753812942079,
+          "values": [
+            64.04494382022472,
+            60.67415730337079,
+            57.30337078651685,
+            70.78651685393258,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 65.60471994514549,
+          "sd": 7.410249043642993,
+          "values": [
+            63.961038961038966,
+            60.48632218844985,
+            57.34848484848485,
+            70.89947089947091,
+            75.32828282828284
+          ]
+        },
+        "R": {
+          "mean": 65.3150406504065,
+          "sd": 7.3591508000730155,
+          "values": [
+            63.109756097560975,
+            60.518292682926834,
+            57.393292682926834,
+            70.0711382113821,
+            75.48272357723577
+          ]
+        },
+        "F1": {
+          "mean": 65.2291190466539,
+          "sd": 7.343150156043211,
+          "values": [
+            62.99376299376299,
+            60.494610019023455,
+            57.25480283114257,
+            70.14963880288958,
+            75.25278058645097
+          ]
+        },
+        "AUC": {
+          "mean": 75.27439024390243,
+          "sd": 3.3654940206907047,
+          "values": [
+            74.39024390243902,
+            74.1869918699187,
+            71.95121951219512,
+            74.89837398373984,
+            80.9451219512195
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H09",
+      "candidate": "A_compact_g10_s5",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          64,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 10,
+        "spline_order": 5
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 66.29213483146067,
+          "sd": 7.150518011998798,
+          "values": [
+            62.92134831460674,
+            64.04494382022472,
+            57.30337078651685,
+            73.03370786516854,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 66.31587860569209,
+          "sd": 7.3060005044965415,
+          "values": [
+            62.700534759358284,
+            63.82113821138211,
+            57.34848484848485,
+            73.59307359307358,
+            74.11616161616162
+          ]
+        },
+        "R": {
+          "mean": 65.9400406504065,
+          "sd": 7.078541109955042,
+          "values": [
+            62.068089430894304,
+            63.82113821138211,
+            57.393292682926834,
+            72.15447154471545,
+            74.26321138211382
+          ]
+        },
+        "F1": {
+          "mean": 65.88136852991269,
+          "sd": 7.106445764492777,
+          "values": [
+            61.98058252427185,
+            63.82113821138211,
+            57.25480283114257,
+            72.24532224532226,
+            74.10499683744465
+          ]
+        },
+        "AUC": {
+          "mean": 74.78658536585365,
+          "sd": 3.416471086909107,
+          "values": [
+            72.51016260162602,
+            74.23780487804878,
+            71.7479674796748,
+            75.00000000000001,
+            80.4369918699187
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109"
+    },
+    {
+      "id": "H10",
+      "candidate": "N1_original_g3_s2",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 3,
+        "spline_order": 2
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.98876404494382,
+          "sd": 5.305941102524763,
+          "values": [
+            71.91011235955057,
+            64.04494382022472,
+            62.92134831460674,
+            70.78651685393258,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 68.9665932435782,
+          "sd": 5.441097902234674,
+          "values": [
+            71.757852077001,
+            63.82113821138211,
+            62.740628166160086,
+            71.18506493506493,
+            75.32828282828284
+          ]
+        },
+        "R": {
+          "mean": 68.76016260162602,
+          "sd": 5.385807338774377,
+          "values": [
+            71.82418699186992,
+            63.82113821138211,
+            62.77947154471545,
+            69.89329268292683,
+            75.48272357723577
+          ]
+        },
+        "F1": {
+          "mean": 68.70805528092946,
+          "sd": 5.318285870993569,
+          "values": [
+            71.78186429930247,
+            63.82113821138211,
+            62.75206087507927,
+            69.93243243243244,
+            75.25278058645097
+          ]
+        },
+        "AUC": {
+          "mean": 75.35569105691057,
+          "sd": 2.9027973264982934,
+          "values": [
+            77.59146341463415,
+            73.57723577235772,
+            73.32317073170732,
+            72.96747967479675,
+            79.31910569105692
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H11",
+      "candidate": "N2_original_lr3e4_g090",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.0003,
+        "weight_decay": 0.0001,
+        "gamma": 0.9,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.9,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.9,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.9,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.9,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.9,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.98876404494382,
+          "sd": 4.9996843733229195,
+          "values": [
+            69.66292134831461,
+            65.1685393258427,
+            62.92134831460674,
+            71.91011235955057,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 68.96894848405938,
+          "sd": 5.200405466522085,
+          "values": [
+            69.50354609929079,
+            64.9234693877551,
+            62.65306122448979,
+            72.58771929824562,
+            75.17694641051567
+          ]
+        },
+        "R": {
+          "mean": 68.65345528455285,
+          "sd": 5.031591198691153,
+          "values": [
+            69.5630081300813,
+            64.86280487804879,
+            62.601626016260155,
+            70.9349593495935,
+            75.3048780487805
+          ]
+        },
+        "F1": {
+          "mean": 68.64062691025673,
+          "sd": 4.990950206082228,
+          "values": [
+            69.52441344324667,
+            64.88481608756523,
+            62.61932035127911,
+            70.97195042400521,
+            75.20263424518744
+          ]
+        },
+        "AUC": {
+          "mean": 75.48780487804879,
+          "sd": 2.4696899297009764,
+          "values": [
+            77.03252032520325,
+            75.45731707317074,
+            72.66260162601627,
+            73.57723577235772,
+            78.70934959349594
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H12",
+      "candidate": "N3_medium_g3_s2",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 3,
+        "spline_order": 2
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 3,
+          "spline_order": 2
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.08988764044945,
+          "sd": 5.816709710357207,
+          "values": [
+            73.03370786516854,
+            61.79775280898876,
+            61.79775280898876,
+            70.78651685393258,
+            73.03370786516854
+          ]
+        },
+        "P": {
+          "mean": 68.11853913623929,
+          "sd": 5.690258481202948,
+          "values": [
+            72.86585365853658,
+            61.84343434343433,
+            62.05673758865249,
+            70.89947089947091,
+            72.92719919110213
+          ]
+        },
+        "R": {
+          "mean": 67.9979674796748,
+          "sd": 5.597122617835098,
+          "values": [
+            72.86585365853658,
+            61.915650406504064,
+            62.09349593495935,
+            70.0711382113821,
+            73.04369918699187
+          ]
+        },
+        "F1": {
+          "mean": 67.90220945836047,
+          "sd": 5.706841198425999,
+          "values": [
+            72.86585365853658,
+            61.75429726996966,
+            61.7929292929293,
+            70.14963880288958,
+            72.94832826747721
+          ]
+        },
+        "AUC": {
+          "mean": 74.78658536585367,
+          "sd": 2.9037755826983482,
+          "values": [
+            76.06707317073172,
+            73.78048780487805,
+            70.6808943089431,
+            74.84756097560977,
+            78.5569105691057
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H13",
+      "candidate": "N4_shallow12832",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 68.31460674157303,
+          "sd": 4.727119992800594,
+          "values": [
+            70.78651685393258,
+            62.92134831460674,
+            64.04494382022472,
+            69.66292134831461,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 68.27845937772338,
+          "sd": 4.794664601796974,
+          "values": [
+            70.61538461538461,
+            62.740628166160086,
+            64.0909090909091,
+            69.6278825995807,
+            74.31749241658241
+          ]
+        },
+        "R": {
+          "mean": 68.17073170731707,
+          "sd": 4.747666039771882,
+          "values": [
+            70.42682926829269,
+            62.77947154471545,
+            64.17682926829269,
+            69.02947154471545,
+            74.4410569105691
+          ]
+        },
+        "F1": {
+          "mean": 68.09724832678447,
+          "sd": 4.706361147745755,
+          "values": [
+            70.48469387755102,
+            62.75206087507927,
+            64.00404448938322,
+            69.1011958338691,
+            74.14424655803967
+          ]
+        },
+        "AUC": {
+          "mean": 75.58943089430893,
+          "sd": 3.468820628729556,
+          "values": [
+            76.72764227642277,
+            73.93292682926828,
+            71.6971544715447,
+            74.6951219512195,
+            80.89430894308943
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H14",
+      "candidate": "N5_shallow6432",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 69.21348314606742,
+          "sd": 5.4236037690549095,
+          "values": [
+            71.91011235955057,
+            64.04494382022472,
+            62.92134831460674,
+            71.91011235955057,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 69.19927568131904,
+          "sd": 5.542720390793897,
+          "values": [
+            71.80082559339525,
+            63.76923076923078,
+            62.878787878787875,
+            72.2192513368984,
+            75.32828282828284
+          ]
+        },
+        "R": {
+          "mean": 68.93292682926831,
+          "sd": 5.426070350545716,
+          "values": [
+            71.46849593495935,
+            63.643292682926834,
+            62.957317073170735,
+            71.11280487804879,
+            75.48272357723577
+          ]
+        },
+        "F1": {
+          "mean": 68.90418267025996,
+          "sd": 5.399705750001426,
+          "values": [
+            71.55095256361079,
+            63.6734693877551,
+            62.84629981024668,
+            71.19741100323624,
+            75.25278058645097
+          ]
+        },
+        "AUC": {
+          "mean": 75.59959349593495,
+          "sd": 3.2784039356056103,
+          "values": [
+            76.21951219512195,
+            73.98373983739837,
+            70.98577235772359,
+            77.1849593495935,
+            79.6239837398374
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H15",
+      "candidate": "N6_medium_reg1e5",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 1e-05,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.86516853932584,
+          "sd": 5.185609329983969,
+          "values": [
+            69.66292134831461,
+            62.92134831460674,
+            61.79775280898876,
+            71.91011235955057,
+            73.03370786516854
+          ]
+        },
+        "P": {
+          "mean": 67.94586489023335,
+          "sd": 5.368808512593382,
+          "values": [
+            69.50354609929079,
+            62.878787878787875,
+            61.67846309403438,
+            72.58771929824562,
+            73.08080808080808
+          ]
+        },
+        "R": {
+          "mean": 67.68292682926831,
+          "sd": 5.0611898769413965,
+          "values": [
+            69.5630081300813,
+            62.957317073170735,
+            61.737804878048784,
+            70.9349593495935,
+            73.22154471544715
+          ]
+        },
+        "F1": {
+          "mean": 67.6044990846924,
+          "sd": 5.048466798369473,
+          "values": [
+            69.52441344324667,
+            62.84629981024668,
+            61.67679837892604,
+            70.97195042400521,
+            73.0030333670374
+          ]
+        },
+        "AUC": {
+          "mean": 75.71138211382113,
+          "sd": 2.221580512062925,
+          "values": [
+            76.72764227642276,
+            74.08536585365853,
+            73.01829268292683,
+            76.06707317073172,
+            78.65853658536585
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H16",
+      "candidate": "N7_medium_reg1e4",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          128,
+          64,
+          32
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 0.0001,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0001,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0001,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0001,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0001,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0001,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.86516853932584,
+          "sd": 5.185609329983969,
+          "values": [
+            69.66292134831461,
+            62.92134831460674,
+            61.79775280898876,
+            71.91011235955057,
+            73.03370786516854
+          ]
+        },
+        "P": {
+          "mean": 67.9051655478439,
+          "sd": 5.243150052165474,
+          "values": [
+            69.50354609929079,
+            62.878787878787875,
+            61.84343434343433,
+            72.2192513368984,
+            73.08080808080808
+          ]
+        },
+        "R": {
+          "mean": 67.7540650406504,
+          "sd": 5.038417879011644,
+          "values": [
+            69.5630081300813,
+            62.957317073170735,
+            61.915650406504064,
+            71.11280487804879,
+            73.22154471544715
+          ]
+        },
+        "F1": {
+          "mean": 67.66509097874733,
+          "sd": 5.064242892981308,
+          "values": [
+            69.52441344324667,
+            62.84629981024668,
+            61.75429726996966,
+            71.19741100323624,
+            73.0030333670374
+          ]
+        },
+        "AUC": {
+          "mean": 75.71138211382113,
+          "sd": 2.2011477253344003,
+          "values": [
+            76.6260162601626,
+            74.08536585365853,
+            73.01829268292683,
+            76.21951219512195,
+            78.60772357723577
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    },
+    {
+      "id": "H17",
+      "candidate": "N8_original_reg1e5",
+      "config": {
+        "epochs": 50,
+        "batch_size": 96,
+        "hidden": [
+          256,
+          128,
+          64,
+          32,
+          16
+        ],
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gamma": 0.8,
+        "optimizer": "adamw",
+        "dropout": 0.3,
+        "grid_epochs": [],
+        "grid_sample": 128,
+        "regularization": 1e-05,
+        "shuffle": true,
+        "kind": "kan_legacy",
+        "seed": 1,
+        "grid_size": 5,
+        "spline_order": 3
+      },
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.8,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 1e-05,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.41573033707866,
+          "sd": 5.94550856419009,
+          "values": [
+            68.53932584269663,
+            64.04494382022472,
+            59.55056179775281,
+            69.66292134831461,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 67.48381878359993,
+          "sd": 6.069908238925875,
+          "values": [
+            68.58585858585859,
+            63.928210313447934,
+            59.42871587462083,
+            70.14802631578947,
+            75.32828282828284
+          ]
+        },
+        "R": {
+          "mean": 67.26626016260163,
+          "sd": 5.9770009027211675,
+          "values": [
+            68.69918699186992,
+            63.9989837398374,
+            59.476626016260155,
+            68.67378048780488,
+            75.48272357723577
+          ]
+        },
+        "F1": {
+          "mean": 67.1519245460878,
+          "sd": 5.91210378492793,
+          "values": [
+            68.5035389282103,
+            63.93110435663627,
+            59.4224924012158,
+            68.64970645792563,
+            75.25278058645097
+          ]
+        },
+        "AUC": {
+          "mean": 75.41666666666666,
+          "sd": 2.5657801911489018,
+          "values": [
+            76.52439024390245,
+            74.7459349593496,
+            71.79878048780488,
+            75.20325203252033,
+            78.8109756097561
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\FullKAN_parameter_extension_20261109"
+    }
+  ],
+  "conditional_learning_rate_trials": [
+    {
+      "id": "C1",
+      "candidate": "B_lr3e-4_g095",
+      "config": null,
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.64044943820224,
+          "sd": 5.353316516661391,
+          "values": [
+            68.53932584269663,
+            64.04494382022472,
+            60.67415730337079,
+            70.78651685393258,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 67.68617191650132,
+          "sd": 5.56392889989897,
+          "values": [
+            68.42770475227502,
+            63.82113821138211,
+            60.48632218844985,
+            71.57953281423805,
+            74.11616161616162
+          ]
+        },
+        "R": {
+          "mean": 67.3678861788618,
+          "sd": 5.335807424622986,
+          "values": [
+            68.52134146341464,
+            63.82113821138211,
+            60.518292682926834,
+            69.71544715447155,
+            74.26321138211382
+          ]
+        },
+        "F1": {
+          "mean": 67.30815097619104,
+          "sd": 5.28413219758338,
+          "values": [
+            68.43971631205675,
+            63.82113821138211,
+            60.494610019023455,
+            69.68029350104821,
+            74.10499683744465
+          ]
+        },
+        "AUC": {
+          "mean": 75.86382113821138,
+          "sd": 2.977226031563057,
+          "values": [
+            77.7439024390244,
+            75.40650406504065,
+            72.15447154471545,
+            74.23780487804878,
+            79.77642276422763
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109",
+      "lr": 0.0003,
+      "gamma": 0.95
+    },
+    {
+      "id": "C2",
+      "candidate": "B_lr3e-4_g100",
+      "config": null,
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.0003,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.41573033707866,
+          "sd": 4.832767003956536,
+          "values": [
+            67.41573033707866,
+            64.04494382022472,
+            61.79775280898876,
+            69.66292134831461,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 67.4871936604574,
+          "sd": 5.049774143352585,
+          "values": [
+            67.37373737373737,
+            63.82113821138211,
+            61.5599593495935,
+            70.56497175141243,
+            74.11616161616162
+          ]
+        },
+        "R": {
+          "mean": 67.1239837398374,
+          "sd": 4.869406883928397,
+          "values": [
+            67.47967479674797,
+            63.82113821138211,
+            61.5599593495935,
+            68.4959349593496,
+            74.26321138211382
+          ]
+        },
+        "F1": {
+          "mean": 67.04099321651947,
+          "sd": 4.800222476338911,
+          "values": [
+            67.34977862112588,
+            63.82113821138211,
+            61.5599593495935,
+            68.3690930630512,
+            74.10499683744465
+          ]
+        },
+        "AUC": {
+          "mean": 75.68089430894308,
+          "sd": 2.921770060008385,
+          "values": [
+            77.94715447154472,
+            75.5081300813008,
+            72.30691056910568,
+            73.42479674796748,
+            79.21747967479675
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109",
+      "lr": 0.0003,
+      "gamma": 1.0
+    },
+    {
+      "id": "C3",
+      "candidate": "B_lr1e-3_g095",
+      "config": null,
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 0.95,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 67.41573033707866,
+          "sd": 4.423599929220122,
+          "values": [
+            67.41573033707866,
+            64.04494382022472,
+            62.92134831460674,
+            68.53932584269663,
+            74.15730337078652
+          ]
+        },
+        "P": {
+          "mean": 67.61070474648396,
+          "sd": 4.587291395226686,
+          "values": [
+            67.83536585365853,
+            63.82113821138211,
+            62.740628166160086,
+            69.54022988505747,
+            74.11616161616162
+          ]
+        },
+        "R": {
+          "mean": 67.19512195121952,
+          "sd": 4.507109524658588,
+          "values": [
+            67.83536585365853,
+            63.82113821138211,
+            62.77947154471545,
+            67.27642276422765,
+            74.26321138211382
+          ]
+        },
+        "F1": {
+          "mean": 67.02619265960433,
+          "sd": 4.438521778657278,
+          "values": [
+            67.41573033707866,
+            63.82113821138211,
+            62.75206087507927,
+            67.03703703703702,
+            74.10499683744465
+          ]
+        },
+        "AUC": {
+          "mean": 76.05691056910568,
+          "sd": 3.2878411531094147,
+          "values": [
+            78.04878048780488,
+            75.40650406504065,
+            73.47560975609755,
+            72.71341463414635,
+            80.64024390243902
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109",
+      "lr": 0.001,
+      "gamma": 0.95
+    },
+    {
+      "id": "C4",
+      "candidate": "B_lr1e-3_g100",
+      "config": null,
+      "realized_configs": [
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            256,
+            128,
+            64,
+            32,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 5
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            128,
+            64,
+            32
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 5,
+          "spline_order": 3
+        },
+        {
+          "epochs": 50,
+          "batch_size": 96,
+          "hidden": [
+            64,
+            16
+          ],
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "gamma": 1.0,
+          "optimizer": "adamw",
+          "dropout": 0.3,
+          "grid_epochs": [],
+          "grid_sample": 128,
+          "regularization": 0.0,
+          "shuffle": true,
+          "kind": "kan_legacy",
+          "seed": 1,
+          "grid_size": 10,
+          "spline_order": 3
+        }
+      ],
+      "stats": {
+        "ACC": {
+          "mean": 66.96629213483146,
+          "sd": 5.124383933029834,
+          "values": [
+            62.92134831460674,
+            64.04494382022472,
+            64.04494382022472,
+            68.53932584269663,
+            75.28089887640449
+          ]
+        },
+        "P": {
+          "mean": 67.19790646377277,
+          "sd": 5.290350915062489,
+          "values": [
+            63.06875631951466,
+            63.82113821138211,
+            63.82113821138211,
+            70.1015531660693,
+            75.17694641051567
+          ]
+        },
+        "R": {
+          "mean": 66.63617886178862,
+          "sd": 5.0859163488898815,
+          "values": [
+            63.135162601626014,
+            63.82113821138211,
+            63.82113821138211,
+            67.09857723577235,
+            75.3048780487805
+          ]
+        },
+        "F1": {
+          "mean": 66.48640345466276,
+          "sd": 5.075990993248108,
+          "values": [
+            62.90261462675255,
+            63.82113821138211,
+            63.82113821138211,
+            66.68449197860963,
+            75.20263424518744
+          ]
+        },
+        "AUC": {
+          "mean": 75.6961382113821,
+          "sd": 3.264196951834576,
+          "values": [
+            76.4989837398374,
+            74.89837398373983,
+            74.7459349593496,
+            71.69715447154472,
+            80.64024390243901
+          ]
+        }
+      },
+      "source": "E:\\Brain\\BrainKAN\\KAN_parameter_study_20261109",
+      "lr": 0.001,
+      "gamma": 1.0
+    }
+  ],
+  "baseline_groups": {
+    "braingnn": {
+      "name": "BrainGNN（FC适配）†",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 53.33333333333333,
+          "sd": 4.158154570612613,
+          "values": [
+            53.57142857142857,
+            57.14285714285714,
+            55.952380952380956,
+            46.42857142857143,
+            53.57142857142857
+          ]
+        },
+        "P": {
+          "mean": 56.043360433604335,
+          "sd": 28.386931509623142,
+          "values": [
+            75.0,
+            77.77777777777779,
+            77.4390243902439,
+            23.214285714285715,
+            26.785714285714285
+          ]
+        },
+        "R": {
+          "mean": 52.61538461538462,
+          "sd": 2.8111733484442545,
+          "values": [
+            56.666666666666664,
+            53.84615384615385,
+            52.56410256410257,
+            50.0,
+            50.0
+          ]
+        },
+        "F1": {
+          "mean": 38.971467944572396,
+          "sd": 5.565644061669139,
+          "values": [
+            45.09803921568627,
+            42.85714285714286,
+            40.311119646629535,
+            31.70731707317073,
+            34.883720930232556
+          ]
+        },
+        "AUC": {
+          "mean": 60.43304843304844,
+          "sd": 4.4338118854238715,
+          "values": [
+            60.598290598290596,
+            59.658119658119666,
+            66.6096866096866,
+            54.15954415954416,
+            61.13960113960114
+          ]
+        }
+      }
+    },
+    "braingb": {
+      "name": "BrainGB",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 61.666666666666664,
+          "sd": 7.211967252790935,
+          "values": [
+            67.85714285714286,
+            51.19047619047619,
+            69.04761904761905,
+            59.523809523809526,
+            60.71428571428571
+          ]
+        },
+        "P": {
+          "mean": 61.80799491513777,
+          "sd": 7.574761162705873,
+          "values": [
+            67.72727272727272,
+            51.19047619047619,
+            70.37037037037037,
+            59.183673469387756,
+            60.56818181818182
+          ]
+        },
+        "R": {
+          "mean": 61.282051282051285,
+          "sd": 6.946515141640954,
+          "values": [
+            67.77777777777779,
+            51.19658119658119,
+            67.86324786324786,
+            58.974358974358964,
+            60.5982905982906
+          ]
+        },
+        "F1": {
+          "mean": 61.18908876578131,
+          "sd": 6.894999181039376,
+          "values": [
+            67.7428530792206,
+            51.12813963388676,
+            67.5579322638146,
+            58.94192064404831,
+            60.57459820793628
+          ]
+        },
+        "AUC": {
+          "mean": 64.93447293447295,
+          "sd": 6.907947780242508,
+          "values": [
+            68.66096866096866,
+            55.441595441595446,
+            73.96011396011397,
+            63.532763532763525,
+            63.07692307692307
+          ]
+        }
+      }
+    },
+    "brainnetcnn": {
+      "name": "BrainNetCNN（raw logits）",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 65.0,
+          "sd": 4.732049265321853,
+          "values": [
+            66.66666666666666,
+            58.333333333333336,
+            71.42857142857143,
+            64.28571428571429,
+            64.28571428571429
+          ]
+        },
+        "P": {
+          "mean": 65.070279375974,
+          "sd": 4.730886514355875,
+          "values": [
+            66.4957264957265,
+            58.52272727272727,
+            71.65775401069519,
+            64.61538461538461,
+            64.05980448533639
+          ]
+        },
+        "R": {
+          "mean": 64.87179487179488,
+          "sd": 4.426327308110787,
+          "values": [
+            66.4957264957265,
+            58.54700854700855,
+            70.76923076923077,
+            64.61538461538461,
+            63.931623931623925
+          ]
+        },
+        "F1": {
+          "mean": 64.78020230798175,
+          "sd": 4.531581584791305,
+          "values": [
+            66.4957264957265,
+            58.32742735648476,
+            70.83333333333333,
+            64.28571428571429,
+            63.95881006864988
+          ]
+        },
+        "AUC": {
+          "mean": 71.94301994301995,
+          "sd": 4.814325907846777,
+          "values": [
+            73.16239316239316,
+            63.5897435897436,
+            76.01139601139602,
+            73.78917378917379,
+            73.16239316239317
+          ]
+        }
+      }
+    },
+    "fbnetgen": {
+      "name": "FBNetGen（GRU）",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 59.28571428571429,
+          "sd": 4.406370362695657,
+          "values": [
+            58.333333333333336,
+            53.57142857142857,
+            63.095238095238095,
+            57.14285714285714,
+            64.28571428571429
+          ]
+        },
+        "P": {
+          "mean": 59.21644177181613,
+          "sd": 4.5001346654476855,
+          "values": [
+            57.986111111111114,
+            53.57142857142857,
+            63.39285714285714,
+            56.92307692307692,
+            64.20873511060692
+          ]
+        },
+        "R": {
+          "mean": 58.92307692307692,
+          "sd": 4.226493565977341,
+          "values": [
+            57.86324786324786,
+            53.58974358974359,
+            61.965811965811966,
+            56.92307692307692,
+            64.27350427350427
+          ]
+        },
+        "F1": {
+          "mean": 58.80167091080342,
+          "sd": 4.153032172101671,
+          "values": [
+            57.8494623655914,
+            53.51213282247764,
+            61.5191369883257,
+            56.92307692307692,
+            64.20454545454545
+          ]
+        },
+        "AUC": {
+          "mean": 65.08262108262109,
+          "sd": 6.047997563408279,
+          "values": [
+            64.04558404558405,
+            55.95441595441596,
+            68.31908831908832,
+            64.84330484330484,
+            72.25071225071225
+          ]
+        }
+      }
+    },
+    "brainnetgnn": {
+      "name": "BrainNetGNN（AAL90适配）†",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 52.142857142857146,
+          "sd": 3.3034373632170495,
+          "values": [
+            54.761904761904766,
+            52.38095238095239,
+            53.57142857142857,
+            46.42857142857143,
+            53.57142857142857
+          ]
+        },
+        "P": {
+          "mean": 36.08003442340792,
+          "sd": 22.985253355676722,
+          "values": [
+            77.10843373493977,
+            26.506024096385545,
+            26.785714285714285,
+            23.214285714285715,
+            26.785714285714285
+          ]
+        },
+        "R": {
+          "mean": 50.034188034188034,
+          "sd": 0.8474047560988327,
+          "values": [
+            51.28205128205128,
+            48.888888888888886,
+            50.0,
+            50.0,
+            50.0
+          ]
+        },
+        "F1": {
+          "mean": 34.70120178672717,
+          "sd": 2.1135686469801342,
+          "values": [
+            37.65625,
+            34.375,
+            34.883720930232556,
+            31.70731707317073,
+            34.883720930232556
+          ]
+        },
+        "AUC": {
+          "mean": 52.33048433048433,
+          "sd": 5.294486816743737,
+          "values": [
+            47.23646723646724,
+            54.30199430199429,
+            58.4045584045584,
+            55.38461538461539,
+            46.32478632478633
+          ]
+        }
+      }
+    },
+    "brainnettf": {
+      "name": "BrainNetTF（AAL90适配）",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 64.28571428571428,
+          "sd": 4.533198277299944,
+          "values": [
+            58.333333333333336,
+            60.71428571428571,
+            66.66666666666666,
+            66.66666666666666,
+            69.04761904761905
+          ]
+        },
+        "P": {
+          "mean": 64.33603119699134,
+          "sd": 4.881947975064912,
+          "values": [
+            57.94117647058823,
+            60.469107551487426,
+            66.53061224489795,
+            67.33755031627372,
+            69.4017094017094
+          ]
+        },
+        "R": {
+          "mean": 64.17094017094017,
+          "sd": 4.907427048534331,
+          "values": [
+            57.692307692307686,
+            60.42735042735043,
+            66.15384615384615,
+            67.17948717948718,
+            69.4017094017094
+          ]
+        },
+        "F1": {
+          "mean": 63.98574953530597,
+          "sd": 4.76520280074754,
+          "values": [
+            57.60634462869503,
+            60.43956043956044,
+            66.18746405980448,
+            66.64775950085082,
+            69.04761904761905
+          ]
+        },
+        "AUC": {
+          "mean": 68.7863247863248,
+          "sd": 5.7016227835636615,
+          "values": [
+            63.87464387464388,
+            61.53846153846154,
+            74.41595441595442,
+            71.62393162393163,
+            72.47863247863249
+          ]
+        }
+      }
+    },
+    "res_dae": {
+      "name": "Res-DAE（论文实现）",
+      "ROI": 90,
+      "stats": {
+        "ACC": {
+          "mean": 63.80952380952381,
+          "sd": 4.65657314657332,
+          "values": [
+            67.85714285714286,
+            57.14285714285714,
+            66.66666666666666,
+            60.71428571428571,
+            66.66666666666666
+          ]
+        },
+        "P": {
+          "mean": 64.3958332492277,
+          "sd": 4.786806482023217,
+          "values": [
+            67.72727272727272,
+            57.676825761932136,
+            68.92373485388454,
+            61.15560640732265,
+            66.4957264957265
+          ]
+        },
+        "R": {
+          "mean": 63.62393162393162,
+          "sd": 4.191782728486454,
+          "values": [
+            67.77777777777779,
+            57.6068376068376,
+            65.12820512820512,
+            61.111111111111114,
+            66.4957264957265
+          ]
+        },
+        "F1": {
+          "mean": 63.25553047906785,
+          "sd": 4.350235998969573,
+          "values": [
+            67.7428530792206,
+            57.118547929665354,
+            64.21180766889836,
+            60.70871722182849,
+            66.4957264957265
+          ]
+        },
+        "AUC": {
+          "mean": 70.72934472934473,
+          "sd": 5.309917672441183,
+          "values": [
+            69.97150997150997,
+            63.817663817663814,
+            76.75213675213675,
+            67.89173789173789,
+            75.21367521367522
+          ]
+        }
+      }
+    },
+    "brainkan": {
+      "name": "BrainKAN（EN共识75，64→32）",
+      "ROI": 75,
+      "stats": {
+        "ACC": {
+          "mean": 66.66666666666667,
+          "sd": 6.628290908130978,
+          "values": [
+            60.71428571428571,
+            58.333333333333336,
+            70.23809523809523,
+            72.61904761904762,
+            71.42857142857143
+          ]
+        },
+        "P": {
+          "mean": 66.61856551191315,
+          "sd": 6.681947340242575,
+          "values": [
+            60.456730769230774,
+            58.333333333333336,
+            70.29411764705881,
+            72.48283752860412,
+            71.52580828133863
+          ]
+        },
+        "R": {
+          "mean": 66.3931623931624,
+          "sd": 6.713184191568031,
+          "values": [
+            59.914529914529915,
+            58.37606837606837,
+            69.65811965811966,
+            72.39316239316238,
+            71.62393162393163
+          ]
+        },
+        "F1": {
+          "mean": 66.31782572150632,
+          "sd": 6.7562527891435415,
+          "values": [
+            59.750254101931176,
+            58.28011919965943,
+            69.71881759192502,
+            72.42757242757243,
+            71.41236528644356
+          ]
+        },
+        "AUC": {
+          "mean": 69.31054131054131,
+          "sd": 4.613907118156637,
+          "values": [
+            66.83760683760684,
+            62.39316239316239,
+            73.44729344729345,
+            71.56695156695157,
+            72.30769230769229
+          ]
+        }
+      }
+    }
+  },
+  "prediction_class_counts": {
+    "braingnn": [
+      [
+        6,
+        78
+      ],
+      [
+        81,
+        3
+      ],
+      [
+        82,
+        2
+      ],
+      [
+        0,
+        84
+      ],
+      [
+        84,
+        0
+      ]
+    ],
+    "braingb": [
+      [
+        44,
+        40
+      ],
+      [
+        42,
+        42
+      ],
+      [
+        57,
+        27
+      ],
+      [
+        49,
+        35
+      ],
+      [
+        44,
+        40
+      ]
+    ],
+    "brainnetcnn": [
+      [
+        45,
+        39
+      ],
+      [
+        40,
+        44
+      ],
+      [
+        51,
+        33
+      ],
+      [
+        39,
+        45
+      ],
+      [
+        47,
+        37
+      ]
+    ],
+    "fbnetgen": [
+      [
+        48,
+        36
+      ],
+      [
+        42,
+        42
+      ],
+      [
+        56,
+        28
+      ],
+      [
+        45,
+        39
+      ],
+      [
+        43,
+        41
+      ]
+    ],
+    "brainnetgnn": [
+      [
+        83,
+        1
+      ],
+      [
+        83,
+        1
+      ],
+      [
+        84,
+        0
+      ],
+      [
+        0,
+        84
+      ],
+      [
+        84,
+        0
+      ]
+    ],
+    "brainnettf": [
+      [
+        50,
+        34
+      ],
+      [
+        46,
+        38
+      ],
+      [
+        49,
+        35
+      ],
+      [
+        37,
+        47
+      ],
+      [
+        39,
+        45
+      ]
+    ],
+    "res_dae": [
+      [
+        44,
+        40
+      ],
+      [
+        37,
+        47
+      ],
+      [
+        61,
+        23
+      ],
+      [
+        38,
+        46
+      ],
+      [
+        45,
+        39
+      ]
+    ],
+    "brainkan": [
+      [
+        52,
+        32
+      ],
+      [
+        42,
+        42
+      ],
+      [
+        50,
+        34
+      ],
+      [
+        46,
+        38
+      ],
+      [
+        41,
+        43
+      ]
+    ]
+  },
+  "convergence": {
+    "runs": [
+      {
+        "partition": 0,
+        "CE40": 0.1692507389738462,
+        "CE50": 0.16916979349130298,
+        "CE_reduction_40_50": 8.094548254322653e-05,
+        "dev_loss_change_40_50": 4.107414505816198e-05,
+        "dev_ACC_range_40_50_pp": 0.0,
+        "dev_AUC_range_40_50_pp": 0.0,
+        "dev_ACC_range_30_50_pp": 0.0,
+        "dev_AUC_range_30_50_pp": 0.0
+      },
+      {
+        "partition": 1,
+        "CE40": 0.16571261942891038,
+        "CE50": 0.1656386065802554,
+        "CE_reduction_40_50": 7.40128486549918e-05,
+        "dev_loss_change_40_50": 2.0407753444695587e-05,
+        "dev_ACC_range_40_50_pp": 0.0,
+        "dev_AUC_range_40_50_pp": 0.0,
+        "dev_ACC_range_30_50_pp": 0.0,
+        "dev_AUC_range_30_50_pp": 0.0
+      },
+      {
+        "partition": 2,
+        "CE40": 0.24754944250344893,
+        "CE50": 0.2474689634545734,
+        "CE_reduction_40_50": 8.047904887553692e-05,
+        "dev_loss_change_40_50": 8.779786746315743e-05,
+        "dev_ACC_range_40_50_pp": 0.0,
+        "dev_AUC_range_40_50_pp": 0.0,
+        "dev_ACC_range_30_50_pp": 0.0,
+        "dev_AUC_range_30_50_pp": 0.0
+      },
+      {
+        "partition": 3,
+        "CE40": 0.09969796033310789,
+        "CE50": 0.09963377257244208,
+        "CE_reduction_40_50": 6.418776066581533e-05,
+        "dev_loss_change_40_50": 4.032198757553118e-05,
+        "dev_ACC_range_40_50_pp": 0.0,
+        "dev_AUC_range_40_50_pp": 0.0,
+        "dev_ACC_range_30_50_pp": 0.0,
+        "dev_AUC_range_30_50_pp": 0.0
+      },
+      {
+        "partition": 4,
+        "CE40": 0.11158051722182541,
+        "CE50": 0.11151695068615616,
+        "CE_reduction_40_50": 6.356653566924608e-05,
+        "dev_loss_change_40_50": 2.480929670067855e-05,
+        "dev_ACC_range_40_50_pp": 0.0,
+        "dev_AUC_range_40_50_pp": 0.0,
+        "dev_ACC_range_30_50_pp": 1.1235955056179803,
+        "dev_AUC_range_30_50_pp": 0.0
+      }
+    ],
+    "lr_used_epoch_50": 1.7840596158824548e-08,
+    "projected_lr_used_epoch_100": 2.5462949704181216e-13,
+    "projected_lr_sum_epochs_51_to_100": 7.136136611731007e-08,
+    "epoch_100_measured": false,
+    "interpretation": "Near a plateau under the current exponential learning-rate schedule; late updates are very small as the learning rate decays."
+  },
+  "partitions": 5,
+  "units": "percent; mean ± sample SD",
+  "brainkan": "Fixed EN consensus Top-75 with KAN hidden [64,32], grid5/order3, final epoch50."
+}

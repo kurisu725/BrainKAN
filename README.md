@@ -1,14 +1,15 @@
 # BrainKAN
 
-## Updated automatic workflow and reproducible results
+## Current EN-consensus workflow and reproducible results
 
-The [2026-10-08 revision](revision_20261008/README.md) contains the executable end-to-end FC → ROI importance → automatic ROI selection → classifier training → final classification workflow, together with exact data assignments and the completed five-seed experiment records.
+The [2026-11-13 EN-consensus revision](revision_20261113/README.md) contains the executable **FC → training-half Elastic Net rank consensus → automatic Top-75 ROI selection → KAN training → final classification** workflow and the records corresponding to the current manuscript.
 
-- [Installation and experiment commands](revision_20261008/README.md)
-- [Code](revision_20261008/code/) and [results](revision_20261008/results/)
-- [Preprocessing reference and original passage](revision_20261008/PREPROCESSING.md): **for the preprocessing procedure, please refer to the original article (Section 4.1, p. 6).**
+- [Installation, full-pipeline commands and safe pause/resume](revision_20261113/README.md)
+- [Current EN code](revision_20261113/code/), [exact study plans and ROI selections](revision_20261113/records/studies/), and [subject-level predictions](revision_20261113/records/predictions/)
+- [Preprocessing provenance and references](revision_20261113/PREPROCESSING.md)
+- [Earlier permutation workflow and five-seed records](revision_20261008/README.md)
 
-The revised explanation is permutation loss importance. The instructions below document the original scripts and environment; use the revision above for automatic ROI selection and the new repeated-run evaluation.
+The current EN selector uses training subjects only. The published comparison includes all five ABIDE holdouts, all ten ADHD holdouts with the manuscript's selected five-partition summary identified separately, and the NYU site-disjoint experiment. Metrics can be recomputed with `python revision_20261113/run.py verify` without the raw data. The instructions below document the original permutation scripts and historical environment; use the EN revision above for the current workflow.
 
 ## Original implementation
 

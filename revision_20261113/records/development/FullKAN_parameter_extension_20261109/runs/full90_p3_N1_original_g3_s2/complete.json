@@ -1,0 +1,202 @@
+{
+  "job": "full90_p3_N1_original_g3_s2",
+  "branch": "full90",
+  "partition": 3,
+  "candidate": "N1_original_g3_s2",
+  "config": {
+    "epochs": 50,
+    "batch_size": 96,
+    "hidden": [
+      256,
+      128,
+      64,
+      32,
+      16
+    ],
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "gamma": 0.8,
+    "optimizer": "adamw",
+    "dropout": 0.3,
+    "grid_epochs": [],
+    "grid_sample": 128,
+    "regularization": 0.0,
+    "shuffle": true,
+    "kind": "kan_legacy",
+    "seed": 1,
+    "grid_size": 3,
+    "spline_order": 2
+  },
+  "rois": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "n_roi": 90,
+  "parameter_count": 14820064,
+  "plan_sha256": "503d2d1996596e1a542b5a93777861f31187b7b40a82b213a73293b3476e19ff",
+  "final_test_used": false,
+  "development": {
+    "n": 89,
+    "accuracy": 0.7078651685393258,
+    "auc": 0.7296747967479674,
+    "balanced_accuracy": 0.6989329268292683,
+    "f1_macro": 0.6993243243243243,
+    "loss": 0.8492056722004216,
+    "precision_macro": 0.7118506493506493,
+    "recall_macro": 0.6989329268292683
+  },
+  "reused": false,
+  "geometry": {
+    "parameters": 14820064,
+    "layers": [
+      {
+        "input": 8100,
+        "output": 256,
+        "spline_weight_shape": [
+          256,
+          8100,
+          5
+        ]
+      },
+      {
+        "input": 256,
+        "output": 128,
+        "spline_weight_shape": [
+          128,
+          256,
+          5
+        ]
+      },
+      {
+        "input": 128,
+        "output": 64,
+        "spline_weight_shape": [
+          64,
+          128,
+          5
+        ]
+      },
+      {
+        "input": 64,
+        "output": 32,
+        "spline_weight_shape": [
+          32,
+          64,
+          5
+        ]
+      },
+      {
+        "input": 32,
+        "output": 16,
+        "spline_weight_shape": [
+          16,
+          32,
+          5
+        ]
+      },
+      {
+        "input": 16,
+        "output": 2,
+        "spline_weight_shape": [
+          2,
+          16,
+          5
+        ]
+      }
+    ]
+  },
+  "state_tensor_sha256": "1c3d72855de8c43d1cccfe732c0193deb727e9b69b0182a47fa1c92a5f570d92",
+  "files": {
+    "config.json": "19d80de7932a4231c0d1e47371e8f6d7c0e46fbd563d1677319fc856eb7d6ef4",
+    "development_predictions.csv": "d1fb1b1b6b47c63d3cde340affb9d82701d72980e4f8d472df3f5884188cff5b",
+    "history.json": "7efc088cee6dd69d15fa4ca75ab57660d2761a67d980175f177ad09b1ff7ad4f"
+  }
+}

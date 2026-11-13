@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-13",
+  "passed": true,
+  "software_tests_passed": 10,
+  "final_prediction_records_recomputed": 110,
+  "half_selector_rankings_verified": 2000,
+  "complementary_pairs_verified": 1000,
+  "protected_original_file_hashes_unchanged": 3150,
+  "archived_checkpoint_validation": {
+    "passed": true,
+    "results": [
+      {
+        "study": "abide",
+        "partition": 0,
+        "model_sha256": "f8b112858db15fb8ca503e85decbb33897dc36ac863ff122e8087280393bcf84",
+        "device": "cuda",
+        "max_probability_error": 0.0,
+        "same_predicted_labels": true
+      },
+      {
+        "study": "adhd",
+        "partition": 1,
+        "model_sha256": "f90b808d3c70564d4c6116e9a601162e3eaffa309abcf7410a25689f95f81c43",
+        "device": "cuda",
+        "max_probability_error": 0.0,
+        "same_predicted_labels": true
+      },
+      {
+        "study": "nyu",
+        "partition": 0,
+        "model_sha256": "cb362251571dbdd8acd70654a87e9dfa0711ab60986ae7466342ee01b97f7c75",
+        "device": "cuda",
+        "max_probability_error": 0.0,
+        "same_predicted_labels": true
+      }
+    ],
+    "exact_copied_core_modules": 4
+  },
+  "numerical_routines": "data.py, trainer.py, legacy_kan.py and storage.py byte-identical; EN/rank/metric routines extracted verbatim",
+  "datasets_retrained_for_publication": false
+}

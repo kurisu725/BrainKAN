@@ -4,3 +4,6 @@ __pycache__/
 venv/
 .idea/
 .vscode/
+revision_20261113/.venv/
+revision_20261113/outputs/
+revision_20261113/verification.json

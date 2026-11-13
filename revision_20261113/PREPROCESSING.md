@@ -1,0 +1,9 @@
+# Input provenance and preprocessing
+
+This release starts from the retained AAL-90 FC MAT files. Training does not download or reprocess an additional dataset. The exact MAT SHA256 values and the original subject-pool sizes are stored in `records/studies/`.
+
+ABIDE: the input derivative was traced to the ABIDE Preprocessed Connectomes Project DPARSF `filt_global/rois_aal` output. The verified derivative includes nuisance/global-signal regression and band-pass filtering at 0.01–0.1 Hz. FC matrices are formed from the retained 90 AAL ROI time series. The pipeline identity and derivative are distinct from an assertion that all upstream settings were rerun in this code release.
+
+ADHD-200: the retained FC matrices came with the procedure cited in Ji and Wang (2023), *Convolutional architecture search based on particle swarm algorithm for functional brain network classification*, [Applied Soft Computing 149, 111049](https://doi.org/10.1016/j.asoc.2023.111049), Section 4.1, p. 6. That passage describes removal of the first five frames, slice-timing correction, exclusion at 2 mm/2° head motion, smoothing, registration, filtering and AAL correlation matrices. **For the preprocessing procedure, please refer to the original article, Section 4.1, p. 6.** Its passage does not identify the numerical filter band, smoothing kernel, complete confound regression list and GSR switch for this retained ADHD file; those settings require the matching upstream configuration/log. ABIDE settings are not substituted for the ADHD provenance.
+
+The earlier preprocessing reference/excerpt is preserved in [revision_20261008/PREPROCESSING.md](../revision_20261008/PREPROCESSING.md). The EN selector's StandardScaler and the KAN's per-subject LayerNorm are downstream feature transformations implemented in `code/selection.py` and `code/data.py`, respectively.

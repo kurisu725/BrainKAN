@@ -1,0 +1,202 @@
+{
+  "job": "full90_p3_N2_original_lr3e4_g090",
+  "branch": "full90",
+  "partition": 3,
+  "candidate": "N2_original_lr3e4_g090",
+  "config": {
+    "epochs": 50,
+    "batch_size": 96,
+    "hidden": [
+      256,
+      128,
+      64,
+      32,
+      16
+    ],
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "gamma": 0.9,
+    "optimizer": "adamw",
+    "dropout": 0.3,
+    "grid_epochs": [],
+    "grid_sample": 128,
+    "regularization": 0.0,
+    "shuffle": true,
+    "kind": "kan_legacy",
+    "seed": 1,
+    "grid_size": 5,
+    "spline_order": 3
+  },
+  "rois": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "n_roi": 90,
+  "parameter_count": 21171520,
+  "plan_sha256": "503d2d1996596e1a542b5a93777861f31187b7b40a82b213a73293b3476e19ff",
+  "final_test_used": false,
+  "development": {
+    "n": 89,
+    "accuracy": 0.7191011235955056,
+    "auc": 0.7357723577235773,
+    "balanced_accuracy": 0.709349593495935,
+    "f1_macro": 0.7097195042400521,
+    "loss": 0.9913278591896032,
+    "precision_macro": 0.7258771929824561,
+    "recall_macro": 0.709349593495935
+  },
+  "reused": false,
+  "geometry": {
+    "parameters": 21171520,
+    "layers": [
+      {
+        "input": 8100,
+        "output": 256,
+        "spline_weight_shape": [
+          256,
+          8100,
+          8
+        ]
+      },
+      {
+        "input": 256,
+        "output": 128,
+        "spline_weight_shape": [
+          128,
+          256,
+          8
+        ]
+      },
+      {
+        "input": 128,
+        "output": 64,
+        "spline_weight_shape": [
+          64,
+          128,
+          8
+        ]
+      },
+      {
+        "input": 64,
+        "output": 32,
+        "spline_weight_shape": [
+          32,
+          64,
+          8
+        ]
+      },
+      {
+        "input": 32,
+        "output": 16,
+        "spline_weight_shape": [
+          16,
+          32,
+          8
+        ]
+      },
+      {
+        "input": 16,
+        "output": 2,
+        "spline_weight_shape": [
+          2,
+          16,
+          8
+        ]
+      }
+    ]
+  },
+  "state_tensor_sha256": "2beba406ff6ac7fa221cf7bbd0f2fc08172022695667f76624ee929c47f3d2dd",
+  "files": {
+    "config.json": "642344524557248f5b7cc26c6ff200a5b0199304d376484c7d2117688a12cba8",
+    "development_predictions.csv": "6db9ea3836437bc8d7b0f6ee88de3b8e27d0a1e4de114d500ad3e99d864810f9",
+    "history.json": "1f78a2b7da8c8a02f632d4aed0d91a67bb46147d9689c4bb4270367bbcc56df3"
+  }
+}

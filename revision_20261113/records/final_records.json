@@ -1,0 +1,1872 @@
+[
+  {
+    "study": "abide",
+    "method": "braingnn",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingnn_p0.npz",
+    "sha256": "56a33eaadf4d416eda7f057ed712c65fadb0b21ca75add38faa8c4919a164820",
+    "expected": {
+      "ACC": 0.5357142857142857,
+      "P": 0.75,
+      "R": 0.5666666666666667,
+      "F1": 0.4509803921568627,
+      "AUC": 0.6059829059829059
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingnn_partition_0/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingnn",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingnn_p1.npz",
+    "sha256": "7b296d5b043ba47fbd8ce8e4611d2bed003899242dae0cbc0088c69b9f020720",
+    "expected": {
+      "ACC": 0.5714285714285714,
+      "P": 0.7777777777777779,
+      "R": 0.5384615384615384,
+      "F1": 0.4285714285714286,
+      "AUC": 0.5965811965811967
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingnn_partition_1/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingnn",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingnn_p2.npz",
+    "sha256": "894b62f8ed996da29dcd3ef3b5010fb602227a6b7caff8c0fbab81fa3a132304",
+    "expected": {
+      "ACC": 0.5595238095238095,
+      "P": 0.774390243902439,
+      "R": 0.5256410256410257,
+      "F1": 0.40311119646629534,
+      "AUC": 0.666096866096866
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingnn_partition_2/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingnn",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingnn_p3.npz",
+    "sha256": "00c9be6af0a801c02a8a93f0403dca83383381d40b1a223149c06dff0d4f30e2",
+    "expected": {
+      "ACC": 0.4642857142857143,
+      "P": 0.23214285714285715,
+      "R": 0.5,
+      "F1": 0.3170731707317073,
+      "AUC": 0.5415954415954416
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingnn_partition_3/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingnn",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingnn_p4.npz",
+    "sha256": "608dd7fa5986e1153be0b3ddc96f24fcf4803d292b7b8b6b5746881435fa93d0",
+    "expected": {
+      "ACC": 0.5357142857142857,
+      "P": 0.26785714285714285,
+      "R": 0.5,
+      "F1": 0.34883720930232553,
+      "AUC": 0.6113960113960114
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingnn_partition_4/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingb",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingb_p0.npz",
+    "sha256": "5177b02a5709b4024c0d2822279162c08727d29fae4f3e731fc395d5bec7bd47",
+    "expected": {
+      "ACC": 0.6785714285714286,
+      "P": 0.6772727272727272,
+      "R": 0.6777777777777778,
+      "F1": 0.677428530792206,
+      "AUC": 0.6866096866096867
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingb_partition_0/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingb",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingb_p1.npz",
+    "sha256": "fd5e142bca4166d092890e424062d922e0386061f6b67da137a71f34475dee52",
+    "expected": {
+      "ACC": 0.5119047619047619,
+      "P": 0.5119047619047619,
+      "R": 0.5119658119658119,
+      "F1": 0.5112813963388676,
+      "AUC": 0.5544159544159545
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingb_partition_1/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingb",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingb_p2.npz",
+    "sha256": "da1f06c35309e03745b32771172dcac5a993ddc8e45447939ae585f11b758a42",
+    "expected": {
+      "ACC": 0.6904761904761905,
+      "P": 0.7037037037037037,
+      "R": 0.6786324786324787,
+      "F1": 0.675579322638146,
+      "AUC": 0.7396011396011397
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingb_partition_2/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingb",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingb_p3.npz",
+    "sha256": "475935447cae58d9d002489b436dd64c4c34f0b412da7a54bab9123c79306423",
+    "expected": {
+      "ACC": 0.5952380952380952,
+      "P": 0.5918367346938775,
+      "R": 0.5897435897435896,
+      "F1": 0.5894192064404831,
+      "AUC": 0.6353276353276353
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingb_partition_3/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "braingb",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/braingb_p4.npz",
+    "sha256": "bd7ac32d1b32fb723c98dec43891385c91b8713a95b9bc5f9fef87437fbac170",
+    "expected": {
+      "ACC": 0.6071428571428571,
+      "P": 0.6056818181818182,
+      "R": 0.605982905982906,
+      "F1": 0.6057459820793628,
+      "AUC": 0.6307692307692307
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/braingb_partition_4/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetcnn",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetcnn_p0.csv",
+    "sha256": "214920988449445e1370fccdb7f8703a7799558046a3442424a5461ac11c02fc",
+    "expected": {
+      "ACC": 0.6666666666666665,
+      "P": 0.664957264957265,
+      "R": 0.664957264957265,
+      "F1": 0.664957264957265,
+      "AUC": 0.7316239316239316
+    },
+    "threshold": null,
+    "original": "Random_split_comparison_20261027/final_test/partition_0_brainnetcnn.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetcnn",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetcnn_p1.csv",
+    "sha256": "710c43ac922f212bee7f3574969256d6058a9243bf1358384881b0f21cf28cf7",
+    "expected": {
+      "ACC": 0.5833333333333334,
+      "P": 0.5852272727272727,
+      "R": 0.5854700854700855,
+      "F1": 0.5832742735648476,
+      "AUC": 0.635897435897436
+    },
+    "threshold": null,
+    "original": "Random_split_comparison_20261027/final_test/partition_1_brainnetcnn.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetcnn",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetcnn_p2.csv",
+    "sha256": "3dde736d7c1b18ef0d7d935f70a249fc24551f99648c8d9458bd2ad8a74dbe5d",
+    "expected": {
+      "ACC": 0.7142857142857143,
+      "P": 0.7165775401069518,
+      "R": 0.7076923076923077,
+      "F1": 0.7083333333333333,
+      "AUC": 0.7601139601139602
+    },
+    "threshold": null,
+    "original": "Random_split_comparison_20261027/final_test/partition_2_brainnetcnn.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetcnn",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetcnn_p3.csv",
+    "sha256": "b0054a8a47d2f43f879a6f1542176cc6a3bdb90ff4673bccaf96384c0d77bcb4",
+    "expected": {
+      "ACC": 0.6428571428571429,
+      "P": 0.6461538461538461,
+      "R": 0.6461538461538461,
+      "F1": 0.6428571428571429,
+      "AUC": 0.7378917378917379
+    },
+    "threshold": null,
+    "original": "Random_split_comparison_20261027/final_test/partition_3_brainnetcnn.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetcnn",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetcnn_p4.csv",
+    "sha256": "0b621e3a84c7066b01b221c6a8a1f7dabbb7d2f4a776b3b887330b7372b06075",
+    "expected": {
+      "ACC": 0.6428571428571429,
+      "P": 0.6405980448533639,
+      "R": 0.6393162393162393,
+      "F1": 0.6395881006864989,
+      "AUC": 0.7316239316239317
+    },
+    "threshold": null,
+    "original": "Random_split_comparison_20261027/final_test/partition_4_brainnetcnn.csv"
+  },
+  {
+    "study": "abide",
+    "method": "fbnetgen",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/fbnetgen_p0.npz",
+    "sha256": "397bbb828f909d9ddc73360d2cd5dd2e646d4fb5a299943337ec33a1d799a3c1",
+    "expected": {
+      "ACC": 0.5833333333333334,
+      "P": 0.5798611111111112,
+      "R": 0.5786324786324786,
+      "F1": 0.578494623655914,
+      "AUC": 0.6404558404558405
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_0_fbnetgen.npz"
+  },
+  {
+    "study": "abide",
+    "method": "fbnetgen",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/fbnetgen_p1.npz",
+    "sha256": "75dd4b5059dcba3d371a926c0cb9e44b1f74340c32eda9fcc32ec4f0f3a5347d",
+    "expected": {
+      "ACC": 0.5357142857142857,
+      "P": 0.5357142857142857,
+      "R": 0.5358974358974359,
+      "F1": 0.5351213282247764,
+      "AUC": 0.5595441595441596
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_1_fbnetgen.npz"
+  },
+  {
+    "study": "abide",
+    "method": "fbnetgen",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/fbnetgen_p2.npz",
+    "sha256": "f99866b16ebe0608bcdf4069a63ef1da83fef838862134378696860d2ee84eea",
+    "expected": {
+      "ACC": 0.6309523809523809,
+      "P": 0.6339285714285714,
+      "R": 0.6196581196581197,
+      "F1": 0.615191369883257,
+      "AUC": 0.6831908831908833
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_2_fbnetgen.npz"
+  },
+  {
+    "study": "abide",
+    "method": "fbnetgen",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/fbnetgen_p3.npz",
+    "sha256": "f4b83460a8e170a729aa8425516ebe52d88638c20d5e723a44bb986822c4e0be",
+    "expected": {
+      "ACC": 0.5714285714285714,
+      "P": 0.5692307692307692,
+      "R": 0.5692307692307692,
+      "F1": 0.5692307692307692,
+      "AUC": 0.6484330484330484
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_3_fbnetgen.npz"
+  },
+  {
+    "study": "abide",
+    "method": "fbnetgen",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/fbnetgen_p4.npz",
+    "sha256": "dcd4d4e03dfecc9405ca1c9cb5288fccf2ebcc4da0d02eec2401133f899be245",
+    "expected": {
+      "ACC": 0.6428571428571429,
+      "P": 0.6420873511060692,
+      "R": 0.6427350427350427,
+      "F1": 0.6420454545454546,
+      "AUC": 0.7225071225071226
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_4_fbnetgen.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetgnn",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetgnn_p0.npz",
+    "sha256": "49d806c368a8925147f5e6cc515729cabbc1f37ee489cd945bddea9e7b75c288",
+    "expected": {
+      "ACC": 0.5476190476190477,
+      "P": 0.7710843373493976,
+      "R": 0.5128205128205128,
+      "F1": 0.3765625,
+      "AUC": 0.4723646723646724
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_0_brainnetgnn.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetgnn",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetgnn_p1.npz",
+    "sha256": "354f191da7ae3f1fbbe5b456cc0675ebf56ef03790c01141de18ca50db24fd33",
+    "expected": {
+      "ACC": 0.5238095238095238,
+      "P": 0.26506024096385544,
+      "R": 0.4888888888888889,
+      "F1": 0.34375,
+      "AUC": 0.5430199430199429
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_1_brainnetgnn.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetgnn",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetgnn_p2.npz",
+    "sha256": "46bc1b854982018625f3d3000f097abaabb38ccbbd88848b03f20edb6c17b8b3",
+    "expected": {
+      "ACC": 0.5357142857142857,
+      "P": 0.26785714285714285,
+      "R": 0.5,
+      "F1": 0.34883720930232553,
+      "AUC": 0.584045584045584
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_2_brainnetgnn.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetgnn",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetgnn_p3.npz",
+    "sha256": "390d519a54a31caab264753bb55d37ab12e7cbd15f63526994f2e9fff6c5cfcd",
+    "expected": {
+      "ACC": 0.4642857142857143,
+      "P": 0.23214285714285715,
+      "R": 0.5,
+      "F1": 0.3170731707317073,
+      "AUC": 0.5538461538461539
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_3_brainnetgnn.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnetgnn",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnetgnn_p4.npz",
+    "sha256": "b5ec21916f1d0bd454a366a34a3c9ad434db83e946aab7c3e8381f8b136db25f",
+    "expected": {
+      "ACC": 0.5357142857142857,
+      "P": 0.26785714285714285,
+      "R": 0.5,
+      "F1": 0.34883720930232553,
+      "AUC": 0.4632478632478633
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_4_brainnetgnn.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnettf",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnettf_p0.npz",
+    "sha256": "48c0959b7e9df5465caf7d8e05995b7cbb7917d6f47419a0a9363151828f744c",
+    "expected": {
+      "ACC": 0.5833333333333334,
+      "P": 0.5794117647058823,
+      "R": 0.5769230769230769,
+      "F1": 0.5760634462869503,
+      "AUC": 0.6387464387464388
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/brainnettf_partition_0/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnettf",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnettf_p1.npz",
+    "sha256": "a16db1852f885c1c775921e4569a665d88fed89e76c98eaee83bf5060b2bb9e9",
+    "expected": {
+      "ACC": 0.6071428571428571,
+      "P": 0.6046910755148742,
+      "R": 0.6042735042735043,
+      "F1": 0.6043956043956044,
+      "AUC": 0.6153846153846154
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/brainnettf_partition_1/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnettf",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnettf_p2.npz",
+    "sha256": "3d79d115dd031639901f0a499bf675ae6c8252706d1fb6d4fc09edb7de56d4c6",
+    "expected": {
+      "ACC": 0.6666666666666665,
+      "P": 0.6653061224489796,
+      "R": 0.6615384615384614,
+      "F1": 0.6618746405980448,
+      "AUC": 0.7441595441595442
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/brainnettf_partition_2/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnettf",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnettf_p3.npz",
+    "sha256": "66dc7fe3cf902c772e0b7b700b07b1ebd90b78a5345982caa344a623cabbf98e",
+    "expected": {
+      "ACC": 0.6666666666666665,
+      "P": 0.6733755031627372,
+      "R": 0.6717948717948719,
+      "F1": 0.6664775950085082,
+      "AUC": 0.7162393162393162
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/brainnettf_partition_3/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainnettf",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/brainnettf_p4.npz",
+    "sha256": "71ee3fd39bdc8eb99ce8ce843ec8fb5d1293636ba2fcc2389e8a1e6d899961c5",
+    "expected": {
+      "ACC": 0.6904761904761905,
+      "P": 0.694017094017094,
+      "R": 0.694017094017094,
+      "F1": 0.6904761904761905,
+      "AUC": 0.7247863247863249
+    },
+    "threshold": null,
+    "original": "Baseline_rerun_20261106/runs/brainnettf_partition_4/predictions.npz"
+  },
+  {
+    "study": "abide",
+    "method": "res_dae",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/abide/res_dae_p0.npz",
+    "sha256": "e823c2ead798581bc918b6d54a817e21737ee6c5e0b2c28d64575cd4d79a88d6",
+    "expected": {
+      "ACC": 0.6785714285714286,
+      "P": 0.6772727272727272,
+      "R": 0.6777777777777778,
+      "F1": 0.677428530792206,
+      "AUC": 0.6997150997150997
+    },
+    "threshold": 0.2,
+    "original": "Remaining_baselines_20261108/final_test/partition_0_res_dae.npz"
+  },
+  {
+    "study": "abide",
+    "method": "res_dae",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/abide/res_dae_p1.npz",
+    "sha256": "d38c6b5e9b620656e2bae1c661b9949d81a8e2cb43d2d705b02fd291be19e5af",
+    "expected": {
+      "ACC": 0.5714285714285714,
+      "P": 0.5767682576193214,
+      "R": 0.576068376068376,
+      "F1": 0.5711854792966535,
+      "AUC": 0.6381766381766382
+    },
+    "threshold": 0.2,
+    "original": "Remaining_baselines_20261108/final_test/partition_1_res_dae.npz"
+  },
+  {
+    "study": "abide",
+    "method": "res_dae",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/abide/res_dae_p2.npz",
+    "sha256": "fa9e06ed4e7d724406c169839f0007f4515c1bc24559b7b306171380a64f56a1",
+    "expected": {
+      "ACC": 0.6666666666666665,
+      "P": 0.6892373485388454,
+      "R": 0.6512820512820512,
+      "F1": 0.6421180766889836,
+      "AUC": 0.7675213675213675
+    },
+    "threshold": 0.9,
+    "original": "Remaining_baselines_20261108/final_test/partition_2_res_dae.npz"
+  },
+  {
+    "study": "abide",
+    "method": "res_dae",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/abide/res_dae_p3.npz",
+    "sha256": "ebc766526342d8b4344f51b0fc469ad5c12a3ebc66512666ae811a6760bcd798",
+    "expected": {
+      "ACC": 0.6071428571428571,
+      "P": 0.6115560640732265,
+      "R": 0.6111111111111112,
+      "F1": 0.6070871722182849,
+      "AUC": 0.6789173789173789
+    },
+    "threshold": 0.7000000000000001,
+    "original": "Remaining_baselines_20261108/final_test/partition_3_res_dae.npz"
+  },
+  {
+    "study": "abide",
+    "method": "res_dae",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/abide/res_dae_p4.npz",
+    "sha256": "891b689b615e8978459bc541459663d6e58f84d63b2098057231503b65302555",
+    "expected": {
+      "ACC": 0.6666666666666665,
+      "P": 0.664957264957265,
+      "R": 0.664957264957265,
+      "F1": 0.664957264957265,
+      "AUC": 0.7521367521367521
+    },
+    "threshold": 0.5,
+    "original": "Remaining_baselines_20261108/final_test/partition_4_res_dae.npz"
+  },
+  {
+    "study": "abide",
+    "method": "brainkan",
+    "partition": 0,
+    "n_roi": 75,
+    "file": "records/predictions/abide/brainkan_p0.csv",
+    "sha256": "152cc4385abcc8cfccc8b739d560a16021d0586fc9a462a47154f69f77cb4ac0",
+    "expected": {
+      "ACC": 0.6071428571428571,
+      "P": 0.6045673076923077,
+      "R": 0.5991452991452991,
+      "F1": 0.5975025410193118,
+      "AUC": 0.6683760683760684
+    },
+    "threshold": null,
+    "original": "EN_consensus_KAN6432_20261109/final_test/en75_6432_p0.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainkan",
+    "partition": 1,
+    "n_roi": 75,
+    "file": "records/predictions/abide/brainkan_p1.csv",
+    "sha256": "acd21618e9c831602cb5e2b1a87fc606e7bc174f6630028db57960bc375cd61f",
+    "expected": {
+      "ACC": 0.5833333333333334,
+      "P": 0.5833333333333334,
+      "R": 0.5837606837606837,
+      "F1": 0.5828011919965943,
+      "AUC": 0.6239316239316239
+    },
+    "threshold": null,
+    "original": "EN_consensus_KAN6432_20261109/final_test/en75_6432_p1.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainkan",
+    "partition": 2,
+    "n_roi": 75,
+    "file": "records/predictions/abide/brainkan_p2.csv",
+    "sha256": "e334781b0cc4f76e1564019813d3c33b6116b9553041dd303b3aaf8a48558c4e",
+    "expected": {
+      "ACC": 0.7023809523809522,
+      "P": 0.7029411764705881,
+      "R": 0.6965811965811965,
+      "F1": 0.6971881759192502,
+      "AUC": 0.7344729344729345
+    },
+    "threshold": null,
+    "original": "EN_consensus_KAN6432_20261109/final_test/en75_6432_p2.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainkan",
+    "partition": 3,
+    "n_roi": 75,
+    "file": "records/predictions/abide/brainkan_p3.csv",
+    "sha256": "706582d922f42566c63e81f3302ee3a6dad183e04e38fe39005bd5e8b10f529e",
+    "expected": {
+      "ACC": 0.7261904761904762,
+      "P": 0.7248283752860413,
+      "R": 0.7239316239316238,
+      "F1": 0.7242757242757243,
+      "AUC": 0.7156695156695158
+    },
+    "threshold": null,
+    "original": "EN_consensus_KAN6432_20261109/final_test/en75_6432_p3.csv"
+  },
+  {
+    "study": "abide",
+    "method": "brainkan",
+    "partition": 4,
+    "n_roi": 75,
+    "file": "records/predictions/abide/brainkan_p4.csv",
+    "sha256": "7733f3f8169eaaa6891dfe7bca2541fbde8a56916c0818c24f08a57962071bfa",
+    "expected": {
+      "ACC": 0.7142857142857143,
+      "P": 0.7152580828133863,
+      "R": 0.7162393162393162,
+      "F1": 0.7141236528644356,
+      "AUC": 0.723076923076923
+    },
+    "threshold": null,
+    "original": "EN_consensus_KAN6432_20261109/final_test/en75_6432_p4.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p0.npz",
+    "sha256": "f046a2be5266b14f16309078cf698e3c92fc3611bd2e8b553084edfb7f29f3a8",
+    "expected": {
+      "ACC": 0.6219512195121951,
+      "P": 0.6086956521739131,
+      "R": 0.6138519924098672,
+      "F1": 0.6088629019849208,
+      "AUC": 0.6660341555977229
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingnn_partition_0/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p0.npz",
+    "sha256": "6500b3a201042a4fd651919cd36373fd55b76ccfa54b929f5c515fe5337b6ab5",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.6829710144927537,
+      "R": 0.6916508538899431,
+      "F1": 0.6845668564394523,
+      "AUC": 0.7703984819734345
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingb_partition_0/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p0.npz",
+    "sha256": "86a1c101e548d488fe1f890e37aa09ecb0f246fd51fb72b2e7ba7f1bd03dff5c",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.638157894736842,
+      "R": 0.6461100569259962,
+      "F1": 0.6372234935163997,
+      "AUC": 0.7324478178368121
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnettf_partition_0/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p0.npz",
+    "sha256": "6f15f5802abad691abbbb24e47ee45f67407b4f277e5a9d65518fbb153f8b3b4",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.625625,
+      "R": 0.6271347248576851,
+      "F1": 0.6262769134056263,
+      "AUC": 0.6476913345983555
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnetcnn_partition_0/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p1.npz",
+    "sha256": "04f467c7fc06e64d131528cfeb3650d4cf4ec6f235acaa13738056adbbab3334",
+    "expected": {
+      "ACC": 0.6097560975609756,
+      "P": 0.5987987987987988,
+      "R": 0.6040480708412397,
+      "F1": 0.5980392156862745,
+      "AUC": 0.6299810246679316
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingnn_partition_1/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p1.npz",
+    "sha256": "a6996326cf260458dc0266817db4d970dc3bd0b61913668d90934711f389887c",
+    "expected": {
+      "ACC": 0.6219512195121951,
+      "P": 0.5833333333333333,
+      "R": 0.5695762175838077,
+      "F1": 0.5679075301716812,
+      "AUC": 0.5989879822896901
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingb_partition_1/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p1.npz",
+    "sha256": "7d16204739782415a1edafcd37c2abe71a70de429d641f2abf133ef190907376",
+    "expected": {
+      "ACC": 0.6707317073170732,
+      "P": 0.6468253968253967,
+      "R": 0.6404174573055028,
+      "F1": 0.6426150121065375,
+      "AUC": 0.6894370651486401
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnettf_partition_1/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p1.npz",
+    "sha256": "974c849f463e9471fc6ae1ef6fa9b90f9d86978cd31b6d8f19906c192191837e",
+    "expected": {
+      "ACC": 0.6219512195121951,
+      "P": 0.5862068965517242,
+      "R": 0.5759013282732448,
+      "F1": 0.5759799833194329,
+      "AUC": 0.571157495256167
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnetcnn_partition_1/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p2.npz",
+    "sha256": "5def93041f0827bc3fc800e526d7d40bf9fb6d925ba1129530ab02b46d96a489",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.8148148148148149,
+      "R": 0.5161290322580645,
+      "F1": 0.41761363636363635,
+      "AUC": 0.6040480708412397
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingnn_partition_2/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p2.npz",
+    "sha256": "cc86759379be02e911f57f450aaa424f3a9613c02d3cc9c9ac7dedd4da150571",
+    "expected": {
+      "ACC": 0.573170731707317,
+      "P": 0.5487500000000001,
+      "R": 0.5493358633776091,
+      "F1": 0.5489548954895489,
+      "AUC": 0.6805819101834282
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingb_partition_2/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p2.npz",
+    "sha256": "f24777bbe08cad89d080dad52fb59589d238b289aa56f3f4e565dd64f0ca961a",
+    "expected": {
+      "ACC": 0.7073170731707317,
+      "P": 0.6936170212765957,
+      "R": 0.7014547754585705,
+      "F1": 0.6957328385899815,
+      "AUC": 0.734977862112587
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnettf_partition_2/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p2.npz",
+    "sha256": "57f137fa71c98b5e183e22591f0f16554d2cbc7cd4f2439d0e53a2a199843f68",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.6599326599326599,
+      "R": 0.6502213788741302,
+      "F1": 0.653220559531555,
+      "AUC": 0.7450980392156863
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnetcnn_partition_2/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p3.npz",
+    "sha256": "a309ae2f331823ba0aec94f23178de8ce9e0a072dd091fd45c72bdc71c7196d5",
+    "expected": {
+      "ACC": 0.4878048780487805,
+      "P": 0.6658130601792573,
+      "R": 0.58191018342821,
+      "F1": 0.4554079696394687,
+      "AUC": 0.7052498418722327
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingnn_partition_3/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p3.npz",
+    "sha256": "9bdbb0e729b3672d96c720c4b6c271cba211f3fbfe5dcd330873326a3c356153",
+    "expected": {
+      "ACC": 0.5365853658536586,
+      "P": 0.5009759271307742,
+      "R": 0.5009487666034156,
+      "F1": 0.5006410256410256,
+      "AUC": 0.534471853257432
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingb_partition_3/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p3.npz",
+    "sha256": "d43731a831f06b6dc6ff7a946b7db6e2bbd1f68645f4efa7189e047f624ec213",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.6110056925996206,
+      "R": 0.6110056925996206,
+      "F1": 0.6110056925996206,
+      "AUC": 0.6287160025300442
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnettf_partition_3/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p3.npz",
+    "sha256": "59e9eabab146304b454f33a8c0dfe8a2cbb26318a25f8b48c5bbb92a3804e8f5",
+    "expected": {
+      "ACC": 0.7073170731707317,
+      "P": 0.6884210526315789,
+      "R": 0.6698292220113852,
+      "F1": 0.6746031746031746,
+      "AUC": 0.7128399746995572
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnetcnn_partition_3/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p4.npz",
+    "sha256": "6851437f83ddbe9093a0a39364c4ba997b4b840666eb16a23d1e9343e4d92ed3",
+    "expected": {
+      "ACC": 0.6097560975609756,
+      "P": 0.6040548598688134,
+      "R": 0.6103731815306768,
+      "F1": 0.6012158054711245,
+      "AUC": 0.6597090449082859
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingnn_partition_4/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p4.npz",
+    "sha256": "0fe99ef3912ebe6040d782d62a09b319495309794e7c9ef1caf04034756ef498",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.6599326599326599,
+      "R": 0.6502213788741302,
+      "F1": 0.653220559531555,
+      "AUC": 0.6761543327008223
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/braingb_partition_4/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p4.npz",
+    "sha256": "225d604db7ee6b8d796dcd6f88a9b5b888dfe4284ee22a0cb1ccaccefc76103f",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.599852616064849,
+      "R": 0.5857052498418722,
+      "F1": 0.5858585858585859,
+      "AUC": 0.6710942441492727
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnettf_partition_4/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p4.npz",
+    "sha256": "b7b6d6dd0ba9b11db5c25a9321bb748380b6f48ef3241db321f64bccc666281c",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.6649958228905597,
+      "R": 0.6249209361163821,
+      "F1": 0.6259649122807017,
+      "AUC": 0.7305502846299812
+    },
+    "threshold": null,
+    "original": "ADHD_baseline_comparison_20261111/fc_baselines/runs/brainnetcnn_partition_4/predictions.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p0.npz",
+    "sha256": "8c1576668656ace3692ee37f8c48bf0a90ac0848ec1b654d1f03d98f2fa6d302",
+    "expected": {
+      "ACC": 0.5121951219512195,
+      "P": 0.5243243243243243,
+      "R": 0.5256166982922201,
+      "F1": 0.5095693779904306,
+      "AUC": 0.4794433902593296
+    },
+    "threshold": 0.1,
+    "original": "ADHD_baseline_comparison_20261111/res_dae/final_test/partition_0_res_dae.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p1.npz",
+    "sha256": "8077de31d479ee8381c1008f676e826519be8357568bf0c68f92a146dc4c8b44",
+    "expected": {
+      "ACC": 0.4634146341463415,
+      "P": 0.45105105105105103,
+      "R": 0.4484503478810879,
+      "F1": 0.4473039215686274,
+      "AUC": 0.43010752688172044
+    },
+    "threshold": 0.30000000000000004,
+    "original": "ADHD_baseline_comparison_20261111/res_dae/final_test/partition_1_res_dae.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p2.npz",
+    "sha256": "6108078253c238de013fabc3f483cbf62d0b6c7ac1ad0f995dc700c3e2bab81c",
+    "expected": {
+      "ACC": 0.4024390243902439,
+      "P": 0.43012820512820515,
+      "R": 0.43105629348513597,
+      "F1": 0.4023501413059646,
+      "AUC": 0.4731182795698924
+    },
+    "threshold": 0.1,
+    "original": "ADHD_baseline_comparison_20261111/res_dae/final_test/partition_2_res_dae.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p3.npz",
+    "sha256": "5223ca8a39703b2f1cec5369378073841440e3759edb71a6d8f3fd9dcd6cb94d",
+    "expected": {
+      "ACC": 0.5853658536585366,
+      "P": 0.5134328358208955,
+      "R": 0.50853889943074,
+      "F1": 0.4863669859985261,
+      "AUC": 0.5806451612903225
+    },
+    "threshold": 0.7000000000000001,
+    "original": "ADHD_baseline_comparison_20261111/res_dae/final_test/partition_3_res_dae.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p4.npz",
+    "sha256": "ffb3c14fcd5bb5f1c82a619abe8c391103d8907b348e654895f3d68b117c4830",
+    "expected": {
+      "ACC": 0.4878048780487805,
+      "P": 0.5120593692022264,
+      "R": 0.5123339658444023,
+      "F1": 0.4875,
+      "AUC": 0.5363693864642631
+    },
+    "threshold": 0.1,
+    "original": "ADHD_baseline_comparison_20261111/res_dae/final_test/partition_4_res_dae.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 5,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p5.npz",
+    "sha256": "0ffe54ed5c2f57cb6843c54d1c4c3d8f7ed3e371325e5c3da9847bc58e712068",
+    "expected": {
+      "ACC": 0.7317073170731707,
+      "P": 0.7171929824561404,
+      "R": 0.6957621758380772,
+      "F1": 0.7017195767195767,
+      "AUC": 0.7014547754585705
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingb_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 6,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p6.npz",
+    "sha256": "ef4c9f0b59879605d84a66d4d6594140f293c340362e1c4fe94084fe4aafd2d4",
+    "expected": {
+      "ACC": 0.6219512195121951,
+      "P": 0.6086956521739131,
+      "R": 0.6138519924098672,
+      "F1": 0.6088629019849208,
+      "AUC": 0.6951296647691335
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingb_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 7,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p7.npz",
+    "sha256": "66de1f08e8a82e7be30f40c147f194688a80cd0af1a6a4544c83ebbc2f3b04f2",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.6610279765777488,
+      "R": 0.6565464895635673,
+      "F1": 0.6583333333333333,
+      "AUC": 0.7039848197343453
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingb_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 8,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p8.npz",
+    "sha256": "8cbf495377e5a3a9b4c39097263d99d115debd143a8718410e2ef7c76180b12b",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.6739417989417988,
+      "R": 0.6663504111321947,
+      "F1": 0.6690879741727199,
+      "AUC": 0.7526881720430108
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingb_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingb",
+    "partition": 9,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingb_p9.npz",
+    "sha256": "d84652c9614b2963cd363bc7b5a8cccba01b933fa7455d5cac24304e76c9a5f1",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.6110056925996206,
+      "R": 0.6110056925996206,
+      "F1": 0.6110056925996206,
+      "AUC": 0.6445287792536369
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingb_p9.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 5,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p5.npz",
+    "sha256": "ec97cc90bb6128d7f59d5d27752358d298bd43b8e71b6c958a8997f19abb9315",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.81875,
+      "R": 0.532258064516129,
+      "F1": 0.44991903770529723,
+      "AUC": 0.7476280834914611
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingnn_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 6,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p6.npz",
+    "sha256": "3f0bb4a306a20e8d32dc4ce199b748128bd09ba5513223ca4d73f86a24b7f207",
+    "expected": {
+      "ACC": 0.3780487804878049,
+      "P": 0.4375,
+      "R": 0.49367488931056297,
+      "F1": 0.28913819479857217,
+      "AUC": 0.5736875395319417
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingnn_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 7,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p7.npz",
+    "sha256": "d9adbece0d00c2a0c4bfd68ac094533ac9e499401805ebac3b1af7009829375a",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.6263888888888889,
+      "R": 0.5575585072738772,
+      "F1": 0.5284552845528455,
+      "AUC": 0.6508538899430739
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingnn_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 8,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p8.npz",
+    "sha256": "50ff6736b9529b1edf7d31eb5399ff98b48aa86f4ffccc011793b0abf239ef7e",
+    "expected": {
+      "ACC": 0.573170731707317,
+      "P": 0.5825358851674641,
+      "R": 0.5872865275142315,
+      "F1": 0.5700374531835206,
+      "AUC": 0.661606578115117
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingnn_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "braingnn",
+    "partition": 9,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/braingnn_p9.npz",
+    "sha256": "9001a996100e98d6b20216c7215e489fdb142b1b95c8e68578d289a07b17d584",
+    "expected": {
+      "ACC": 0.45121951219512196,
+      "P": 0.6402027027027027,
+      "R": 0.5524984187223276,
+      "F1": 0.4043583535108959,
+      "AUC": 0.6135357368753953
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/braingnn_p9.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 5,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p5.npz",
+    "sha256": "af076ba883059c7f3684c2adfdd29e844d4f890072255f993e34dfd40e750f5f",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.676875,
+      "R": 0.6790006325110689,
+      "F1": 0.6778249253496778,
+      "AUC": 0.7324478178368121
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnetcnn_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 6,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p6.npz",
+    "sha256": "534e34f70eeff5dfed8c8ada3a1d5f478cb6db6892cb028dbd13aedc2f69d9b1",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.660280029476787,
+      "R": 0.6375711574952562,
+      "F1": 0.6410774410774411,
+      "AUC": 0.7166350411132195
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnetcnn_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 7,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p7.npz",
+    "sha256": "316f205dc2c9ffcb653cd1990efa7fa710e46f5d8fac8d520e73993bb3823452",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.675,
+      "R": 0.6726755218216318,
+      "F1": 0.6737227439121438,
+      "AUC": 0.6970271979759646
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnetcnn_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 8,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p8.npz",
+    "sha256": "61365013c8f027a2d83cf097b4646f66cdbb534c034b0d54352d1355837a3d9c",
+    "expected": {
+      "ACC": 0.7317073170731707,
+      "P": 0.7151515151515151,
+      "R": 0.7020872865275143,
+      "F1": 0.7065712426805466,
+      "AUC": 0.7204301075268816
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnetcnn_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnetcnn",
+    "partition": 9,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnetcnn_p9.npz",
+    "sha256": "898190272121f2a0b171a74de87284b521679ec66aed2981a9183f26ae5678da",
+    "expected": {
+      "ACC": 0.6585365853658537,
+      "P": 0.629976580796253,
+      "R": 0.605313092979127,
+      "F1": 0.6057692307692308,
+      "AUC": 0.6748893105629349
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnetcnn_p9.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 5,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p5.npz",
+    "sha256": "c73b897c5ba273c0196d7402ac73670f55fa458621bfe42b05ae864dcf9211e3",
+    "expected": {
+      "ACC": 0.6097560975609756,
+      "P": 0.5939209726443769,
+      "R": 0.5977229601518026,
+      "F1": 0.5943104514533086,
+      "AUC": 0.635673624288425
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnettf_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 6,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p6.npz",
+    "sha256": "4f148cf9d2dd2c335fabc9eefe25aa961bd820879c2ff9a3cd1ac070932ff852",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.6739417989417988,
+      "R": 0.6663504111321947,
+      "F1": 0.6690879741727199,
+      "AUC": 0.7033523086654017
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnettf_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 7,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p7.npz",
+    "sha256": "3c44d719a50b14ffc2fcb4d787fde7502b954c56fb3ba9ce7c88ad8bf181877c",
+    "expected": {
+      "ACC": 0.6585365853658537,
+      "P": 0.6369386464263125,
+      "R": 0.6369386464263125,
+      "F1": 0.6369386464263125,
+      "AUC": 0.6862745098039216
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnettf_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 8,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p8.npz",
+    "sha256": "fb381c321ded26aaf8c1f8729021f67b8e7ee9d52b48fbe42a31f2dde1fe4fcd",
+    "expected": {
+      "ACC": 0.7073170731707317,
+      "P": 0.6888045540796963,
+      "R": 0.6888045540796963,
+      "F1": 0.6888045540796963,
+      "AUC": 0.7432005060088551
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnettf_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainnettf",
+    "partition": 9,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/brainnettf_p9.npz",
+    "sha256": "6506194c277388600c50ca44d0ccd08d567ea44903d3a60a3140195a381c78b8",
+    "expected": {
+      "ACC": 0.6951219512195121,
+      "P": 0.6737637362637363,
+      "R": 0.6600253004427578,
+      "F1": 0.6638793244794228,
+      "AUC": 0.7235926628716002
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainnettf_p9.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 5,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p5.npz",
+    "sha256": "43533bde4daa8bcce877b33f6dc51618639b484da602ca691d6766b2b4f3c34c",
+    "expected": {
+      "ACC": 0.5121951219512195,
+      "P": 0.5121951219512195,
+      "R": 0.512966476913346,
+      "F1": 0.5048309178743962,
+      "AUC": 0.5091714104996837
+    },
+    "threshold": 0.2,
+    "original": "ADHD_additional_partitions_20261112/final_test/res_dae_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 6,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p6.npz",
+    "sha256": "50f9902184c99dfa5e89ee73b96152603b818f062e11fc20a65a003a62cb3a94",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.6137096774193549,
+      "R": 0.5891840607210626,
+      "F1": 0.5873676904390075,
+      "AUC": 0.6261859582542694
+    },
+    "threshold": 0.7000000000000001,
+    "original": "ADHD_additional_partitions_20261112/final_test/res_dae_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 7,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p7.npz",
+    "sha256": "161d0ce2d315a40d61a6f3a4f083c90aa45e7629f3eb5d782e951fce1c9617d1",
+    "expected": {
+      "ACC": 0.5487804878048781,
+      "P": 0.5716911764705883,
+      "R": 0.5740037950664136,
+      "F1": 0.5481757259865971,
+      "AUC": 0.6204933586337761
+    },
+    "threshold": 0.1,
+    "original": "ADHD_additional_partitions_20261112/final_test/res_dae_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 8,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p8.npz",
+    "sha256": "4e1a8fc57daed2f49ac9acaa1ecc785421b11ac15bfc97e0a7c0f0f56217f674",
+    "expected": {
+      "ACC": 0.5853658536585366,
+      "P": 0.5394252026529108,
+      "R": 0.5338393421884883,
+      "F1": 0.5306397306397306,
+      "AUC": 0.6451612903225806
+    },
+    "threshold": 0.8,
+    "original": "ADHD_additional_partitions_20261112/final_test/res_dae_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "res_dae",
+    "partition": 9,
+    "n_roi": 90,
+    "file": "records/predictions/adhd/res_dae_p9.npz",
+    "sha256": "9418c94315802e5f2ce75aa18327437c599e91c6ee944fcef0641639e82fa971",
+    "expected": {
+      "ACC": 0.6585365853658537,
+      "P": 0.630066322770818,
+      "R": 0.6116382036685643,
+      "F1": 0.6134680134680135,
+      "AUC": 0.7084123972169513
+    },
+    "threshold": 0.5,
+    "original": "ADHD_additional_partitions_20261112/final_test/res_dae_p9.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 0,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p0.csv",
+    "sha256": "6dd6986432690bae6ac8508a2099dedc67b12daeb182f37cd172a9f68d064b3d",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.6110056925996206,
+      "R": 0.6110056925996206,
+      "F1": 0.6110056925996206,
+      "AUC": 0.7103099304237824
+    },
+    "threshold": null,
+    "original": "ADHD_parameter_study_20261111/final_test/en75_p0.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 1,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p1.csv",
+    "sha256": "fcbacf5a0a8343ed54e1c5fe8fcf48ebb74bafdd205a5c037f5541522733fc8c",
+    "expected": {
+      "ACC": 0.6463414634146342,
+      "P": 0.6263888888888889,
+      "R": 0.5575585072738772,
+      "F1": 0.5284552845528455,
+      "AUC": 0.6521189120809614
+    },
+    "threshold": null,
+    "original": "ADHD_parameter_study_20261111/final_test/en75_p1.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 2,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p2.csv",
+    "sha256": "43075a12fcd8a211f8b29c8ae47b55275b7c2258683e59aaaa74e2efd48e9586",
+    "expected": {
+      "ACC": 0.6707317073170732,
+      "P": 0.6582125603864735,
+      "R": 0.6657179000632512,
+      "F1": 0.6593322049546084,
+      "AUC": 0.7141049968374446
+    },
+    "threshold": null,
+    "original": "ADHD_parameter_study_20261111/final_test/en75_p2.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 3,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p3.csv",
+    "sha256": "487a3001b1c66e96c60ec4431c4dac63226f87de1a5317e4054e8180f5a3a901",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.6021052631578947,
+      "R": 0.5920303605313093,
+      "F1": 0.5932539682539683,
+      "AUC": 0.6837444655281467
+    },
+    "threshold": null,
+    "original": "ADHD_parameter_study_20261111/final_test/en75_p3.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 4,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p4.csv",
+    "sha256": "021981eff94311159dca657f230a74ac78a304e42ba59359f15f213ca2966b2c",
+    "expected": {
+      "ACC": 0.6219512195121951,
+      "P": 0.5833333333333333,
+      "R": 0.5695762175838077,
+      "F1": 0.5679075301716812,
+      "AUC": 0.6597090449082859
+    },
+    "threshold": null,
+    "original": "ADHD_parameter_study_20261111/final_test/en75_p4.csv"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 5,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p5.npz",
+    "sha256": "bbe7d53a10ee70ca6787b42c972cd6da86f3f2140651e11e415211b332b73c6a",
+    "expected": {
+      "ACC": 0.7439024390243902,
+      "P": 0.7275641025641025,
+      "R": 0.7245414294750159,
+      "F1": 0.7259271048862008,
+      "AUC": 0.7659709044908286
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainkan_transfer_p5.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 6,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p6.npz",
+    "sha256": "d47b4508bc8dad1f54dc32e68339ed1e98505b622e1ef4938bc6b3da843989bc",
+    "expected": {
+      "ACC": 0.6829268292682927,
+      "P": 0.6696832579185521,
+      "R": 0.618595825426945,
+      "F1": 0.6170977011494253,
+      "AUC": 0.7235926628716003
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainkan_transfer_p6.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 7,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p7.npz",
+    "sha256": "de75ddde4497e9c45b803082aee9687e8544772bcb3596439ca88e9dd8447771",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.599852616064849,
+      "R": 0.5857052498418722,
+      "F1": 0.5858585858585859,
+      "AUC": 0.6426312460468059
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainkan_transfer_p7.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 8,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p8.npz",
+    "sha256": "a6a1af6081c7cbd27e74efea5220b253a239a33d32b07082d0aa60c0ab0adac1",
+    "expected": {
+      "ACC": 0.7439024390243902,
+      "P": 0.7275641025641025,
+      "R": 0.7245414294750159,
+      "F1": 0.7259271048862008,
+      "AUC": 0.7729285262492094
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainkan_transfer_p8.npz"
+  },
+  {
+    "study": "adhd",
+    "method": "brainkan",
+    "partition": 9,
+    "n_roi": 75,
+    "file": "records/predictions/adhd/brainkan_p9.npz",
+    "sha256": "a1311f9b72fcee020b0693477fe1ff5ee622253fabf9d6644ea6904394d437b5",
+    "expected": {
+      "ACC": 0.6341463414634146,
+      "P": 0.599852616064849,
+      "R": 0.5857052498418722,
+      "F1": 0.5858585858585859,
+      "AUC": 0.6306135357368754
+    },
+    "threshold": null,
+    "original": "ADHD_additional_partitions_20261112/final_test/brainkan_transfer_p9.npz"
+  },
+  {
+    "study": "nyu",
+    "method": "brainkan",
+    "partition": 0,
+    "n_roi": 75,
+    "file": "records/predictions/nyu/brainkan_p0.csv",
+    "sha256": "ad139d1bb578d6da147771b8f44e736d09f43f0f8e7ce064f3d3719f86358ec5",
+    "expected": {
+      "ACC": 0.6549707602339181,
+      "P": 0.6554035567715458,
+      "R": 0.6587922840369025,
+      "F1": 0.6532632230126817,
+      "AUC": 0.7175006989097008
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/en75_p0.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "full_kan",
+    "partition": 0,
+    "n_roi": 90,
+    "file": "records/predictions/nyu/full_kan_p0.csv",
+    "sha256": "1c14eb9da6d35ce36e9c957a6cf452b637f3b647b9e0f59eba70b3fa7867945c",
+    "expected": {
+      "ACC": 0.6491228070175439,
+      "P": 0.645679012345679,
+      "R": 0.648448420464076,
+      "F1": 0.6456203371096988,
+      "AUC": 0.7075761811573945
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/full90_p0.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "brainkan",
+    "partition": 1,
+    "n_roi": 75,
+    "file": "records/predictions/nyu/brainkan_p1.csv",
+    "sha256": "9b6d1a6e46d7a54f902f6aff36903938e72af4cdc388806dd2786a237b6face5",
+    "expected": {
+      "ACC": 0.672514619883041,
+      "P": 0.6705230010952903,
+      "R": 0.6740984064858819,
+      "F1": 0.6699751861042185,
+      "AUC": 0.7053396701146212
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/en75_p1.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "full_kan",
+    "partition": 1,
+    "n_roi": 90,
+    "file": "records/predictions/nyu/full_kan_p1.csv",
+    "sha256": "b8a350e5bf43575ef5cd00f7cc56f670f5f0fb231f6f3cea804aa428f6bbf541",
+    "expected": {
+      "ACC": 0.6374269005847953,
+      "P": 0.6370041039671683,
+      "R": 0.6399916130835896,
+      "F1": 0.6353192074848651,
+      "AUC": 0.7053396701146212
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/full90_p1.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "brainkan",
+    "partition": 2,
+    "n_roi": 75,
+    "file": "records/predictions/nyu/brainkan_p2.csv",
+    "sha256": "f607b50b09f2c7ecfdacf28443f964846fc1b4558c73b3442b400327ddea20e1",
+    "expected": {
+      "ACC": 0.6491228070175439,
+      "P": 0.6471111719605696,
+      "R": 0.6501956947162426,
+      "F1": 0.6464019851116625,
+      "AUC": 0.7075761811573945
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/en75_p2.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "full_kan",
+    "partition": 2,
+    "n_roi": 90,
+    "file": "records/predictions/nyu/full_kan_p2.csv",
+    "sha256": "77e98575e5b99f7c933253c24abe9714e44140fa9815aeb604dc3be623e74100",
+    "expected": {
+      "ACC": 0.6608187134502924,
+      "P": 0.6588170865279299,
+      "R": 0.6621470506010623,
+      "F1": 0.6581885856079405,
+      "AUC": 0.7282639083030472
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/full90_p2.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "brainkan",
+    "partition": 3,
+    "n_roi": 75,
+    "file": "records/predictions/nyu/brainkan_p3.csv",
+    "sha256": "8301daaae9f43cf69cf527702f01ca4a94cdd4c65437dc328584f143577965a5",
+    "expected": {
+      "ACC": 0.6666666666666666,
+      "P": 0.6654351395730707,
+      "R": 0.6689963656695554,
+      "F1": 0.6644172835255637,
+      "AUC": 0.7114900754822476
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/en75_p3.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "full_kan",
+    "partition": 3,
+    "n_roi": 90,
+    "file": "records/predictions/nyu/full_kan_p3.csv",
+    "sha256": "373de566b49b170787f762557fa6b8f5a7a352ecb4dd4d8ba81734f101f182c1",
+    "expected": {
+      "ACC": 0.6666666666666666,
+      "P": 0.6639490271307207,
+      "R": 0.6672490914173889,
+      "F1": 0.663722615145765,
+      "AUC": 0.7173609169695275
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/full90_p3.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "brainkan",
+    "partition": 4,
+    "n_roi": 75,
+    "file": "records/predictions/nyu/brainkan_p4.csv",
+    "sha256": "b817ef2e468870b8db0588cb4a7a9fa917a4000f6f90bb88bd4d3261406cb5eb",
+    "expected": {
+      "ACC": 0.6549707602339181,
+      "P": 0.6537356321839081,
+      "R": 0.6570450097847358,
+      "F1": 0.652642451368566,
+      "AUC": 0.7056192339949678
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/en75_p4.csv"
+  },
+  {
+    "study": "nyu",
+    "method": "full_kan",
+    "partition": 4,
+    "n_roi": 90,
+    "file": "records/predictions/nyu/full_kan_p4.csv",
+    "sha256": "02d09f4663d648d7584b15e8f2dabe2fdd8855979ab47845c3f8a51e6276f15d",
+    "expected": {
+      "ACC": 0.6432748538011696,
+      "P": 0.6437072503419973,
+      "R": 0.6468409281520828,
+      "F1": 0.6415094339622641,
+      "AUC": 0.7138663684651942
+    },
+    "threshold": null,
+    "original": "NYU_EN_consensus_20261111/final_test/full90_p4.csv"
+  }
+]

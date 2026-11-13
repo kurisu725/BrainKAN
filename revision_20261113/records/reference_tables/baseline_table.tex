@@ -1,0 +1,20 @@
+% Requires booktabs. All metrics are percentages.
+\begin{table*}[t]
+\centering\fontsize{9}{11}\selectfont\setlength{\tabcolsep}{3pt}
+\caption{Final-test performance on the same five ABIDE random holdouts. Mean $\pm$ sample SD; macro P/R/F1. BrainKAN uses EN consensus Top-75 and KAN hidden layers [64,32], epoch 50.}
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & ROI & ACC & P & R & F1 & AUC \\
+\midrule
+BrainGNN$^\dagger$ & 90 & 53.33 $\pm$ 4.16 & 56.04 $\pm$ 28.39 & 52.62 $\pm$ 2.81 & 38.97 $\pm$ 5.57 & 60.43 $\pm$ 4.43 \\
+BrainGB & 90 & 61.67 $\pm$ 7.21 & 61.81 $\pm$ 7.57 & 61.28 $\pm$ 6.95 & 61.19 $\pm$ 6.89 & 64.93 $\pm$ 6.91 \\
+BrainNetCNN & 90 & 65.00 $\pm$ 4.73 & 65.07 $\pm$ 4.73 & 64.87 $\pm$ 4.43 & 64.78 $\pm$ 4.53 & \textbf{71.94 $\pm$ 4.81} \\
+FBNetGen & 90 & 59.29 $\pm$ 4.41 & 59.22 $\pm$ 4.50 & 58.92 $\pm$ 4.23 & 58.80 $\pm$ 4.15 & 65.08 $\pm$ 6.05 \\
+BrainNetGNN$^\dagger$ & 90 & 52.14 $\pm$ 3.30 & 36.08 $\pm$ 22.99 & 50.03 $\pm$ 0.85 & 34.70 $\pm$ 2.11 & 52.33 $\pm$ 5.29 \\
+BrainNetTF & 90 & 64.29 $\pm$ 4.53 & 64.34 $\pm$ 4.88 & 64.17 $\pm$ 4.91 & 63.99 $\pm$ 4.77 & 68.79 $\pm$ 5.70 \\
+Res-DAE & 90 & 63.81 $\pm$ 4.66 & 64.40 $\pm$ 4.79 & 63.62 $\pm$ 4.19 & 63.26 $\pm$ 4.35 & 70.73 $\pm$ 5.31 \\
+BrainKAN & 75 & \textbf{66.67 $\pm$ 6.63} & \textbf{66.62 $\pm$ 6.68} & \textbf{66.39 $\pm$ 6.71} & \textbf{66.32 $\pm$ 6.76} & 69.31 $\pm$ 4.61 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\textwidth}{\fontsize{9}{11}\selectfont $^\dagger$ Local reproductions show highly concentrated predictions in some partitions. BrainGNN uses FC adaptation; BrainNetGNN and BrainNetTF use AAL90 adaptation; BrainNetCNN outputs raw logits; FBNetGen uses GRU. Baselines retain their prespecified training budgets and development-selection rules. Res-DAE uses 2002 FC edges from 90 input ROIs.}
+\end{table*}

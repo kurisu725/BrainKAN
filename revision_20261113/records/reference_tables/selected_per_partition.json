@@ -1,0 +1,392 @@
+[
+  {
+    "method": "braingnn",
+    "label": "BrainGNN",
+    "partition": 1,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 60.97560975609756,
+      "precision": 59.87987987987988,
+      "recall": 60.404807084123966,
+      "f1": 59.80392156862745,
+      "auc": 62.998102466793156
+    }
+  },
+  {
+    "method": "braingnn",
+    "label": "BrainGNN",
+    "partition": 2,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 63.41463414634146,
+      "precision": 81.4814814814815,
+      "recall": 51.61290322580645,
+      "f1": 41.76136363636363,
+      "auc": 60.404807084123966
+    }
+  },
+  {
+    "method": "braingnn",
+    "label": "BrainGNN",
+    "partition": 5,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 64.63414634146342,
+      "precision": 81.875,
+      "recall": 53.2258064516129,
+      "f1": 44.991903770529724,
+      "auc": 74.76280834914611
+    }
+  },
+  {
+    "method": "braingnn",
+    "label": "BrainGNN",
+    "partition": 6,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 37.80487804878049,
+      "precision": 43.75,
+      "recall": 49.3674889310563,
+      "f1": 28.913819479857217,
+      "auc": 57.36875395319417
+    }
+  },
+  {
+    "method": "braingnn",
+    "label": "BrainGNN",
+    "partition": 8,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 57.3170731707317,
+      "precision": 58.25358851674641,
+      "recall": 58.72865275142315,
+      "f1": 57.00374531835206,
+      "auc": 66.1606578115117
+    }
+  },
+  {
+    "method": "braingb",
+    "label": "BrainGB",
+    "partition": 1,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 62.19512195121951,
+      "precision": 58.33333333333333,
+      "recall": 56.957621758380775,
+      "f1": 56.790753017168115,
+      "auc": 59.89879822896901
+    }
+  },
+  {
+    "method": "braingb",
+    "label": "BrainGB",
+    "partition": 2,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 57.3170731707317,
+      "precision": 54.87500000000001,
+      "recall": 54.93358633776091,
+      "f1": 54.89548954895489,
+      "auc": 68.05819101834281
+    }
+  },
+  {
+    "method": "braingb",
+    "label": "BrainGB",
+    "partition": 5,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 73.17073170731707,
+      "precision": 71.71929824561404,
+      "recall": 69.57621758380772,
+      "f1": 70.17195767195767,
+      "auc": 70.14547754585705
+    }
+  },
+  {
+    "method": "braingb",
+    "label": "BrainGB",
+    "partition": 6,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 62.19512195121951,
+      "precision": 60.86956521739131,
+      "recall": 61.38519924098672,
+      "f1": 60.88629019849208,
+      "auc": 69.51296647691335
+    }
+  },
+  {
+    "method": "braingb",
+    "label": "BrainGB",
+    "partition": 8,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 69.51219512195121,
+      "precision": 67.39417989417989,
+      "recall": 66.63504111321947,
+      "f1": 66.908797417272,
+      "auc": 75.26881720430107
+    }
+  },
+  {
+    "method": "brainnetcnn",
+    "label": "BrainNetCNN",
+    "partition": 1,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 62.19512195121951,
+      "precision": 58.62068965517242,
+      "recall": 57.59013282732448,
+      "f1": 57.59799833194329,
+      "auc": 57.1157495256167
+    }
+  },
+  {
+    "method": "brainnetcnn",
+    "label": "BrainNetCNN",
+    "partition": 2,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 68.29268292682927,
+      "precision": 65.993265993266,
+      "recall": 65.02213788741302,
+      "f1": 65.3220559531555,
+      "auc": 74.50980392156863
+    }
+  },
+  {
+    "method": "brainnetcnn",
+    "label": "BrainNetCNN",
+    "partition": 5,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 69.51219512195121,
+      "precision": 67.6875,
+      "recall": 67.90006325110689,
+      "f1": 67.78249253496777,
+      "auc": 73.24478178368122
+    }
+  },
+  {
+    "method": "brainnetcnn",
+    "label": "BrainNetCNN",
+    "partition": 6,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 68.29268292682927,
+      "precision": 66.0280029476787,
+      "recall": 63.75711574952562,
+      "f1": 64.10774410774411,
+      "auc": 71.66350411132196
+    }
+  },
+  {
+    "method": "brainnetcnn",
+    "label": "BrainNetCNN",
+    "partition": 8,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 73.17073170731707,
+      "precision": 71.51515151515152,
+      "recall": 70.20872865275143,
+      "f1": 70.65712426805466,
+      "auc": 72.04301075268816
+    }
+  },
+  {
+    "method": "brainnettf",
+    "label": "BrainNetTF",
+    "partition": 1,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 67.07317073170732,
+      "precision": 64.68253968253967,
+      "recall": 64.04174573055028,
+      "f1": 64.26150121065375,
+      "auc": 68.943706514864
+    }
+  },
+  {
+    "method": "brainnettf",
+    "label": "BrainNetTF",
+    "partition": 2,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 70.73170731707317,
+      "precision": 69.36170212765957,
+      "recall": 70.14547754585705,
+      "f1": 69.57328385899815,
+      "auc": 73.4977862112587
+    }
+  },
+  {
+    "method": "brainnettf",
+    "label": "BrainNetTF",
+    "partition": 5,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 60.97560975609756,
+      "precision": 59.392097264437695,
+      "recall": 59.77229601518026,
+      "f1": 59.43104514533086,
+      "auc": 63.5673624288425
+    }
+  },
+  {
+    "method": "brainnettf",
+    "label": "BrainNetTF",
+    "partition": 6,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 69.51219512195121,
+      "precision": 67.39417989417989,
+      "recall": 66.63504111321947,
+      "f1": 66.908797417272,
+      "auc": 70.33523086654017
+    }
+  },
+  {
+    "method": "brainnettf",
+    "label": "BrainNetTF",
+    "partition": 8,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 70.73170731707317,
+      "precision": 68.88045540796963,
+      "recall": 68.88045540796963,
+      "f1": 68.88045540796963,
+      "auc": 74.32005060088551
+    }
+  },
+  {
+    "method": "res_dae",
+    "label": "Res-DAE",
+    "partition": 1,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 46.34146341463415,
+      "precision": 45.1051051051051,
+      "recall": 44.84503478810879,
+      "f1": 44.73039215686274,
+      "auc": 43.01075268817204
+    }
+  },
+  {
+    "method": "res_dae",
+    "label": "Res-DAE",
+    "partition": 2,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 40.243902439024396,
+      "precision": 43.01282051282052,
+      "recall": 43.105629348513595,
+      "f1": 40.23501413059646,
+      "auc": 47.31182795698924
+    }
+  },
+  {
+    "method": "res_dae",
+    "label": "Res-DAE",
+    "partition": 5,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 51.21951219512195,
+      "precision": 51.21951219512195,
+      "recall": 51.2966476913346,
+      "f1": 50.48309178743962,
+      "auc": 50.91714104996837
+    }
+  },
+  {
+    "method": "res_dae",
+    "label": "Res-DAE",
+    "partition": 6,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 64.63414634146342,
+      "precision": 61.37096774193549,
+      "recall": 58.91840607210626,
+      "f1": 58.73676904390075,
+      "auc": 62.61859582542694
+    }
+  },
+  {
+    "method": "res_dae",
+    "label": "Res-DAE",
+    "partition": 8,
+    "roi": 90,
+    "metrics_percent": {
+      "acc": 58.536585365853654,
+      "precision": 53.94252026529108,
+      "recall": 53.38393421884883,
+      "f1": 53.06397306397306,
+      "auc": 64.51612903225806
+    }
+  },
+  {
+    "method": "brainkan_transfer",
+    "label": "BrainKAN (EN75)",
+    "partition": 1,
+    "roi": 75,
+    "metrics_percent": {
+      "acc": 64.63414634146342,
+      "precision": 62.638888888888886,
+      "recall": 55.755850727387724,
+      "f1": 52.84552845528455,
+      "auc": 65.21189120809613
+    }
+  },
+  {
+    "method": "brainkan_transfer",
+    "label": "BrainKAN (EN75)",
+    "partition": 2,
+    "roi": 75,
+    "metrics_percent": {
+      "acc": 67.07317073170732,
+      "precision": 65.82125603864735,
+      "recall": 66.57179000632512,
+      "f1": 65.93322049546084,
+      "auc": 71.41049968374446
+    }
+  },
+  {
+    "method": "brainkan_transfer",
+    "label": "BrainKAN (EN75)",
+    "partition": 5,
+    "roi": 75,
+    "metrics_percent": {
+      "acc": 74.39024390243902,
+      "precision": 72.75641025641025,
+      "recall": 72.4541429475016,
+      "f1": 72.59271048862009,
+      "auc": 76.59709044908286
+    }
+  },
+  {
+    "method": "brainkan_transfer",
+    "label": "BrainKAN (EN75)",
+    "partition": 6,
+    "roi": 75,
+    "metrics_percent": {
+      "acc": 68.29268292682927,
+      "precision": 66.96832579185521,
+      "recall": 61.859582542694504,
+      "f1": 61.70977011494253,
+      "auc": 72.35926628716003
+    }
+  },
+  {
+    "method": "brainkan_transfer",
+    "label": "BrainKAN (EN75)",
+    "partition": 8,
+    "roi": 75,
+    "metrics_percent": {
+      "acc": 74.39024390243902,
+      "precision": 72.75641025641025,
+      "recall": 72.4541429475016,
+      "f1": 72.59271048862009,
+      "auc": 77.29285262492094
+    }
+  }
+]

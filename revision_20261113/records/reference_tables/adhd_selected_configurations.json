@@ -1,0 +1,259 @@
+[
+  {
+    "partition": 0,
+    "candidate": "S2",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.0003,
+      "weight_decay": 0.0001,
+      "gamma": 0.95,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 1,
+    "candidate": "H2",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        64,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 2,
+    "candidate": "H5",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 3,
+    "candidate": "H1",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 4,
+    "candidate": "H1",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 5,
+    "candidate": "H4",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 6,
+    "candidate": "G1",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 3,
+      "spline_order": 2
+    }
+  },
+  {
+    "partition": 7,
+    "candidate": "H1",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 8,
+    "candidate": "H5",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  },
+  {
+    "partition": 9,
+    "candidate": "H3",
+    "config": {
+      "epochs": 50,
+      "batch_size": 96,
+      "hidden": [
+        128,
+        32
+      ],
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "gamma": 0.8,
+      "optimizer": "adamw",
+      "dropout": 0.3,
+      "grid_epochs": [],
+      "grid_sample": 128,
+      "regularization": 0.0,
+      "shuffle": true,
+      "kind": "kan_legacy",
+      "seed": 1,
+      "grid_size": 5,
+      "spline_order": 3
+    }
+  }
+]
