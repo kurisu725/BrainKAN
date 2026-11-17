@@ -7,3 +7,12 @@ venv/
 revision_20261113/.venv/
 revision_20261113/outputs/
 revision_20261113/verification.json
+revision_20261117/outputs/
+revision_20261117/site_centered_development_20261116/
+revision_20261117/.venv/
+revision_20261117/*.log
+revision_20261117/**/*.tmp
+revision_20261117/**/*.mat
+revision_20261117/**/*.pt
+revision_20261117/**/*.pth
+revision_20261117/**/*.ckpt

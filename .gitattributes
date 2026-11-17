@@ -1,3 +1,6 @@
 # Preserve recorded file bytes and SHA256 values across platforms.
 revision_20261008/** -text
 revision_20261113/** -text
+revision_20261117/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve the original dependency's recorded trailing blank line.
+revision_20261117/code/legacy_kan.py whitespace=blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

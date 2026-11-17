@@ -1,0 +1,91 @@
+{
+  "configuration": {
+    "branches": 4,
+    "anchor_l2": 0.05,
+    "nonlinear_l2": 0.05,
+    "function_group": 0.001,
+    "head_l2": 0.01,
+    "head_activity": 0.005,
+    "head_learning_rate": 0.01,
+    "gradient_clip": 5.0,
+    "weak_fraction": 0.1,
+    "warm_updates": 120,
+    "warm_candidates": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      80,
+      120
+    ],
+    "continuation_updates": 80,
+    "continuation_candidates": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      80
+    ],
+    "input_activity_entropy": 0.25,
+    "head_activity_entropy": 0.25,
+    "first_learning_rate": 3e-05,
+    "minimum_updates": 20,
+    "patience_candidates": 4,
+    "threshold_probability_grid": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7
+    ],
+    "initialization_ridge_strengths": [
+      0.1,
+      1.0,
+      10.0
+    ]
+  },
+  "recipes": {
+    "abide": {
+      "id": "guided32_f32",
+      "initialization": "supervised3",
+      "width": 32,
+      "precision": "float32"
+    },
+    "adhd": {
+      "id": "guided32_f32",
+      "initialization": "supervised3",
+      "width": 32,
+      "precision": "float32"
+    }
+  },
+  "dataset_roi_mass": {
+    "abide": 0.9,
+    "adhd": 0.95
+  },
+  "checkpoint_rule": "Existing training-internal AUC rule, source120/continuation80, patience4 after update20.",
+  "decision_rule": "Choose probability cutoff on that split development ACC; ties closest to .5, then grid order. Never use test to change the cutoff."
+}

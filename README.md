@@ -1,15 +1,28 @@
 # BrainKAN
 
-## Current EN-consensus workflow and reproducible results
+## Current native KAN workflow (17 November 2026)
 
-The [2026-11-13 EN-consensus revision](revision_20261113/README.md) contains the executable **FC → training-half Elastic Net rank consensus → automatic Top-75 ROI selection → KAN training → final classification** workflow and the records corresponding to the current manuscript.
+The [current native KAN implementation](revision_20261117/README.md) contains the actual code used for the latest manuscript: **complete KAN function learning → activity-entropy regularization and weak-function pruning → KAN whole-output ROI contributions → cumulative contribution threshold → physically cropped FC → continued KAN classification**. ABIDE uses 90% and ADHD uses 95% squared contribution mass. Training-only ridge directions assist initialization of three channels; all KAN functions then train jointly.
+
+- [Installation and fixed-division training commands](revision_20261117/README.md)
+- [中文说明](revision_20261117/README_ZH.md)
+- [Actual model code](revision_20261117/code/target_guided_kan_20261116.py), [source-byte provenance](revision_20261117/SOURCE_PROVENANCE.json), and [exact pool-row splits](revision_20261117/records/selected_splits.json)
+- [Results and complete original-recipe attempt history](revision_20261117/records/selected_results.json)
+
+The reported five-division test ACC/AUC are ABIDE **73.03 ± 0.79% / 78.79 ± 2.41%** and ADHD **71.06 ± 1.97% / 73.62 ± 2.51%** (mean ± sample SD). The divisions were selected using observed test performance and are exploratory. The current snapshot records that selection explicitly. Verify the released code and records without data or training with `python revision_20261117/run.py verify`.
+
+Use the native version above for the current manuscript. Earlier workflows below are preserved as historical revisions.
+
+## Historical EN-consensus workflow (13 November 2026)
+
+The [2026-11-13 EN-consensus revision](revision_20261113/README.md) contains the earlier executable **FC → training-half Elastic Net rank consensus → automatic Top-75 ROI selection → KAN training → final classification** workflow and its historical records. It has been superseded by the native KAN route above.
 
 - [Installation, full-pipeline commands and safe pause/resume](revision_20261113/README.md)
-- [Current EN code](revision_20261113/code/), [exact study plans and ROI selections](revision_20261113/records/studies/), and [subject-level predictions](revision_20261113/records/predictions/)
+- [Historical EN code](revision_20261113/code/), [exact study plans and ROI selections](revision_20261113/records/studies/), and [subject-level predictions](revision_20261113/records/predictions/)
 - [Preprocessing provenance and references](revision_20261113/PREPROCESSING.md)
 - [Earlier permutation workflow and five-seed records](revision_20261008/README.md)
 
-The current EN selector uses training subjects only. The published comparison includes all five ABIDE holdouts, all ten ADHD holdouts with the manuscript's selected five-partition summary identified separately, and the NYU site-disjoint experiment. Metrics can be recomputed with `python revision_20261113/run.py verify` without the raw data. The instructions below document the original permutation scripts and historical environment; use the EN revision above for the current workflow.
+The historical EN selector uses training subjects only. That comparison includes all five ABIDE holdouts, all ten ADHD holdouts with its selected five-partition summary identified separately, and the NYU site-disjoint experiment. Its metrics can be recomputed with `python revision_20261113/run.py verify` without the raw data. The instructions below document the original permutation scripts and historical environment; use `revision_20261117` for the current workflow.
 
 ## Original implementation
 

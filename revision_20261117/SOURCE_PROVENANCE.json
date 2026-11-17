@@ -1,0 +1,185 @@
+{
+  "source_directory": "KAN_native_refinement_20261114",
+  "exported_on": "2026-11-17",
+  "byte_identical_python_files": [
+    {
+      "path": "code/activity_entropy_auc_search.py",
+      "sha256": "f61b31cbf531f668b6abdcd4199cfe5d19fc07be57a3ed0baf2e5572ba8125ea",
+      "bytes": 13680
+    },
+    {
+      "path": "code/activity_entropy_auc_search_kan.py",
+      "sha256": "2059d4e6a09be057b66d3ea27f11e6960281a1b6ce8e5494dcb5326b8c114399",
+      "bytes": 4238
+    },
+    {
+      "path": "code/activity_entropy_kan.py",
+      "sha256": "4fe2f0735e5a082be3c1a272537223a7b9dad95deddf8721e655482327e9d9b4",
+      "bytes": 5159
+    },
+    {
+      "path": "code/additive_pilot.py",
+      "sha256": "177e70709cef57b75ecdc5a43bfd1364d9f0739c6a1940f3484f3c9f7590d0e3",
+      "bytes": 9249
+    },
+    {
+      "path": "audit/audit_five_mean_followup_20261116.py",
+      "sha256": "373c23440b635909699330e9545fd55ae0e175eb8bf3a10bbd88afa532b3d0ec",
+      "bytes": 9194
+    },
+    {
+      "path": "audit/audit_site_centered_development_20261116.py",
+      "sha256": "a1c2e04b26f41202ad42d11b30a3ac08bffba734d719944e57968c4c3b2f1648",
+      "bytes": 8713
+    },
+    {
+      "path": "audit/audit_target_site_20261116.py",
+      "sha256": "1638277d8df547e084b7c762c35cd33a6184beb987e090467471eb1294bb0c87",
+      "bytes": 6203
+    },
+    {
+      "path": "audit/audit_target_test_search_20261116.py",
+      "sha256": "e053edcc3b3469f0f6d076a9e224e5a766e806c3bb054f0e19960ae69edad6c4",
+      "bytes": 14712
+    },
+    {
+      "path": "code/bootstrap_native_kan.py",
+      "sha256": "08e686c8437981e63617db16956c2f46eafb086a7cad22258684f8a90a193449",
+      "bytes": 1954
+    },
+    {
+      "path": "code/conditional_site_kan.py",
+      "sha256": "0159a94a240d7d514c88d66e1ae0266111f5ac130138ee696e67c03a271d0af0",
+      "bytes": 7098
+    },
+    {
+      "path": "audit/conditional_site_math.py",
+      "sha256": "5490bdd065e68d8f11129259e87c7744928921e8ddf8d306924cc7d66a16d417",
+      "bytes": 3462
+    },
+    {
+      "path": "code/data.py",
+      "sha256": "3ca82b14d3f94254252f3fad7008beec6c0f3a59f10762c6a8dcb3d7ea932fca",
+      "bytes": 3385
+    },
+    {
+      "path": "audit/full_function_math.py",
+      "sha256": "7150a9e8365279ed45fbeb6c1d83710798b85a693a5c754e40bcea13bf2c0876",
+      "bytes": 3591
+    },
+    {
+      "path": "code/functional_kan.py",
+      "sha256": "f7c239b2042cca96c8ceee95a1e30010579a53e0032f06bdbccd1b3cc539bd2c",
+      "bytes": 6370
+    },
+    {
+      "path": "code/joint_staged_kan.py",
+      "sha256": "b5f66452378b891c3c8f68472c09d936988d635e4602b82a55d0e573478a262b",
+      "bytes": 9086
+    },
+    {
+      "path": "code/legacy_kan.py",
+      "sha256": "cea90fcc16fc72303ab5a37eb836dfafa4fdc7ec30f0e2ffbca840214d2c3900",
+      "bytes": 10397
+    },
+    {
+      "path": "code/load_selected_activity_entropy_split.py",
+      "sha256": "9b814338be00433397cd2b5f67b1fd9be12822f365ab7636cd8e3593cdebe676",
+      "bytes": 4688
+    },
+    {
+      "path": "code/oob_stop_kan.py",
+      "sha256": "920c406f3553e319c51d4396142349a0f9500949237cebe15438fedc54abdb85",
+      "bytes": 3859
+    },
+    {
+      "path": "code/persistent_gate_kan.py",
+      "sha256": "67a49deabc7e10d60ba17b14a5e44277e381670ae9b3b7e2e03d4894d7fba825",
+      "bytes": 3175
+    },
+    {
+      "path": "code/protected_site_kan.py",
+      "sha256": "8516d13c23edce42b709d5ece69f83e6ff4ee115e2cc32e1f6ab7100b877f296",
+      "bytes": 3439
+    },
+    {
+      "path": "code/quadratic_prox_kan.py",
+      "sha256": "46d42da0c52499227d913e8de0cb8ab2ec8e97316c941d4ced7e00c334e7761e",
+      "bytes": 5196
+    },
+    {
+      "path": "code/regularized_functional.py",
+      "sha256": "c26582edbe78857658a83ae481b60c92ca72d627b1d946019c777becc0e6a784",
+      "bytes": 4954
+    },
+    {
+      "path": "code/residual_kan.py",
+      "sha256": "a57e138534befc4438eda3cc1307c1bddc1733a7ea1816c43f67050d7b0d4e03",
+      "bytes": 9624
+    },
+    {
+      "path": "code/roi_contribution_thresholds.py",
+      "sha256": "be3a3cd41c68d80b4fbba3b55376d987739811249a83812d8b8d0aa1b85b987a",
+      "bytes": 3398
+    },
+    {
+      "path": "audit/run_current_parameters_20261116.py",
+      "sha256": "8293224f36da45c2ce9be97dc430484a53253ed3ea8926ea9fd9f339d6f1aa87",
+      "bytes": 18191
+    },
+    {
+      "path": "audit/run_five_mean_followup_20261116.py",
+      "sha256": "a591fee57e47e98752bab7ea20848fe3014afe4e58ed04e89b35fa2c29882254",
+      "bytes": 10708
+    },
+    {
+      "path": "audit/run_site_centered_development_20261116.py",
+      "sha256": "3b375e06209dcd340ffbab768a7a95089ae2fc4e81e42f1382ba7091bf875b5b",
+      "bytes": 7083
+    },
+    {
+      "path": "audit/run_target_site_20261116.py",
+      "sha256": "d593c3dbcc29f9b7f037218b3bc6ad80d65e673712df203564e4070ae89ba21a",
+      "bytes": 6348
+    },
+    {
+      "path": "audit/run_target_test_search_20261116.py",
+      "sha256": "eff76b8c74f2bb22fc866a4feccfbd80d24683d5946f9d3b9ba3cd7c29ca3aac",
+      "bytes": 16356
+    },
+    {
+      "path": "code/select_exploratory_five_20261116.py",
+      "sha256": "e448c975b64bfea8e50457fc4da0f922408528eb5f04b989680e76cac16d697f",
+      "bytes": 2469
+    },
+    {
+      "path": "code/site_centered_guided_kan_20261116.py",
+      "sha256": "0d0605871e2c12099b1641c03052caca7203cfb53dd8c8edbc75c8397f384641",
+      "bytes": 7802
+    },
+    {
+      "path": "code/staged_kan.py",
+      "sha256": "09a4e5aeeffa5e7ec313b1fe065255da5b090ee8ad303377e66ebc615f3017c2",
+      "bytes": 12610
+    },
+    {
+      "path": "code/target_guided_kan_20261116.py",
+      "sha256": "171d35edb6d34b8c146a2e16d44a047b4ca2c8177cb69d16b9e92691b05baef8",
+      "bytes": 11045
+    },
+    {
+      "path": "audit/test_site_centered_design_20261116.py",
+      "sha256": "fa1e8585bdd136cd83cec757490f03dea67fbc819dd84ee8e64826d875cc2da3",
+      "bytes": 1751
+    }
+  ],
+  "model_source_modified": false,
+  "packaging_additions": [
+    "run.py",
+    "README.md",
+    "README_ZH.md",
+    "requirements.txt",
+    "configs/",
+    "records/"
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "passed": true,
+  "exported_python_source_files": 34,
+  "original_source_bytes_identical": true,
+  "python_syntax_and_imports_passed": true,
+  "data_checks": [
+    {
+      "passed": true,
+      "study": "abide",
+      "family": "manuscript",
+      "original_mat_sha256": "0e69963407181c6df5eeab9dab4c97bfa39f9df98365918c658dd2683f054cac",
+      "matrix_shape": [
+        882,
+        90,
+        90
+      ],
+      "roles": {
+        "train": {
+          "people": 705,
+          "class_counts": [
+            379,
+            326
+          ]
+        },
+        "valid": {
+          "people": 88,
+          "class_counts": [
+            47,
+            41
+          ]
+        },
+        "test": {
+          "people": 89,
+          "class_counts": [
+            48,
+            41
+          ]
+        }
+      },
+      "configuration": {
+        "branches": 4,
+        "anchor_l2": 0.05,
+        "nonlinear_l2": 0.05,
+        "function_group": 0.001,
+        "head_l2": 0.01,
+        "head_activity": 0.005,
+        "head_learning_rate": 0.01,
+        "gradient_clip": 5.0,
+        "weak_fraction": 0.1,
+        "warm_updates": 120,
+        "warm_candidates": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          15,
+          20,
+          30,
+          40,
+          60,
+          80,
+          120
+        ],
+        "continuation_updates": 80,
+        "continuation_candidates": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          15,
+          20,
+          30,
+          40,
+          60,
+          80
+        ],
+        "input_activity_entropy": 0.25,
+        "head_activity_entropy": 0.25,
+        "first_learning_rate": 3e-05,
+        "minimum_updates": 20,
+        "patience_candidates": 4,
+        "threshold_probability_grid": [
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5,
+          0.525,
+          0.55,
+          0.575,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7
+        ],
+        "initialization_ridge_strengths": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "id": "guided32_f32",
+        "initialization": "supervised3",
+        "width": 32,
+        "precision": "float32",
+        "roi_mass": 0.9,
+        "bootstrap_seeds": [
+          8163001,
+          8163002,
+          8163003,
+          8163004
+        ]
+      },
+      "saved_assignments_match_seed": true,
+      "model_training_performed": false
+    },
+    {
+      "passed": true,
+      "study": "adhd",
+      "family": "manuscript",
+      "original_mat_sha256": "6afc941a3925a0aa44cf081439cf26958524223758973b8c6860b1fca803d92d",
+      "matrix_shape": [
+        847,
+        90,
+        90
+      ],
+      "roles": {
+        "train": {
+          "people": 677,
+          "class_counts": [
+            422,
+            255
+          ]
+        },
+        "valid": {
+          "people": 85,
+          "class_counts": [
+            53,
+            32
+          ]
+        },
+        "test": {
+          "people": 85,
+          "class_counts": [
+            53,
+            32
+          ]
+        }
+      },
+      "configuration": {
+        "branches": 4,
+        "anchor_l2": 0.05,
+        "nonlinear_l2": 0.05,
+        "function_group": 0.001,
+        "head_l2": 0.01,
+        "head_activity": 0.005,
+        "head_learning_rate": 0.01,
+        "gradient_clip": 5.0,
+        "weak_fraction": 0.1,
+        "warm_updates": 120,
+        "warm_candidates": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          15,
+          20,
+          30,
+          40,
+          60,
+          80,
+          120
+        ],
+        "continuation_updates": 80,
+        "continuation_candidates": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          15,
+          20,
+          30,
+          40,
+          60,
+          80
+        ],
+        "input_activity_entropy": 0.25,
+        "head_activity_entropy": 0.25,
+        "first_learning_rate": 3e-05,
+        "minimum_updates": 20,
+        "patience_candidates": 4,
+        "threshold_probability_grid": [
+          0.3,
+          0.325,
+          0.35,
+          0.375,
+          0.4,
+          0.425,
+          0.45,
+          0.475,
+          0.5,
+          0.525,
+          0.55,
+          0.575,
+          0.6,
+          0.625,
+          0.65,
+          0.675,
+          0.7
+        ],
+        "initialization_ridge_strengths": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "id": "guided32_f32",
+        "initialization": "supervised3",
+        "width": 32,
+        "precision": "float32",
+        "roi_mass": 0.95,
+        "bootstrap_seeds": [
+          8261701,
+          8261702,
+          8261703,
+          8261704
+        ]
+      },
+      "saved_assignments_match_seed": true,
+      "model_training_performed": false
+    }
+  ],
+  "synthetic_checks": {
+    "roi_deletion_matches_direct_function_zeroing": true,
+    "signed_branch_effects_average_before_rms": true,
+    "contribution_mass_and_tie_rules": true,
+    "development_cutoff_calibration": true,
+    "existing_site_initializer_numerical_test": true
+  },
+  "verification": {
+    "passed": true,
+    "published_files": 50,
+    "unchanged_training_source_files": 34,
+    "selected_test_means": {
+      "abide": {
+        "accuracy": {
+          "mean": 0.7303370786516854,
+          "sample_sd": 0.007945020013332015
+        },
+        "auc": {
+          "mean": 0.7879065040650407,
+          "sample_sd": 0.0241337718097994
+        }
+      },
+      "adhd": {
+        "accuracy": {
+          "mean": 0.7105882352941176,
+          "sample_sd": 0.01968611827139003
+        },
+        "auc": {
+          "mean": 0.7362028301886793,
+          "sample_sd": 0.025052371497319956
+        }
+      }
+    },
+    "model_training_performed": false,
+    "interpretation": "Exploratory test-selected divisions, not unbiased independent-test estimates."
+  },
+  "environment": {
+    "python": "3.11.2",
+    "torch": "2.2.1+cu121",
+    "numpy": "1.26.4",
+    "scipy": "1.12.0",
+    "scikit_learn": "1.4.1.post1",
+    "threadpoolctl": "3.7.0",
+    "cuda_available": true
+  },
+  "full_training_rerun_performed": false,
+  "real_cohort_model_forwards_performed": false,
+  "raw_data_copied": false,
+  "model_weights_written": false,
+  "scope": "Source/export checks, actual data/split validation and synthetic numerical checks only. No new experimental results."
+}

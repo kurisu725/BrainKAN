@@ -1,0 +1,99 @@
+{
+  "configuration": {
+    "branches": 4,
+    "anchor_l2": 0.05,
+    "nonlinear_l2": 0.05,
+    "function_group": 0.001,
+    "head_l2": 0.01,
+    "head_activity": 0.005,
+    "head_learning_rate": 0.01,
+    "gradient_clip": 5.0,
+    "weak_fraction": 0.1,
+    "warm_updates": 120,
+    "warm_candidates": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      80,
+      120
+    ],
+    "continuation_updates": 80,
+    "continuation_candidates": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      80
+    ],
+    "input_activity_entropy": 0.25,
+    "head_activity_entropy": 0.25,
+    "first_learning_rate": 3e-05,
+    "minimum_updates": 20,
+    "patience_candidates": 4,
+    "threshold_probability_grid": [
+      0.3,
+      0.325,
+      0.35,
+      0.375,
+      0.4,
+      0.425,
+      0.45,
+      0.475,
+      0.5,
+      0.525,
+      0.55,
+      0.575,
+      0.6,
+      0.625,
+      0.65,
+      0.675,
+      0.7
+    ],
+    "initialization_ridge_strengths": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "initialization": "supervised3",
+    "width": 32,
+    "precision": "float32"
+  },
+  "random_seeds": {
+    "abide": [
+      3761601,
+      3761602,
+      3761603
+    ],
+    "adhd": [
+      4761601,
+      4761602,
+      4761603
+    ]
+  },
+  "recipes": [
+    "global_guided32",
+    "within_site_guided32"
+  ],
+  "bootstrap_seed_rule": "9161601 + 100000*(study==adhd) + 100*zero_based_round + branch",
+  "dataset_roi_mass": {
+    "abide": 0.9,
+    "adhd": 0.95
+  },
+  "advance_rule": "Finish all 12 development cases. A candidate advances only if mean development ACC and AUC are both strictly better than the paired global control for that dataset. No automatic test phase.",
+  "method": "Only initial three linear coefficient directions change: ridge on training-bootstrap features and labels centered within training site. Strengths [0.1,1,10]. Projection RMS scaling uses the original centered training design. Other PCA channels and all subsequent KAN fitting/pruning/ROI thresholding remain identical.",
+  "interpretation": "Exploratory development on historically exposed cohorts with overlapping subjects; development cutoff-calibrated ACC is optimistic. No independent-validation claim.",
+  "test_evaluated": false
+}
