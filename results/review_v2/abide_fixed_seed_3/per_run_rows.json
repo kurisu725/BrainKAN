@@ -1,0 +1,47 @@
+[
+  {
+    "partition": "abide_fixed",
+    "seed": 3,
+    "model": "direct",
+    "n_test": 84,
+    "n_roi": 88,
+    "epoch": 25,
+    "accuracy": 0.7142857142857143,
+    "precision": 0.7142857142857142,
+    "recall": 0.7162471395881007,
+    "f1": 0.7136363636363636,
+    "auc": 0.7894736842105262,
+    "log_loss": 0.9919585035724569,
+    "prediction_sha256": "397a7fda518c63c11bead524af9b12424ead8a83305b40ceedb82b07e7cd35e3"
+  },
+  {
+    "partition": "abide_fixed",
+    "seed": 3,
+    "model": "minmax",
+    "n_test": 84,
+    "n_roi": 29,
+    "epoch": 5,
+    "accuracy": 0.5833333333333334,
+    "precision": 0.5845150311968236,
+    "recall": 0.5852402745995423,
+    "f1": 0.5828011919965943,
+    "auc": 0.6802059496567505,
+    "log_loss": 0.6621447791660816,
+    "prediction_sha256": "3f73e67834490e78b2fd2a39816c2cf416d0be1c4129f55d0cd837e604c82476"
+  },
+  {
+    "partition": "abide_fixed",
+    "seed": 3,
+    "model": "zscore",
+    "n_test": 84,
+    "n_roi": 38,
+    "epoch": 5,
+    "accuracy": 0.6071428571428571,
+    "precision": 0.6144335825186888,
+    "recall": 0.6138443935926774,
+    "f1": 0.6070871722182849,
+    "auc": 0.702517162471396,
+    "log_loss": 0.6934978973898134,
+    "prediction_sha256": "da4ba5ef046a5a974dfca34d4913a1cd9fc8578242b478f0e98cb88748b28980"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "plan_sha256": "2e3d4954dbfb9b8b422fb0d0bab2ea8578a200c8de0d0a17cbaa300a8e2d9f59",
+  "runs": {
+    "abide_holdout_0_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "reference_selection_sha256": "f5a8aa97c1c2e501f7986fb6e0766176716610619b7eee40ca48049732bb6c11",
+      "files": {
+        "minmax.pt": "89d1600a6e58e68597eb04e1f98d630c0ee3c7cb5cfb18d83097fbf8aea3ac89",
+        "selection.json": "f5a8aa97c1c2e501f7986fb6e0766176716610619b7eee40ca48049732bb6c11",
+        "minmax_history.json": "d922cb362732b0d74d2d4e722de7b39ab066f70da5b41f50f3c41d7cfb209614"
+      }
+    },
+    "abide_holdout_1_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "reference_selection_sha256": "f8a61439e704e1632220a5dd06684f8955830f74646720d2277c6e3b69ca688e",
+      "files": {
+        "minmax.pt": "f3c1e54f0595ddef6b6ad71b096a1f8ba55f05f1f55fb22d739e9b91d1593c60",
+        "selection.json": "f8a61439e704e1632220a5dd06684f8955830f74646720d2277c6e3b69ca688e",
+        "minmax_history.json": "6c0a54975fb75f9970239c0aa9bf55ed6a85e98e00a774d69afb13ada03a003c"
+      }
+    },
+    "abide_holdout_2_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "reference_selection_sha256": "57a275961ab010ebcb2a6d7ddaf17da2864b971837af08fe46c50643bcff6241",
+      "files": {
+        "minmax.pt": "6fbd0935dde91dbbf0d6b5f3daddc14006689842dd8662ed516fa2587d28b8b5",
+        "selection.json": "57a275961ab010ebcb2a6d7ddaf17da2864b971837af08fe46c50643bcff6241",
+        "minmax_history.json": "8d79fc4d81f976653054538989edfe85878619aff5eafe3a21c5aff02ef65bd0"
+      }
+    },
+    "abide_holdout_3_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "reference_selection_sha256": "88c6ea508753c072465953d9dd23ddaa259a5603788c395685ee5ee60fec6983",
+      "files": {
+        "minmax.pt": "5ae7b6a2a08dd0c88cfbf2922e07c61171b0ffbf4964f7a0efbf295d8c2cadb9",
+        "selection.json": "88c6ea508753c072465953d9dd23ddaa259a5603788c395685ee5ee60fec6983",
+        "minmax_history.json": "0e791e6d46cc8f5a9b0379cf99a46700f695f663a3c2d771c7ff36f17407df5b"
+      }
+    },
+    "abide_holdout_4_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "reference_selection_sha256": "1f8b80864c6741d344c0aff3b58451d4f6e1fa0f5f8234976be99c2ea99aa6ea",
+      "files": {
+        "minmax.pt": "ebc7227a4f34508db3b74569d8fa3a2566f01cbecba36bb0eb55748bd9955500",
+        "selection.json": "1f8b80864c6741d344c0aff3b58451d4f6e1fa0f5f8234976be99c2ea99aa6ea",
+        "minmax_history.json": "812ae1747d5c9e0ecbb4aa45cf9e1e7a8401929a4465b23e7a53b9fce86f4482"
+      }
+    },
+    "adhd_holdout_0_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "files": {
+        "full_history.json": "3a08990dc625187e3fc7f666f34ab14c5ff820b7a1fca47c249459bd7a02db59",
+        "minmax.pt": "71ff4bb369666ca960dd81c8a043d0fd244dc7d272c1daac29a154951e9e9312",
+        "minmax_history.json": "c79420f2e558e5a300aede7ce6fc5eefa1d092dc8e368ea02743505e3feeb237",
+        "selection.json": "cdbf71927566a471335bcff56c2c15e25198656f571a67b9db8f02f4a32b7121"
+      }
+    },
+    "adhd_holdout_1_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "files": {
+        "full_history.json": "64c985e2f37cfb5e4267eceac14b8cbe0ec68577b1bcbf2ab1822e8566ee0b0d",
+        "minmax.pt": "53f28199da6d818822f2fa7e1b4496a1527300fce6fbc043c27f81be6826da22",
+        "minmax_history.json": "a10f1b4695b7a95215c7376302b87821ffba1f4444481bc51d02fe9fc722518f",
+        "selection.json": "7920a18711cdb531510b3864486cb10b4c743bc5c33f2b2bc44d135b7a8190c4"
+      }
+    },
+    "adhd_holdout_2_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "files": {
+        "full_history.json": "b91ade9b7359bebb492506df051b582d539834731690419ea5a3e40545ef407c",
+        "minmax.pt": "39107afb39cfc4d4000c36d1d18685426b80086737abb08b56954506a1428a1c",
+        "minmax_history.json": "99660e48ba3489c00e10d2e492d43b4b9ccae190ca044c8510d188dd178ea20d",
+        "selection.json": "9fae2bf14358f95c2c8c3af6e297803f4c0dab5e93e3e8e470c0239a7c86bd08"
+      }
+    },
+    "adhd_holdout_3_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "files": {
+        "full_history.json": "4770ffeaf6c18d5c2ef34185e15e89038e1cfe92e83bf03c471c30de4d157543",
+        "minmax.pt": "91a8438152b06f5f42d3b6f0b6a22b6329da517706277f34028d6ae06dc6f07d",
+        "minmax_history.json": "92448c61076ae9df4df39c0df4e07f7e21836f8a4b66a646eed6d15550e71df7",
+        "selection.json": "ccfbd6bb8d1edba0601566753476113dc1ef6ae1e01acec175df9a8cc8cc71ec"
+      }
+    },
+    "adhd_holdout_4_seed_1": {
+      "fitted_models": [
+        "minmax"
+      ],
+      "files": {
+        "full_history.json": "579de058cad6af7a232dfe7b5b9c70b6fb6545d2763f99bab014cd730e033238",
+        "minmax.pt": "a0efd8eb38a371d11ab9a5dc627736dd32433b94bd7f5eb482f6defcda7630ee",
+        "minmax_history.json": "f457c6d7448dbd659a646d204dce6e155f3e48bd8a8e2b5b0145d65152c2071a",
+        "selection.json": "075b9439ba32f0288afb3a726b955fdac5bcf3d8b5e177c9c80766a114c116e5"
+      }
+    }
+  }
+}

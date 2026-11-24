@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "training_preprocessors": 5,
+  "training_only_imputation": true,
+  "development_records_recomputed": 20,
+  "selected_candidates_verified": 5,
+  "final_predictions_recomputed": 5,
+  "thresholds_verified": true,
+  "within_partition_disjoint": true,
+  "previous_files_unchanged": 56,
+  "retained_models": 5
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "partition": "adhd_fixed",
+    "seed": 0,
+    "model": "direct",
+    "n_test": 82,
+    "n_roi": 90,
+    "epoch": 10,
+    "accuracy": 0.7317073170731707,
+    "precision": 0.6947697111631538,
+    "recall": 0.668013468013468,
+    "f1": 0.6760057471264367,
+    "auc": 0.6942760942760943,
+    "log_loss": 0.6223524738069984,
+    "prediction_sha256": "f3cb10e9d1561abe0f1849ef9d7e53a440663ff3575aba21ecacc96845b7c288"
+  },
+  {
+    "partition": "adhd_fixed",
+    "seed": 0,
+    "model": "minmax",
+    "n_test": 82,
+    "n_roi": 7,
+    "epoch": 5,
+    "accuracy": 0.6707317073170732,
+    "precision": 0.3353658536585366,
+    "recall": 0.5,
+    "f1": 0.40145985401459855,
+    "auc": 0.46127946127946123,
+    "log_loss": 0.6386800762601753,
+    "prediction_sha256": "f6c5f621b944cae7934f20873d100637f460a8a1618076439a224c410ed9451d"
+  },
+  {
+    "partition": "adhd_fixed",
+    "seed": 0,
+    "model": "zscore",
+    "n_test": 82,
+    "n_roi": 24,
+    "epoch": 20,
+    "accuracy": 0.6341463414634146,
+    "precision": 0.5858585858585859,
+    "recall": 0.5858585858585859,
+    "f1": 0.5858585858585859,
+    "auc": 0.5468013468013468,
+    "log_loss": 0.6873607693533824,
+    "prediction_sha256": "94d118cdb499e628e2f82c4c0c793abfee8ff9848d1b201b86660cf141ba70c8"
+  }
+]

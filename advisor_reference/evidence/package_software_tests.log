@@ -1,0 +1,68 @@
+test_adhd_uses_fourth_column (test_core.CoreTests.test_adhd_uses_fourth_column) ... ok
+test_aggregation_and_threshold_boundaries (test_core.CoreTests.test_aggregation_and_threshold_boundaries) ... ok
+test_kan_matches_original_forward_and_gradients (test_core.CoreTests.test_kan_matches_original_forward_and_gradients) ... E:\Brain\BrainKAN\_packaging_audit\venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:88: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+E:\Brain\BrainKAN\_packaging_audit\venv\Lib\site-packages\matplotlib\_fontconfig_pattern.py:92: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+E:\Brain\BrainKAN\_packaging_audit\venv\Lib\site-packages\matplotlib\_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In E:\Brain\BrainKAN\_packaging_audit\venv\Lib\site-packages\matplotlib\mpl-data\stylelib\classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In E:\Brain\BrainKAN\_packaging_audit\venv\Lib\site-packages\matplotlib\mpl-data\stylelib\classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_metrics_keep_probabilities_from_all_batches (test_core.CoreTests.test_metrics_keep_probabilities_from_all_batches) ... ok
+test_normalization_after_subnetwork_and_subject_independence (test_core.CoreTests.test_normalization_after_subnetwork_and_subject_independence) ... ok
+test_parameter_counts_match_paper (test_core.CoreTests.test_parameter_counts_match_paper) ... ok
+test_permutation_restores_input_and_negative_support (test_core.CoreTests.test_permutation_restores_input_and_negative_support) ... Permutation: 2/4 edges
+Permutation: 4/4 edges
+ok
+test_split_rejects_overlap_and_missing_classes (test_core.CoreTests.test_split_rejects_overlap_and_missing_classes) ... ok
+test_author_confirmed_cli_training_defaults (test_development_protocol.DevelopmentProtocolTests.test_author_confirmed_cli_training_defaults) ... ok
+test_fixed_epoch_selector_never_evaluates_validation (test_development_protocol.DevelopmentProtocolTests.test_fixed_epoch_selector_never_evaluates_validation) ... selector epoch 1/2: selection=final
+selector epoch 2/2: selection=final
+ok
+test_hyperparameter_selection_ignores_test_scores (test_development_protocol.DevelopmentProtocolTests.test_hyperparameter_selection_ignores_test_scores) ... ok
+test_selection_only_routes_validation_and_never_predicts_test (test_development_protocol.DevelopmentProtocolTests.test_selection_only_routes_validation_and_never_predicts_test) ... full_kan epoch 1/2: selection=final
+full_kan epoch 2/2: selection=final
+direct_kan epoch 1/2: selection=final
+direct_kan epoch 2/2: selection=final
+ok
+test_threshold_is_strict_and_customizable (test_development_protocol.DevelopmentProtocolTests.test_threshold_is_strict_and_customizable) ... ok
+test_attenuation_preserves_correlation_and_unaffected_block (test_reviewer_experiments.ReviewerTests.test_attenuation_preserves_correlation_and_unaffected_block) ... ok
+test_fixed_split_development_then_frozen_test (test_reviewer_experiments.ReviewerTests.test_fixed_split_development_then_frozen_test) ... Completed. Results: C:\Users\asus\AppData\Local\Temp\tmpepiyc3ol\run\metrics.json
+Plan saved; no fitting or final-test prediction performed: C:\Users\asus\AppData\Local\Temp\tmp9qk0ahyj\plan.json
+full_kan epoch 1/1: selection=final
+entry_permutation alpha=None: 3/9 units
+entry_permutation alpha=None: 6/9 units
+entry_permutation alpha=None: 9/9 units
+symmetric_permutation alpha=None: 3/3 units
+roi_attenuation alpha=0.5: 3/3 units
+classifier epoch 1/1: selection=final
+classifier epoch 1/1: selection=final
+classifier epoch 1/1: selection=final
+full_kan epoch 1/1: selection=final
+entry_permutation alpha=None: 3/9 units
+entry_permutation alpha=None: 6/9 units
+entry_permutation alpha=None: 9/9 units
+symmetric_permutation alpha=None: 3/3 units
+roi_attenuation alpha=0.5: 3/3 units
+classifier epoch 1/1: selection=final
+classifier epoch 1/1: selection=final
+classifier epoch 1/1: selection=final
+ok
+test_identity_attenuation_has_zero_loss_effect (test_reviewer_experiments.ReviewerTests.test_identity_attenuation_has_zero_loss_effect) ... Development complete and frozen. No test predictions computed: C:\Users\asus\AppData\Local\Temp\tmp9qk0ahyj\run
+All prespecified arms evaluated; no seed or method chosen from test: C:\Users\asus\AppData\Local\Temp\tmp9qk0ahyj\run\final_test
+roi_attenuation alpha=1: 3/3 units
+ok
+test_new_entry_arm_matches_existing_implementation (test_reviewer_experiments.ReviewerTests.test_new_entry_arm_matches_existing_implementation) ... Permutation: 3/9 edges
+Permutation: 6/9 edges
+Permutation: 9/9 edges
+entry_permutation alpha=None: 3/9 units
+entry_permutation alpha=None: 6/9 units
+entry_permutation alpha=None: 9/9 units
+ok
+test_symmetric_permutation_couples_edges_and_restores_source (test_reviewer_experiments.ReviewerTests.test_symmetric_permutation_couples_edges_and_restores_source) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 11.952s
+
+OK

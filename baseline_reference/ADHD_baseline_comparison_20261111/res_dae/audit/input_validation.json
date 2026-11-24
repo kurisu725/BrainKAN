@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "subjects": 847,
+  "diagnosis_matches": 847,
+  "age_available": 847,
+  "sex_observed": 846,
+  "missing_sex_subjects": [
+    10044
+  ],
+  "sex_missing_confirmed_in_original_NYU_file": true,
+  "imputation": "Each partition fits the sex mode on observed training subjects only; ties choose the smaller encoded value. The same fitted value transforms missing development/test metadata. No subjects are dropped.",
+  "data_sha256": "e6d2a995ddf33282a98080795bb300e2573d9504a0a1636ba08f8ff05c76c1ec"
+}

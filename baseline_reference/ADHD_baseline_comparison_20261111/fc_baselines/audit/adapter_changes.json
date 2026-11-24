@@ -1,0 +1,15 @@
+{
+  "BrainGNN": [
+    "PyG 2.5 MessagePassing in place of legacy custom propagation; mathematical mean aggregation retained",
+    "TopKPooling.select.weight API replacement; author double sigmoid retained",
+    "Input 90 FC features and 90 positional identities; graph abs archived FC without loops, explicitly an FC-input adaptation"
+  ],
+  "BrainGB": [
+    "Unchanged official GCN module; node_concate + concat selected in historical manuscript; AAL90 input"
+  ],
+  "BrainNetworkTransformer": [
+    "Attention heads 4 -> 2 because AAL90 feature width is not divisible by 4",
+    "Pooling 100/200 -> 45/90, preserving ABIDE one-half ROI ratio",
+    "PyTorch 2.2 is_causal support and keyword constructor to preserve default bias=True across library versions; model/loss otherwise retained"
+  ]
+}

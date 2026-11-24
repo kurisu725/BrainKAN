@@ -1,0 +1,47 @@
+[
+  {
+    "partition": "adhd_fixed",
+    "seed": 3,
+    "model": "direct",
+    "n_test": 82,
+    "n_roi": 90,
+    "epoch": 10,
+    "accuracy": 0.6951219512195121,
+    "precision": 0.6567460317460317,
+    "recall": 0.6595959595959596,
+    "f1": 0.6580483736447039,
+    "auc": 0.6942760942760943,
+    "log_loss": 0.6382140370592198,
+    "prediction_sha256": "d960d3c27a808a54dd618f35b3546b3d1bf5347bdc96442fc9dbb9e1c7ccd7de"
+  },
+  {
+    "partition": "adhd_fixed",
+    "seed": 3,
+    "model": "minmax",
+    "n_test": 82,
+    "n_roi": 9,
+    "epoch": 25,
+    "accuracy": 0.6707317073170732,
+    "precision": 0.3353658536585366,
+    "recall": 0.5,
+    "f1": 0.40145985401459855,
+    "auc": 0.5272727272727272,
+    "log_loss": 0.6376516353574093,
+    "prediction_sha256": "4e442f5fa52740eec5f6cd7f34387020b983cca0480e418f5b65cbf85d5f8fa6"
+  },
+  {
+    "partition": "adhd_fixed",
+    "seed": 3,
+    "model": "zscore",
+    "n_test": 82,
+    "n_roi": 27,
+    "epoch": 35,
+    "accuracy": 0.5853658536585366,
+    "precision": 0.5464895635673624,
+    "recall": 0.5494949494949495,
+    "f1": 0.5465191932335719,
+    "auc": 0.5535353535353535,
+    "log_loss": 0.676457066454828,
+    "prediction_sha256": "082856b9e643b3326fd1e2e78fb6519e2cfee7a7452cdbb3582f706c1eb9898b"
+  }
+]

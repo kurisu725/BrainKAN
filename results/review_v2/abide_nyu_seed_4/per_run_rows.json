@@ -1,0 +1,47 @@
+[
+  {
+    "partition": "abide_nyu",
+    "seed": 4,
+    "model": "direct",
+    "n_test": 171,
+    "n_roi": 90,
+    "epoch": 30,
+    "accuracy": 0.6491228070175439,
+    "precision": 0.6487004103967168,
+    "recall": 0.6519429689684093,
+    "f1": 0.6470831040176115,
+    "auc": 0.7017053396701145,
+    "log_loss": 1.2020860333086314,
+    "prediction_sha256": "c9bfdbeaf01996d0408659da01948f1d922b49e3212ff7658002023b2faf0ced"
+  },
+  {
+    "partition": "abide_nyu",
+    "seed": 4,
+    "model": "minmax",
+    "n_test": 171,
+    "n_roi": 14,
+    "epoch": 15,
+    "accuracy": 0.6081871345029239,
+    "precision": 0.5991161616161615,
+    "recall": 0.5987559407324574,
+    "f1": 0.5989147558200595,
+    "auc": 0.6388034665921162,
+    "log_loss": 0.6640658119045935,
+    "prediction_sha256": "36faa9a8a6be58616b2d5deb82697be8eed79600174a12d84719ecd8fc0c518f"
+  },
+  {
+    "partition": "abide_nyu",
+    "seed": 4,
+    "model": "zscore",
+    "n_test": 171,
+    "n_roi": 40,
+    "epoch": 5,
+    "accuracy": 0.631578947368421,
+    "precision": 0.6205370765944461,
+    "recall": 0.6104277327369303,
+    "f1": 0.6102528852067581,
+    "auc": 0.6881464914733018,
+    "log_loss": 0.6732027673394638,
+    "prediction_sha256": "b64431861b1c5de40c2435b167ddf32189134c26d2b3a3d05a8d3653beff31ca"
+  }
+]

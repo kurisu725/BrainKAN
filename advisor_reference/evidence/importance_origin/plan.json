@@ -1,0 +1,14 @@
+{
+  "checkpoint_sha256": "dd0e90e8e32fece5e50d53a70ce214439ccf0aae9f73b91c537b7fc46fc33e2d",
+  "data_sha256": "0e69963407181c6df5eeab9dab4c97bfa39f9df98365918c658dd2683f054cac",
+  "archive_sha256": "ad642a141a02aa24caaf29a377575e378dc7d6a566666fede20e9c1ce7aba536",
+  "cohorts": [
+    "valid",
+    "test"
+  ],
+  "repeats": 10,
+  "random_seed": 0,
+  "rng": "legacy numpy RandomState; repeat-major, then feature",
+  "precision": "float64 LayerNorm then float32; logit cross entropy",
+  "purpose": "compare archived importance with both retained cohorts; not selection for an independent test"
+}

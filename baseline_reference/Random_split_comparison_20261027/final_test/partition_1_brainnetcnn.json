@@ -1,0 +1,19 @@
+{
+  "job": "partition_1_brainnetcnn",
+  "partition": 1,
+  "variant": "brainnetcnn",
+  "n_roi": 90,
+  "prediction_dtype": "float32",
+  "metrics": {
+    "n": 84,
+    "accuracy": 0.5833333333333334,
+    "auc": 0.635897435897436,
+    "balanced_accuracy": 0.5854700854700855,
+    "f1_macro": 0.5832742735648476,
+    "loss": 1.3563097797843786,
+    "precision_macro": 0.5852272727272727,
+    "recall_macro": 0.5854700854700855
+  },
+  "prediction_sha256": "710c43ac922f212bee7f3574969256d6058a9243bf1358384881b0f21cf28cf7",
+  "frozen_sha256": "c8ccd6a8cdd22bccf587d1a63794111d1a0a672b5ac2664ec2c229484f463c1f"
+}

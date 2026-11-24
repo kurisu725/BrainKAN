@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "baseline_final_records": 20,
+  "reference_final_records": 5,
+  "development_records": 20,
+  "all_predictions_recomputed": true,
+  "within_partition_disjoint": true,
+  "old_files_unchanged": 63,
+  "development_seal_verified": true,
+  "visual_review": "pending"
+}

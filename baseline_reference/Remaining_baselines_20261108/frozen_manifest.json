@@ -1,0 +1,23 @@
+{
+  "audit/input_validation.json": "f12b95bb1ea96939335d7e25fb61ea8635aee024b48e8719a540491610ad741a",
+  "code/brainnetgnn_vendor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "code/brainnetgnn_vendor/All_Architecture.py": "b02afb2f3ce9d7127f93a663454d6cffcf763ef44dd13dcade65829bfe61e895",
+  "code/brainnetgnn_vendor/encoders_fMRI.py": "39f5f2d5a7b920195aeed218d8eae39064e29a3b572f419333ce52230cd65726",
+  "code/brainnetgnn_vendor/pyg_class.py": "472715c30fbe2ebc96c175fd87aaf4e8ff0029992b125f1ff4b01386d8448dc3",
+  "code/brainnetgnn_vendor/utils.py": "20ad166e9c1baed2196adfe3ad78dcf7df2e6af67ac1cdba92e2181b7c1674d7",
+  "code/dependency.py": "69e919e9d1b49660609fc621c096c4a190e471133b27b885eed4d948420aeb7a",
+  "code/experiment.py": "e70e162ffb3251336113db6000b3394461d17cad534e7117a03a9f6573faba81",
+  "code/fbnetgen_loss.py": "0c4b11d15296b56344b514ec03043d8612f5bbee2c48d8a62b18ab51872dc78a",
+  "code/fbnetgen_official.py": "afe18b37e41e1f56976910db958c5597140a191445a46aa0a9da75daff204f82",
+  "code/models.py": "e47ea34fcbbdbcdf377b2b0c823b515e84ee705b730ce0b0a914d6215b44bf06",
+  "code/preprocess.py": "b42bb938a9cac568546c62774425801e3b4227764b1f21771750b35a0d901f9c",
+  "code/runtime_lock.py": "f2639cbe8ea6d831397b702740c7762e91b2727244551905e7c71cddab243348",
+  "code/storage.py": "52c65e344c44bf7c24e3184e49fc1240daea7b84ea982057f9083fa307d42956",
+  "control.py": "89a5610baa3d586f2b1b40cad719dc4dd217d5df02734b88a1c07943be68de49",
+  "data/abide_dparsf.npz": "71022e117b19b5f719857d3708f7672c0e31accb11e6ac65551a3cc6251752b7",
+  "plan.json": "e9f60c8867a6fb9115341d11b5080cdf53edc936e25f69e37793b52d7f114b58",
+  "previous_artifacts.json": "06ee3bfa4f108e3c5793a3fd4dc9f0ad06aa787324f0b7b6937c83d26a5837be",
+  "reference_tables.json": "bc76e47d7c90265b293020e92027e48980991b748fd88f99deaba2df6312ffb3",
+  "run_background.py": "c1f6a6706b9a4aa2ecdfee7e9c357aa71386310e5f7865c8b1a26e476ec2a8ed",
+  "sources/provenance.json": "a896b04defb8b55d35571bf490e4f6e4c02501d066d7fe923cca59c33552b53a"
+}

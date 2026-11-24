@@ -1,97 +1,63 @@
-# BrainKAN
+# BrainKAN: Automated Region-Aware Kolmogorov–Arnold Network for Brain Network Classification
 
-BrainKAN is an automated region-aware Kolmogorov-Arnold Network (KAN) for
-resting-state fMRI brain-network classification. It learns connection-level
-contributions, aggregates them into ROI-level importance scores, selects an
-informative ROI subnetwork, and retrains a KAN classifier on the selected
-functional-connectivity matrix.
+Official repository for **BrainKAN** (*IEEE Journal of Biomedical and Health Informatics*, JBHI-04004-2025).
 
-## Requirements
+- **One-command ABIDE 78.6% replay & JBHI revision walkthrough**: see **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)**.
+- **Pre-computed predictions & verification (no GPU or training required)**: all sealed per-seed predictions, ROI selections, split indices, and paired statistics are included under [`results/`](results/).
 
-Miniconda with Python 3.9 is recommended for the original environment. The core
-versions pinned in `requirements.txt` are:
+---
 
-- Python `3.9`
-- PyTorch `2.2.1+cu121`
-- torchvision `0.17.1+cu121`
-- torchaudio `2.2.1+cu121`
-- NumPy `1.26.4`
-- SciPy `1.12.0`
-- scikit-learn `1.4.1.post1`
-- pandas `2.2.1`
-- matplotlib `3.8.3`
-- tqdm `4.66.2`
-- LIME `0.2.0.1`
+## Quick Start: Reproduce the ABIDE 78.6% Result
 
-Create the environment and install the dependencies:
+1. **Install dependencies** (Python 3.9–3.11, PyTorch 2.2.1 + CUDA 12.1 recommended):
+   ```bash
+   python -m pip install torch==2.2.1 --index-url https://download.pytorch.org/whl/cu121
+   python -m pip install -r requirements-reproduction.txt
+   ```
 
-```bash
-conda create -n brainkan python=3.9 -y
-conda activate brainkan
-pip install -r requirements.txt
-```
+2. **Extract the dataset archive** (`BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` in the repository root) into `data/`:
+   - `data/ALLASD1_aal.mat` (ABIDE, 882 subjects: 709 train / 89 valid / 84 test)
+   - `data/ADHD1_aal.mat` (ADHD-200, 847 subjects: 679 train / 86 valid / 82 test)
 
-`requirements.txt` preserves several Windows-local PyTorch Geometric wheel paths
-from the original machine. When installing on another computer, replace those
-`file:///E:/...` entries with wheels matching your Python, PyTorch, and CUDA
-versions. The local `efficient_kan` implementation used by BrainKAN itself does
-not require PyTorch Geometric.
+3. **Verify the pre-recorded 5-seed ABIDE 78.6% predictions immediately** (runs in <1 second):
+   ```bash
+   python run_legacy_78.py verify --out results/legacy_78
+   ```
+   Output across seeds `0–4` (correct test counts `66, 65, 66, 68, 65` out of `84`):
+   - **ACC**: `78.57% ± 1.46%` (`78.6 ± 1.5%` in Table III)
+   - **Macro Precision**: `78.48% ± 1.48%` (`78.5 ± 1.5%`)
+   - **Macro Recall**: `78.15% ± 1.47%` (`78.1 ± 1.5%`)
+   - **Macro F1**: `78.26% ± 1.48%` (`78.3 ± 1.5%`)
+   - **AUC**: `85.56% ± 0.42%` (`85.6 ± 0.4%`)
 
-## Datasets
+4. **Retrain all 5 seeds from scratch** on GPU:
+   ```bash
+   python run_legacy_78.py run --data data/ALLASD1_aal.mat --out runs/legacy_78
+   ```
 
-BrainKAN uses AAL-90 functional-connectivity matrices. Each subject is represented
-by a `90 x 90` matrix. Labels are binary: `0` for control/negative and `1` for
-patient/positive.
+---
 
-| Dataset | MAT file | Subjects | Train / validation / test | Label column (zero-based) |
-|---|---|---:|---:|---:|
-| ABIDE | `ALLASD1_aal.mat` | 882 | 709 / 89 / 84 | 2 |
-| ADHD-200 | `ADHD1_aal.mat` | 847 | 679 / 86 / 82 | 3 |
+## JBHI Revision Experiments (Training-Only ROI Scoring & Cross-Site Evaluation)
 
-Place the data beside the code directory using this layout:
+All scripts and sealed run records for the revised manuscript are provided at the repository root:
 
-```text
-BrainKAN/
-|-- BrainKAN-code/
-|   |-- efficient_kan/
-|   |-- test_model.py
-|   `-- requirements.txt
-`-- BrainKAN-data/
-    |-- ALLASD1_aal.mat
-    `-- ADHD1_aal.mat
-```
+| Experiment / Table | Runner Script | Verification / Summary Command | Pre-computed Records |
+|---|---|---|---|
+| **Historical ABIDE 64-ROI replay** (Table III, `78.6 ± 1.5%`) | `run_legacy_78.py` | `python run_legacy_78.py verify --out results/legacy_78` | [`results/legacy_78/`](results/legacy_78/) |
+| **Training-only pipeline with development-selected checkpoints** (Table VI: ABIDE fixed, ADHD-200 fixed, held-out NYU) | `run_review_development.py` | `python summarize_review_v2.py --out results/review_v2` | [`results/review_v2/`](results/review_v2/) |
+| **Full-input KAN, fixed-cohort baselines & seed-wise ROI stability** (Tables VI & IX) | `run_review_experiments.py` | `python summarize_review.py --out results/review --unified advisor_reference/records/advisor/final_test --legacy results/legacy_78 --legacy-reference advisor_reference/records/advisor/final_test` | [`results/review/`](results/review/) |
+| **Matched five-holdout baseline comparisons & split-wise ROI stability** (Table IX) | `run_review_holdouts.py` | `python summarize_holdouts.py --out results/holdouts --baseline-root baseline_reference` | [`results/holdouts/`](results/holdouts/) |
+| **ABIDE PCP DPARSF `filt_global/rois_aal` FC traceability** | `verify_abide_fc.py` | See [`REPRODUCE_JBHI.md`](REPRODUCE_JBHI.md) | [`results/abide_fc_verification.json`](results/abide_fc_verification.json) |
+| **GPU parameter & latency benchmark** (Table I notes) | `advisor_reference/tools/benchmark_current.py` | `python advisor_reference/tools/benchmark_current.py --run-timing` | [`advisor_reference/evidence/compute_benchmark.json`](advisor_reference/evidence/compute_benchmark.json) |
 
-The MAT archives are expected to contain `net_train`, `net_valid`, `net_test`,
-`phenotype_train`, `phenotype_valid`, and `phenotype_test`. The current
-`test_model.py` retains the original machine-specific path in its `sio.loadmat(...)`
-calls. Update both occurrences to your local MAT file before running, for example:
+See **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)** for full command-line instructions, SHA-256 dataset checksums, and protocol details.
 
-```python
-load_data = sio.loadmat('../BrainKAN-data/ALLASD1_aal.mat')
-```
+---
 
-## Quick start
+## Original Archived Release (`66df2c7`)
 
-From the `BrainKAN-code` directory, verify that the local KAN implementation can
-be imported:
-
-```bash
-python -c "from efficient_kan import KAN; print(KAN([8100, 256, 128, 64, 32, 16, 2]))"
-```
-
-After configuring the dataset path, run the experiment script:
-
-```bash
-python test_model.py
-```
-
-For classification-only runs, the unused `import xai` line can be
-disabled; `testXAI()` will then remain unavailable.
-
-The current `__main__` block calls `testKAN()`. The example implementation sweeps
-the number of selected ROIs from 1 to 90. For a single fixed ROI configuration,
-set `matrixAuto` to the selected ROI order, set `anum` to the desired number of
-ROIs, and remove or narrow the sweep loop.
-
-
-
+The original source files from the initial release are preserved unchanged for provenance:
+- `efficient_kan/`: B-spline Kolmogorov–Arnold Network layer implementation.
+- `test_model.py` and `utils.py`: original ROI-sweep and evaluation script (`matrixAuto`, `matrixAuto4`–`matrixAuto9`).
+- `requirements.txt`: original Python 3.9 environment freeze.
+- `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar`: multipart RAR archive containing `ALLASD1_aal.mat` and `ADHD1_aal.mat`.

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "BrainNetGNN",
+    "url": "https://codeload.github.com/UsmanMahmood27/BrainGNN/zip/refs/heads/main",
+    "zip_sha256": "918d46e952eb9d0438110b8c3a15b28fc7bba0f9f6d00778796258b7d7fab6db",
+    "git_commit": "70e92da948b0e23bdda84188985653c61a1bc5f6",
+    "files": 85
+  },
+  {
+    "name": "FBNetGen",
+    "url": "https://codeload.github.com/Wayfear/FBNETGEN/zip/refs/heads/main",
+    "zip_sha256": "d7e5b2127aad765288b8fb62fa0532581fcb1525431346be8e842d8b89beb8be",
+    "git_commit": "3ed6c813920966a40fca9ffca41f90a6384e333c",
+    "files": 35
+  }
+]

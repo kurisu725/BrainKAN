@@ -1,0 +1,48 @@
+[
+  {
+    "cohort": "valid",
+    "edge_spearman": 0.07429077353872963,
+    "roi_spearman": 0.25096925546363746,
+    "edge_rmse": 0.0003564845427047059,
+    "selections": {
+      "direct": {
+        "archived_count": 30,
+        "recomputed_count": 43,
+        "jaccard": 0.2807017543859649
+      },
+      "minmax": {
+        "archived_count": 64,
+        "recomputed_count": 46,
+        "jaccard": 0.4864864864864865
+      },
+      "zscore": {
+        "archived_count": 43,
+        "recomputed_count": 50,
+        "jaccard": 0.3880597014925373
+      }
+    }
+  },
+  {
+    "cohort": "test",
+    "edge_spearman": 0.8638460036220429,
+    "roi_spearman": 0.9859900399226242,
+    "edge_rmse": 0.00012064468089525362,
+    "selections": {
+      "direct": {
+        "archived_count": 30,
+        "recomputed_count": 28,
+        "jaccard": 0.8709677419354839
+      },
+      "minmax": {
+        "archived_count": 64,
+        "recomputed_count": 50,
+        "jaccard": 0.7538461538461538
+      },
+      "zscore": {
+        "archived_count": 43,
+        "recomputed_count": 44,
+        "jaccard": 0.9772727272727273
+      }
+    }
+  }
+]

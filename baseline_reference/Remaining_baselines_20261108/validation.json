@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "time": "2026-11-09T02:04:26.256677+08:00",
+  "candidate_fits": 30,
+  "final_predictions": 15,
+  "partition_disjointness": true,
+  "preprocessing_checks": [
+    {
+      "partition": 0,
+      "kind": "fbnetgen",
+      "passed": true
+    },
+    {
+      "partition": 0,
+      "kind": "brainnetgnn",
+      "passed": true
+    },
+    {
+      "partition": 0,
+      "kind": "res_dae",
+      "passed": true
+    },
+    {
+      "partition": 1,
+      "kind": "fbnetgen",
+      "passed": true
+    },
+    {
+      "partition": 1,
+      "kind": "brainnetgnn",
+      "passed": true
+    },
+    {
+      "partition": 1,
+      "kind": "res_dae",
+      "passed": true
+    },
+    {
+      "partition": 2,
+      "kind": "fbnetgen",
+      "passed": true
+    },
+    {
+      "partition": 2,
+      "kind": "brainnetgnn",
+      "passed": true
+    },
+    {
+      "partition": 2,
+      "kind": "res_dae",
+      "passed": true
+    },
+    {
+      "partition": 3,
+      "kind": "fbnetgen",
+      "passed": true
+    },
+    {
+      "partition": 3,
+      "kind": "brainnetgnn",
+      "passed": true
+    },
+    {
+      "partition": 3,
+      "kind": "res_dae",
+      "passed": true
+    },
+    {
+      "partition": 4,
+      "kind": "fbnetgen",
+      "passed": true
+    },
+    {
+      "partition": 4,
+      "kind": "brainnetgnn",
+      "passed": true
+    },
+    {
+      "partition": 4,
+      "kind": "res_dae",
+      "passed": true
+    }
+  ],
+  "development_selection_recomputed": true,
+  "thresholds_recomputed": true,
+  "metrics_recomputed": true,
+  "development_freeze_verified": true,
+  "previous_files_unchanged": 363,
+  "retained_selected_weights": 15,
+  "visual_review": "passed",
+  "visual_review_time": "2026-11-09T08:35:35.591665+08:00"
+}

@@ -4,3 +4,7 @@ __pycache__/
 venv/
 .idea/
 .vscode/
+runs/
+data/
+*.pt
+*.mat

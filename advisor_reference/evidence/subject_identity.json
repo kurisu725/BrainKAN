@@ -1,0 +1,201 @@
+{
+  "abide": {
+    "n": 882,
+    "split_counts": {
+      "train": 709,
+      "valid": 89,
+      "test": 84
+    },
+    "split_vs_whole_matrix_max_difference": 0.0,
+    "all_phenotype_rows_equal": true,
+    "all_public_diagnoses_match": true,
+    "site_groups": {
+      "0": {
+        "n": 45,
+        "controls": 23,
+        "patients": 22,
+        "official_sites": [
+          "PITT"
+        ]
+      },
+      "1": {
+        "n": 25,
+        "controls": 11,
+        "patients": 14,
+        "official_sites": [
+          "OLIN"
+        ]
+      },
+      "2": {
+        "n": 23,
+        "controls": 11,
+        "patients": 12,
+        "official_sites": [
+          "OHSU"
+        ]
+      },
+      "3": {
+        "n": 33,
+        "controls": 21,
+        "patients": 12,
+        "official_sites": [
+          "SDSU"
+        ]
+      },
+      "4": {
+        "n": 44,
+        "controls": 23,
+        "patients": 21,
+        "official_sites": [
+          "TRINITY"
+        ]
+      },
+      "5": {
+        "n": 113,
+        "controls": 65,
+        "patients": 48,
+        "official_sites": [
+          "UM_1",
+          "UM_2"
+        ]
+      },
+      "6": {
+        "n": 61,
+        "controls": 23,
+        "patients": 38,
+        "official_sites": [
+          "USM"
+        ]
+      },
+      "7": {
+        "n": 48,
+        "controls": 26,
+        "patients": 22,
+        "official_sites": [
+          "YALE"
+        ]
+      },
+      "8": {
+        "n": 5,
+        "controls": 2,
+        "patients": 3,
+        "official_sites": [
+          "CMU"
+        ]
+      },
+      "9": {
+        "n": 59,
+        "controls": 32,
+        "patients": 27,
+        "official_sites": [
+          "LEUVEN_1",
+          "LEUVEN_2"
+        ]
+      },
+      "10": {
+        "n": 39,
+        "controls": 27,
+        "patients": 12,
+        "official_sites": [
+          "KKI"
+        ]
+      },
+      "11": {
+        "n": 171,
+        "controls": 98,
+        "patients": 73,
+        "official_sites": [
+          "NYU"
+        ]
+      },
+      "12": {
+        "n": 36,
+        "controls": 19,
+        "patients": 17,
+        "official_sites": [
+          "STANFORD"
+        ]
+      },
+      "13": {
+        "n": 75,
+        "controls": 39,
+        "patients": 36,
+        "official_sites": [
+          "UCLA_1",
+          "UCLA_2"
+        ]
+      },
+      "14": {
+        "n": 42,
+        "controls": 24,
+        "patients": 18,
+        "official_sites": [
+          "MAX_MUN"
+        ]
+      },
+      "15": {
+        "n": 37,
+        "controls": 18,
+        "patients": 19,
+        "official_sites": [
+          "CALTECH"
+        ]
+      },
+      "16": {
+        "n": 26,
+        "controls": 12,
+        "patients": 14,
+        "official_sites": [
+          "SBL"
+        ]
+      }
+    }
+  },
+  "adhd": {
+    "n": 847,
+    "split_counts": {
+      "train": 679,
+      "valid": 86,
+      "test": 82
+    },
+    "split_vs_whole_matrix_max_difference": 0.0,
+    "all_phenotype_rows_equal": true
+  },
+  "site_roles": {
+    "train": {
+      "n": 598,
+      "official_sites": [
+        "CALTECH",
+        "CMU",
+        "KKI",
+        "LEUVEN_1",
+        "LEUVEN_2",
+        "MAX_MUN",
+        "OHSU",
+        "OLIN",
+        "PITT",
+        "SBL",
+        "SDSU",
+        "STANFORD",
+        "TRINITY",
+        "UCLA_1",
+        "UCLA_2",
+        "USM",
+        "YALE"
+      ]
+    },
+    "valid": {
+      "n": 113,
+      "official_sites": [
+        "UM_1",
+        "UM_2"
+      ]
+    },
+    "test": {
+      "n": 171,
+      "official_sites": [
+        "NYU"
+      ]
+    }
+  }
+}

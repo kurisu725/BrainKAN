@@ -1,0 +1,11 @@
+{
+  "n_verified": 882,
+  "max_abs_difference": 1.5543122344752192e-15,
+  "split_sizes": {
+    "train": 709,
+    "valid": 89,
+    "test": 84
+  },
+  "dparsf_variant": "filt_global/rois_aal",
+  "roi_columns": "first 90"
+}

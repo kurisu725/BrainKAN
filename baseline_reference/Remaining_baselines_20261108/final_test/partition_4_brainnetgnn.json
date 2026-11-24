@@ -1,0 +1,22 @@
+{
+  "partition": 4,
+  "kind": "brainnetgnn",
+  "job_id": "partition_4_brainnetgnn_candidate_0",
+  "metrics": {
+    "ACC": 0.5357142857142857,
+    "P": 0.26785714285714285,
+    "R": 0.5,
+    "F1": 0.3488372093023256,
+    "AUC": 0.4632478632478633,
+    "loss": 0.6955694366687776
+  },
+  "threshold": 0.5,
+  "checkpoint_epoch": 3,
+  "n_test": 84,
+  "n_input_roi": 90,
+  "n_selected_edges": null,
+  "weight_sha256": "fa675c5949b2f809e2d7a561751f39ee808d64ca6d8c5b329f453a86c307668f",
+  "prediction_sha256": "b5ec21916f1d0bd454a366a34a3c9ad434db83e946aab7c3e8381f8b136db25f",
+  "development_frozen_sha256": "828a74c373f46da35123a8d13d02690c3b290067119b9c5ba0cc526eefa9ca68",
+  "completed": "2026-11-09T02:04:10.685947+08:00"
+}

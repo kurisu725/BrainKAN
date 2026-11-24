@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "started": "2026-11-08T12:12:14.032352+08:00",
+  "completed": "2026-11-08T12:12:34.125904+08:00",
+  "final_prediction_records": 15,
+  "heldout_predictions_recomputed": true,
+  "within_partition_disjoint": true,
+  "development_seal_verified": true,
+  "old_files_unchanged": 2815,
+  "old_resumes_removed_per_cleanup_receipt": 165,
+  "unexpected_missing_old_files": 0,
+  "changed_old_files": 0,
+  "retained_final_models": 15
+}

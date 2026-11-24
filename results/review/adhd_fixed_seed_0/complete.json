@@ -1,0 +1,18 @@
+{
+  "fitted_models": [
+    "full",
+    "direct",
+    "minmax",
+    "zscore"
+  ],
+  "files": {
+    "direct.pt": "c97ac43ff29625fd82322dbf3353c34f39b44603ca77f2c81fe24ad367e56347",
+    "direct_history.json": "85cba22c7979facc72bb3c2ff43a4bf9ebddb35d6f617d92fe23f767fdfd1378",
+    "full.pt": "aa930d026816cc10b11dad6fd379baf0357054077fd91d9003a324939958951b",
+    "minmax.pt": "96f4280df48c00d6e7a67b2b5dbab64746c86b161d9625daf5ebad0f7038fa38",
+    "minmax_history.json": "d5b06f9607f43d65cf914e4cc3d26c52a6db7438091f503e2e8ac241325688f3",
+    "selection.json": "d69314a4726a1550ad857ec8b262508ad49e76e65f82841040a3b8d77caca0ed",
+    "zscore.pt": "c957829b3b05dc55d648679e0867297af467d36fb4145bc83cbcf4e75dedc4e4",
+    "zscore_history.json": "b41eaf6204d9ca71d9f179732bcf9cce97355fcd9f63931c922321c47dfbeff9"
+  }
+}

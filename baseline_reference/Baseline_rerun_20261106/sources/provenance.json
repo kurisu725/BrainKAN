@@ -1,0 +1,37 @@
+[
+  {
+    "name": "BrainNetworkTransformer",
+    "url": "https://codeload.github.com/Wayfear/BrainNetworkTransformer/zip/refs/heads/main",
+    "zip_sha256": "ac55ced000f72df2a31db270fa88dca061f29abfef7887bc1e48e99cdf30e936",
+    "git_commit": "8a588aadad0166209269fa114e5df4e42209e207",
+    "files": 76
+  },
+  {
+    "name": "BrainNetGNN",
+    "url": "https://codeload.github.com/UsmanMahmood27/BrainGNN/zip/refs/heads/main",
+    "zip_sha256": "918d46e952eb9d0438110b8c3a15b28fc7bba0f9f6d00778796258b7d7fab6db",
+    "git_commit": "70e92da948b0e23bdda84188985653c61a1bc5f6",
+    "files": 85
+  },
+  {
+    "name": "BrainGNN",
+    "url": "https://codeload.github.com/xxlya/BrainGNN_Pytorch/zip/refs/heads/main",
+    "zip_sha256": "5e2462392325b9a32ad5f5b8067493d4d473278d5116da35b76719c31bb255f8",
+    "git_commit": "1e337e7a13af5e4374343fda81ce11b62c5ce566",
+    "files": 33
+  },
+  {
+    "name": "BrainGB",
+    "url": "https://codeload.github.com/HennyJie/BrainGB/zip/refs/heads/master",
+    "zip_sha256": "56ac3c54e21545f198a8a1b348c2a9d5f55545d2f60d8b0d10243621c84a982b",
+    "git_commit": "f042694d74ad8b4bdc3637942a62be4f15336b6d",
+    "files": 118
+  },
+  {
+    "name": "FBNetGen",
+    "url": "https://codeload.github.com/Wayfear/FBNETGEN/zip/refs/heads/main",
+    "zip_sha256": "d7e5b2127aad765288b8fb62fa0532581fcb1525431346be8e842d8b89beb8be",
+    "git_commit": "3ed6c813920966a40fca9ffca41f90a6384e333c",
+    "files": 35
+  }
+]

@@ -1,0 +1,1042 @@
+[
+  {
+    "job": {
+      "id": "unified_abide_brainnetcnn_s0",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 0,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6547619047619048,
+      "precision": 0.658974358974359,
+      "recall": 0.6596109839816934,
+      "f1": 0.6547129695251594,
+      "auc": 0.7122425629290617,
+      "balanced_accuracy": 0.6596109839816934,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.6086956521739131,
+      "loss": 1.2003674434077296,
+      "n": 84
+    },
+    "prediction_sha256": "700396bf9f076c8a24f8238aae49e1b1283e58f821258cf2718acee2105d9b7a"
+  },
+  {
+    "job": {
+      "id": "unified_abide_kan_s0",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 0,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7142857142857143,
+      "precision": 0.7125,
+      "recall": 0.7139588100686498,
+      "f1": 0.7128205128205127,
+      "auc": 0.7694508009153318,
+      "balanced_accuracy": 0.7139588100686498,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.717391304347826,
+      "loss": 0.7894000090319256,
+      "n": 84
+    },
+    "prediction_sha256": "7e69ffb7546d266ca974d3eae034fab3930be82354bddf4b873671c7fe2e9b55"
+  },
+  {
+    "job": {
+      "id": "unified_abide_mlp_s0",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 0,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7380952380952381,
+      "precision": 0.7363636363636363,
+      "recall": 0.7379862700228832,
+      "f1": 0.7367521367521368,
+      "auc": 0.7614416475972541,
+      "balanced_accuracy": 0.7379862700228832,
+      "sensitivity": 0.7368421052631579,
+      "specificity": 0.7391304347826086,
+      "loss": 0.712830831301865,
+      "n": 84
+    },
+    "prediction_sha256": "ff0bae723304e31c18481a01147ef1f85f08b79d26dda08f56e0a4e0afca0bff"
+  },
+  {
+    "job": {
+      "id": "unified_abide_svm_s0",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 0,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6547619047619048,
+      "precision": 0.6537152580828134,
+      "recall": 0.6550343249427918,
+      "f1": 0.653534347887925,
+      "auc": 0.7445652173913043,
+      "balanced_accuracy": 0.6550343249427918,
+      "sensitivity": 0.6578947368421053,
+      "specificity": 0.6521739130434783,
+      "loss": 0.6019527900486532,
+      "n": 84
+    },
+    "prediction_sha256": "a3fdebfb08b2697865a239fb7c35e60f38c7b3abaca86524c94ae38d4a1646a5"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_brainnetcnn_s0",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 0,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6341463414634146,
+      "precision": 0.6048237476808905,
+      "recall": 0.6141414141414141,
+      "f1": 0.6057692307692308,
+      "auc": 0.696969696969697,
+      "balanced_accuracy": 0.6141414141414141,
+      "sensitivity": 0.5555555555555556,
+      "specificity": 0.6727272727272727,
+      "loss": 0.6676615972786006,
+      "n": 82
+    },
+    "prediction_sha256": "c67e85ce2b3b0bc70f278eb6e1c200495c041b5ee72ecfde883269b540bc5ba2"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_kan_s0",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 0,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7073170731707317,
+      "precision": 0.6639646278555638,
+      "recall": 0.6498316498316499,
+      "f1": 0.6547368421052632,
+      "auc": 0.6801346801346801,
+      "balanced_accuracy": 0.6498316498316499,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.8181818181818182,
+      "loss": 0.7492933976028326,
+      "n": 82
+    },
+    "prediction_sha256": "7c90ecc65f10eeb0423a8d8be2a52c4e0abfddeaeafd5692e807511ebb399b90"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_mlp_s0",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 0,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6707317073170732,
+      "precision": 0.625,
+      "recall": 0.6225589225589225,
+      "f1": 0.623661397246303,
+      "auc": 0.7151515151515152,
+      "balanced_accuracy": 0.6225589225589225,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.7636363636363637,
+      "loss": 0.6134064496740654,
+      "n": 82
+    },
+    "prediction_sha256": "b95c819713819f8083ee0995f717639cb647d6331f1ae5bb353e96e404704243"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_svm_s0",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 0,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7195121951219512,
+      "precision": 0.6787878787878788,
+      "recall": 0.6589225589225589,
+      "f1": 0.6653061224489796,
+      "auc": 0.7003367003367004,
+      "balanced_accuracy": 0.6589225589225589,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.8363636363636363,
+      "loss": 0.587625103747586,
+      "n": 82
+    },
+    "prediction_sha256": "9e95aed5b9a13cd691825b96e384a587baab46293dcc13e41cc213bfd3b91268"
+  },
+  {
+    "job": {
+      "id": "unified_abide_brainnetcnn_s1",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 1,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6693181818181818,
+      "recall": 0.6704805491990846,
+      "f1": 0.6664775950085082,
+      "auc": 0.7128146453089245,
+      "balanced_accuracy": 0.6704805491990846,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.6304347826086957,
+      "loss": 0.7047431317895387,
+      "n": 84
+    },
+    "prediction_sha256": "4a95a32b328e08848846cf433f763c95e96ac2d985e40c2d66f07be905e43eff"
+  },
+  {
+    "job": {
+      "id": "unified_abide_kan_s1",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 1,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7023809523809523,
+      "precision": 0.7,
+      "recall": 0.7008009153318078,
+      "f1": 0.7002997002997002,
+      "auc": 0.7837528604118994,
+      "balanced_accuracy": 0.7008009153318078,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.717391304347826,
+      "loss": 0.8724786785993365,
+      "n": 84
+    },
+    "prediction_sha256": "a942fff3aa5f55ee0bd8e74e9b77cabffe9af90a5e455a17ab3e0e8ffa4387b7"
+  },
+  {
+    "job": {
+      "id": "unified_abide_mlp_s1",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 1,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7261904761904762,
+      "precision": 0.7251843448667046,
+      "recall": 0.727116704805492,
+      "f1": 0.725216896600768,
+      "auc": 0.7688787185354692,
+      "balanced_accuracy": 0.727116704805492,
+      "sensitivity": 0.7368421052631579,
+      "specificity": 0.717391304347826,
+      "loss": 0.7283052562455753,
+      "n": 84
+    },
+    "prediction_sha256": "055a75327af8bc34066d5c4d34bc6a2e7cb3afd53a2686392e41407a7f3a30db"
+  },
+  {
+    "job": {
+      "id": "unified_abide_svm_s1",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 1,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6547619047619048,
+      "precision": 0.6537152580828134,
+      "recall": 0.6550343249427918,
+      "f1": 0.653534347887925,
+      "auc": 0.7445652173913043,
+      "balanced_accuracy": 0.6550343249427918,
+      "sensitivity": 0.6578947368421053,
+      "specificity": 0.6521739130434783,
+      "loss": 0.6016025544053362,
+      "n": 84
+    },
+    "prediction_sha256": "31158a9fc7a92930ffb6d47c0fc6fb23482d38ec0dbcba43f0b38b7f660a752b"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_brainnetcnn_s1",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 1,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7195121951219512,
+      "precision": 0.6838624338624338,
+      "recall": 0.6872053872053872,
+      "f1": 0.6854045037531276,
+      "auc": 0.734006734006734,
+      "balanced_accuracy": 0.6872053872053872,
+      "sensitivity": 0.5925925925925926,
+      "specificity": 0.7818181818181819,
+      "loss": 0.6056776442401014,
+      "n": 82
+    },
+    "prediction_sha256": "762d97919cf2736c1eb1f2532e07b89667706bb84cbfe42560cbc5ef81c24714"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_kan_s1",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 1,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6341463414634146,
+      "precision": 0.5983554712207464,
+      "recall": 0.6047138047138048,
+      "f1": 0.5998698763825634,
+      "auc": 0.6909090909090909,
+      "balanced_accuracy": 0.6047138047138048,
+      "sensitivity": 0.5185185185185185,
+      "specificity": 0.6909090909090909,
+      "loss": 0.6595275689195379,
+      "n": 82
+    },
+    "prediction_sha256": "ef38680c14c607f9b1f34ed6866f7d45ef5c2b8c8d4a67fd556b7102a7cf970c"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_mlp_s1",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 1,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6951219512195121,
+      "precision": 0.6567460317460317,
+      "recall": 0.6595959595959596,
+      "f1": 0.6580483736447039,
+      "auc": 0.6875420875420876,
+      "balanced_accuracy": 0.6595959595959596,
+      "sensitivity": 0.5555555555555556,
+      "specificity": 0.7636363636363637,
+      "loss": 0.6574279310461134,
+      "n": 82
+    },
+    "prediction_sha256": "5ba56fae3aa6357ef596bb9b07cc06eb0134cbe9cbcd3b99c63f8f90e6d212ba"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_svm_s1",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 1,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7073170731707317,
+      "precision": 0.6627634660421545,
+      "recall": 0.6404040404040403,
+      "f1": 0.646551724137931,
+      "auc": 0.7003367003367004,
+      "balanced_accuracy": 0.6404040404040403,
+      "sensitivity": 0.4444444444444444,
+      "specificity": 0.8363636363636363,
+      "loss": 0.5889701741135488,
+      "n": 82
+    },
+    "prediction_sha256": "1cbfe0e7377cbd24c1ab3c9e31dee090ec11c11fa6fca392f583723472fb3937"
+  },
+  {
+    "job": {
+      "id": "unified_abide_brainnetcnn_s2",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 2,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7023809523809523,
+      "precision": 0.7013613159387408,
+      "recall": 0.7030892448512586,
+      "f1": 0.701322713696487,
+      "auc": 0.7808924485125858,
+      "balanced_accuracy": 0.7030892448512586,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.6956521739130435,
+      "loss": 0.9006679807256429,
+      "n": 84
+    },
+    "prediction_sha256": "da8d85cf879ab2e226160d0a9681a8353e08a89eeaf5cdffa5d29e76e66ef1b5"
+  },
+  {
+    "job": {
+      "id": "unified_abide_kan_s2",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 2,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7261904761904762,
+      "precision": 0.7236917768832662,
+      "recall": 0.7225400457665905,
+      "f1": 0.723010752688172,
+      "auc": 0.7631578947368421,
+      "balanced_accuracy": 0.7225400457665905,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.7608695652173914,
+      "loss": 0.9832212595980094,
+      "n": 84
+    },
+    "prediction_sha256": "da6bccc6d9ffb9a53f117389196c51e20443f9e85b6427e63046f80879e01716"
+  },
+  {
+    "job": {
+      "id": "unified_abide_mlp_s2",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 2,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7023809523809523,
+      "precision": 0.7,
+      "recall": 0.7008009153318078,
+      "f1": 0.7002997002997002,
+      "auc": 0.7602974828375286,
+      "balanced_accuracy": 0.7008009153318078,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.717391304347826,
+      "loss": 0.7328979145976545,
+      "n": 84
+    },
+    "prediction_sha256": "5e4e28cc4775e0a7ec6ad14bb2315dbd46de5f04e81310536e20ad7a93b47073"
+  },
+  {
+    "job": {
+      "id": "unified_abide_svm_s2",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 2,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6547619047619048,
+      "precision": 0.6559841179807147,
+      "recall": 0.6573226544622426,
+      "f1": 0.654320987654321,
+      "auc": 0.7442791762013731,
+      "balanced_accuracy": 0.6573226544622426,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.6304347826086957,
+      "loss": 0.6036456298539482,
+      "n": 84
+    },
+    "prediction_sha256": "26b5429788d7878bfe82553ea9f34d9ff196ed10704d6541db54b3fef96735d2"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_brainnetcnn_s2",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 2,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6951219512195121,
+      "precision": 0.665625,
+      "recall": 0.6784511784511784,
+      "f1": 0.6690879741727199,
+      "auc": 0.7063973063973064,
+      "balanced_accuracy": 0.6784511784511784,
+      "sensitivity": 0.6296296296296297,
+      "specificity": 0.7272727272727273,
+      "loss": 0.7235923249199193,
+      "n": 82
+    },
+    "prediction_sha256": "eba10ef2bc2844f4c03fcea017dde961646bb7deee120f6441fba1fe136175c8"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_kan_s2",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 2,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6585365853658537,
+      "precision": 0.608421052631579,
+      "recall": 0.604040404040404,
+      "f1": 0.6057692307692308,
+      "auc": 0.6747474747474747,
+      "balanced_accuracy": 0.604040404040404,
+      "sensitivity": 0.4444444444444444,
+      "specificity": 0.7636363636363637,
+      "loss": 0.789988923200258,
+      "n": 82
+    },
+    "prediction_sha256": "27ad1b1c027b247016bf9c82c794c22d2151b26a6f22fc09e5a15423a7fb9da7"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_mlp_s2",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 2,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6829268292682927,
+      "precision": 0.6454131424853611,
+      "recall": 0.6505050505050505,
+      "f1": 0.6474867724867726,
+      "auc": 0.6936026936026936,
+      "balanced_accuracy": 0.6505050505050505,
+      "sensitivity": 0.5555555555555556,
+      "specificity": 0.7454545454545455,
+      "loss": 0.6741728104312097,
+      "n": 82
+    },
+    "prediction_sha256": "f20715e06f4cd6e4bf794cf5c81e03bb9d91beb73527022774b7a3ba6c1fa06d"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_svm_s2",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 2,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7195121951219512,
+      "precision": 0.6787878787878788,
+      "recall": 0.6589225589225589,
+      "f1": 0.6653061224489796,
+      "auc": 0.7003367003367004,
+      "balanced_accuracy": 0.6589225589225589,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.8363636363636363,
+      "loss": 0.5901798878808524,
+      "n": 82
+    },
+    "prediction_sha256": "959faedf1b5a01599d8928434c711ab631e45d07f5fc5fd375dcea29f5ad6b61"
+  },
+  {
+    "job": {
+      "id": "unified_abide_brainnetcnn_s3",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 3,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6666666666666666,
+      "precision": 0.6693181818181818,
+      "recall": 0.6704805491990846,
+      "f1": 0.6664775950085082,
+      "auc": 0.740274599542334,
+      "balanced_accuracy": 0.6704805491990846,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.6304347826086957,
+      "loss": 1.0030381657107263,
+      "n": 84
+    },
+    "prediction_sha256": "46542761e738c001e934548243d76df778b96dde9e5d442e0a395f7f2e47dadb"
+  },
+  {
+    "job": {
+      "id": "unified_abide_kan_s3",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 3,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6785714285714286,
+      "precision": 0.6775382870107771,
+      "recall": 0.6790617848970252,
+      "f1": 0.6774285307922059,
+      "auc": 0.7677345537757437,
+      "balanced_accuracy": 0.6790617848970252,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.6739130434782609,
+      "loss": 0.8918616509229084,
+      "n": 84
+    },
+    "prediction_sha256": "6513fcae66e67b6e1d877162282958803f6913032419671c15d3bf5d412d4e9e"
+  },
+  {
+    "job": {
+      "id": "unified_abide_mlp_s3",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 3,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7142857142857143,
+      "precision": 0.7116704805491991,
+      "recall": 0.7116704805491991,
+      "f1": 0.7116704805491991,
+      "auc": 0.7568649885583524,
+      "balanced_accuracy": 0.7116704805491991,
+      "sensitivity": 0.6842105263157895,
+      "specificity": 0.7391304347826086,
+      "loss": 0.7990535892289297,
+      "n": 84
+    },
+    "prediction_sha256": "122d2074e3dfde5cbdb9f65b996256910ab6140a1b1213238ee159c064c0a48c"
+  },
+  {
+    "job": {
+      "id": "unified_abide_svm_s3",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 3,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6428571428571429,
+      "precision": 0.6428571428571428,
+      "recall": 0.6441647597254005,
+      "f1": 0.6420454545454546,
+      "auc": 0.7437070938215103,
+      "balanced_accuracy": 0.6441647597254005,
+      "sensitivity": 0.6578947368421053,
+      "specificity": 0.6304347826086957,
+      "loss": 0.6020638995711687,
+      "n": 84
+    },
+    "prediction_sha256": "a73490dc5b8ef27e595656d2d019734fc9a916d096a463cf401fd9e632f56209"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_brainnetcnn_s3",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 3,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6707317073170732,
+      "precision": 0.6521739130434783,
+      "recall": 0.6696969696969697,
+      "f1": 0.652050919377652,
+      "auc": 0.6996632996632997,
+      "balanced_accuracy": 0.6696969696969697,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.6727272727272727,
+      "loss": 0.696061713072112,
+      "n": 82
+    },
+    "prediction_sha256": "619fb81d5a152e3526e7e42085c24534528776322ff87756ac497adc329f4bab"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_kan_s3",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 3,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6951219512195121,
+      "precision": 0.6531593406593407,
+      "recall": 0.6501683501683502,
+      "f1": 0.6515383307836138,
+      "auc": 0.6787878787878788,
+      "balanced_accuracy": 0.6501683501683502,
+      "sensitivity": 0.5185185185185185,
+      "specificity": 0.7818181818181819,
+      "loss": 0.6649456168731536,
+      "n": 82
+    },
+    "prediction_sha256": "af075265baebec74aa2708e07af11a28566335b107763a032838ab2384ccc8b4"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_mlp_s3",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 3,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6829268292682927,
+      "precision": 0.6371929824561404,
+      "recall": 0.6316498316498317,
+      "f1": 0.6339285714285714,
+      "auc": 0.6996632996632997,
+      "balanced_accuracy": 0.6316498316498317,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.7818181818181819,
+      "loss": 0.6583869834168974,
+      "n": 82
+    },
+    "prediction_sha256": "0b089543f116cf848d63f4b2596b721c869c56f773b179e6bfe3d367fabd60e0"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_svm_s3",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 3,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7073170731707317,
+      "precision": 0.6627634660421545,
+      "recall": 0.6404040404040403,
+      "f1": 0.646551724137931,
+      "auc": 0.7003367003367004,
+      "balanced_accuracy": 0.6404040404040403,
+      "sensitivity": 0.4444444444444444,
+      "specificity": 0.8363636363636363,
+      "loss": 0.5878599727355357,
+      "n": 82
+    },
+    "prediction_sha256": "9369abe138fe09eee7ba15fbcb5d3730d5540f5797655fcf7b9652749e2be229"
+  },
+  {
+    "job": {
+      "id": "unified_abide_brainnetcnn_s4",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 4,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6904761904761905,
+      "precision": 0.7013888888888888,
+      "recall": 0.6990846681922197,
+      "f1": 0.690300623936472,
+      "auc": 0.778604118993135,
+      "balanced_accuracy": 0.6990846681922197,
+      "sensitivity": 0.7894736842105263,
+      "specificity": 0.6086956521739131,
+      "loss": 1.3395767804763747,
+      "n": 84
+    },
+    "prediction_sha256": "6d36114bdaff3481576df44b13aa653148bbaec91ae20407608d85fa81b08520"
+  },
+  {
+    "job": {
+      "id": "unified_abide_kan_s4",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 4,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6904761904761905,
+      "precision": 0.6904761904761905,
+      "recall": 0.6922196796338673,
+      "f1": 0.6897727272727273,
+      "auc": 0.7866132723112128,
+      "balanced_accuracy": 0.6922196796338673,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.6739130434782609,
+      "loss": 0.8565997232818283,
+      "n": 84
+    },
+    "prediction_sha256": "f51d9d80d7d279d7da932bc8b3a7c5299697923fc86cbaa35475176f57d17f3a"
+  },
+  {
+    "job": {
+      "id": "unified_abide_mlp_s4",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 4,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7261904761904762,
+      "precision": 0.7239316239316239,
+      "recall": 0.7248283752860412,
+      "f1": 0.7242757242757243,
+      "auc": 0.7568649885583524,
+      "balanced_accuracy": 0.7248283752860412,
+      "sensitivity": 0.7105263157894737,
+      "specificity": 0.7391304347826086,
+      "loss": 0.9515885789652407,
+      "n": 84
+    },
+    "prediction_sha256": "6cf8d7b677b4f5d3d74d46cca58b9b1f5896b67bfd0c22eb0a84364b220007f6"
+  },
+  {
+    "job": {
+      "id": "unified_abide_svm_s4",
+      "phase": "unified",
+      "dataset": "abide",
+      "seed": 4,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6428571428571429,
+      "precision": 0.6428571428571428,
+      "recall": 0.6441647597254005,
+      "f1": 0.6420454545454546,
+      "auc": 0.7442791762013731,
+      "balanced_accuracy": 0.6441647597254005,
+      "sensitivity": 0.6578947368421053,
+      "specificity": 0.6304347826086957,
+      "loss": 0.6023521229247956,
+      "n": 84
+    },
+    "prediction_sha256": "d026843ad8a8d135a716cca5bd9d83933bc497b7cdb57b06dee9c960074707ff"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_brainnetcnn_s4",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 4,
+      "kind": "brainnetcnn",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6585365853658537,
+      "precision": 0.6035372144436256,
+      "recall": 0.5946127946127946,
+      "f1": 0.5971929824561404,
+      "auc": 0.6397306397306397,
+      "balanced_accuracy": 0.5946127946127946,
+      "sensitivity": 0.4074074074074074,
+      "specificity": 0.7818181818181819,
+      "loss": 0.6810933372090942,
+      "n": 82
+    },
+    "prediction_sha256": "3888662184d26a7fd7efd1c76a29f234f864d32b41ba34852a51d8f6cffe75ae"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_kan_s4",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 4,
+      "kind": "kan",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7073170731707317,
+      "precision": 0.6686868686868688,
+      "recall": 0.6686868686868688,
+      "f1": 0.6686868686868688,
+      "auc": 0.7003367003367003,
+      "balanced_accuracy": 0.6686868686868688,
+      "sensitivity": 0.5555555555555556,
+      "specificity": 0.7818181818181819,
+      "loss": 0.6387035700455941,
+      "n": 82
+    },
+    "prediction_sha256": "ef33f30f08eb3bfc23b0053a8c73d3caeda77d5d7b136bf3e2fe4b6d8e7b93ff"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_mlp_s4",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 4,
+      "kind": "mlp",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.6951219512195121,
+      "precision": 0.6709558823529411,
+      "recall": 0.6878787878787879,
+      "f1": 0.6737227439121438,
+      "auc": 0.709090909090909,
+      "balanced_accuracy": 0.6878787878787879,
+      "sensitivity": 0.6666666666666666,
+      "specificity": 0.7090909090909091,
+      "loss": 0.6384191819177905,
+      "n": 82
+    },
+    "prediction_sha256": "c04502f3cdf4a3e4e7c9ae40a8882ce80627be7555ba7071c13a5265326bc643"
+  },
+  {
+    "job": {
+      "id": "unified_adhd_svm_s4",
+      "phase": "unified",
+      "dataset": "adhd",
+      "seed": 4,
+      "kind": "svm",
+      "rois": "full",
+      "changes": {}
+    },
+    "cohort": "test",
+    "n_roi": 90,
+    "metrics": {
+      "accuracy": 0.7195121951219512,
+      "precision": 0.6787878787878788,
+      "recall": 0.6589225589225589,
+      "f1": 0.6653061224489796,
+      "auc": 0.7003367003367004,
+      "balanced_accuracy": 0.6589225589225589,
+      "sensitivity": 0.48148148148148145,
+      "specificity": 0.8363636363636363,
+      "loss": 0.5880546229576407,
+      "n": 82
+    },
+    "prediction_sha256": "1d488e8f7171f67b96cadd8318b915fe3ea32154a8eb2b268ec37ab81c604a88"
+  }
+]

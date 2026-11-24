@@ -1,0 +1,22 @@
+{
+  "partition": 4,
+  "kind": "fbnetgen",
+  "job_id": "partition_4_fbnetgen_candidate_0",
+  "metrics": {
+    "ACC": 0.6428571428571429,
+    "P": 0.6420873511060692,
+    "R": 0.6427350427350428,
+    "F1": 0.6420454545454546,
+    "AUC": 0.7225071225071226,
+    "loss": 0.8450388518117089
+  },
+  "threshold": 0.5,
+  "checkpoint_epoch": 500,
+  "n_test": 84,
+  "n_input_roi": 90,
+  "n_selected_edges": null,
+  "weight_sha256": "b3d5a1745fea10622cc5a7eea8995fdb064a8ecc4410b91193a7083597a65dc9",
+  "prediction_sha256": "dcd4d4e03dfecc9405ca1c9cb5288fccf2ebcc4da0d02eec2401133f899be245",
+  "development_frozen_sha256": "828a74c373f46da35123a8d13d02690c3b290067119b9c5ba0cc526eefa9ca68",
+  "completed": "2026-11-09T02:04:10.226213+08:00"
+}

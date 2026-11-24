@@ -1,0 +1,47 @@
+[
+  {
+    "partition": "abide_fixed",
+    "seed": 1,
+    "model": "direct",
+    "n_test": 84,
+    "n_roi": 89,
+    "epoch": 10,
+    "accuracy": 0.7261904761904762,
+    "precision": 0.7244897959183674,
+    "recall": 0.7202517162471396,
+    "f1": 0.7214131218457102,
+    "auc": 0.780320366132723,
+    "log_loss": 0.7413510620167069,
+    "prediction_sha256": "4016b6124643b8b448be5006cee1a6eed809981d5cb18ee83e0ca0756de5ebb3"
+  },
+  {
+    "partition": "abide_fixed",
+    "seed": 1,
+    "model": "minmax",
+    "n_test": 84,
+    "n_roi": 19,
+    "epoch": 10,
+    "accuracy": 0.5714285714285714,
+    "precision": 0.5798611111111112,
+    "recall": 0.5789473684210527,
+    "f1": 0.5711854792966535,
+    "auc": 0.6138443935926774,
+    "log_loss": 0.6966797563306066,
+    "prediction_sha256": "8f1a9a98347ae267d9b212379a31a7908dbfa9562da343d01c69853dcc030570"
+  },
+  {
+    "partition": "abide_fixed",
+    "seed": 1,
+    "model": "zscore",
+    "n_test": 84,
+    "n_roi": 41,
+    "epoch": 20,
+    "accuracy": 0.6785714285714286,
+    "precision": 0.6798071469086784,
+    "recall": 0.681350114416476,
+    "f1": 0.6781609195402298,
+    "auc": 0.7322654462242564,
+    "log_loss": 0.8539365338319327,
+    "prediction_sha256": "8fc26ee43762e5fdc4bd72afd809d90cc59f7e7975e3c1ec892afa13be178e95"
+  }
+]

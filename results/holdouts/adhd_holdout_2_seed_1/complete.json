@@ -1,0 +1,11 @@
+{
+  "fitted_models": [
+    "minmax"
+  ],
+  "files": {
+    "full_history.json": "b91ade9b7359bebb492506df051b582d539834731690419ea5a3e40545ef407c",
+    "minmax.pt": "39107afb39cfc4d4000c36d1d18685426b80086737abb08b56954506a1428a1c",
+    "minmax_history.json": "99660e48ba3489c00e10d2e492d43b4b9ccae190ca044c8510d188dd178ea20d",
+    "selection.json": "9fae2bf14358f95c2c8c3af6e297803f4c0dab5e93e3e8e470c0239a7c86bd08"
+  }
+}

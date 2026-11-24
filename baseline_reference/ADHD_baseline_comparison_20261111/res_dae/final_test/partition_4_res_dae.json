@@ -1,0 +1,22 @@
+{
+  "partition": 4,
+  "kind": "res_dae",
+  "job_id": "partition_4_res_dae_candidate_0",
+  "metrics": {
+    "ACC": 0.4878048780487805,
+    "P": 0.5120593692022264,
+    "R": 0.5123339658444023,
+    "F1": 0.4875,
+    "AUC": 0.5363693864642631,
+    "loss": 1.2924780203033923
+  },
+  "threshold": 0.1,
+  "checkpoint_epoch": 250,
+  "n_test": 82,
+  "n_input_roi": 90,
+  "n_selected_edges": 2002,
+  "weight_sha256": "607c6ecd2c76bd0368b4acbb1b148e91dd8f1261dd37832ee0e40e3950e5ac17",
+  "prediction_sha256": "ffb3c14fcd5bb5f1c82a619abe8c391103d8907b348e654895f3d68b117c4830",
+  "development_frozen_sha256": "34715ef6de36f06079d01815b81547746dd0a350e5e863956575a074c713bb15",
+  "completed": "2026-11-11T17:57:23.321354+08:00"
+}
