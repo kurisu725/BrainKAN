@@ -1,0 +1,1374 @@
+{
+  "abide": {
+    "direct": {
+      "accuracy": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.67,
+          "base_mean": 50.95,
+          "diff_pp": 20.71,
+          "wins": 5,
+          "t_stat": 6.503,
+          "p_raw": 0.00289,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01731
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.67,
+          "base_mean": 63.81,
+          "diff_pp": 7.86,
+          "wins": 5,
+          "t_stat": 3.973,
+          "p_raw": 0.0165,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.0825
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.67,
+          "base_mean": 69.52,
+          "diff_pp": 2.14,
+          "wins": 4,
+          "t_stat": 0.765,
+          "p_raw": 0.48705,
+          "sign_flip_p": 0.5625,
+          "p_holm": 0.48705
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.67,
+          "base_mean": 65.71,
+          "diff_pp": 5.95,
+          "wins": 4,
+          "t_stat": 2.193,
+          "p_raw": 0.09342,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.25011
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.67,
+          "base_mean": 51.9,
+          "diff_pp": 19.76,
+          "wins": 5,
+          "t_stat": 10.584,
+          "p_raw": 0.00045,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00316
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.67,
+          "base_mean": 67.38,
+          "diff_pp": 4.29,
+          "wins": 4,
+          "t_stat": 2.295,
+          "p_raw": 0.08337,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.25011
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.67,
+          "base_mean": 68.33,
+          "diff_pp": 3.33,
+          "wins": 4,
+          "t_stat": 3.255,
+          "p_raw": 0.03123,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.12492
+        }
+      ],
+      "precision": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.51,
+          "base_mean": 38.04,
+          "diff_pp": 33.47,
+          "wins": 5,
+          "t_stat": 3.655,
+          "p_raw": 0.02168,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.10842
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.51,
+          "base_mean": 64.15,
+          "diff_pp": 7.36,
+          "wins": 5,
+          "t_stat": 4.351,
+          "p_raw": 0.01215,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.0729
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.51,
+          "base_mean": 69.68,
+          "diff_pp": 1.83,
+          "wins": 4,
+          "t_stat": 0.657,
+          "p_raw": 0.5468,
+          "sign_flip_p": 0.5625,
+          "p_holm": 0.5468
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.51,
+          "base_mean": 65.43,
+          "diff_pp": 6.08,
+          "wins": 4,
+          "t_stat": 2.199,
+          "p_raw": 0.09278,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.26476
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.51,
+          "base_mean": 40.2,
+          "diff_pp": 31.31,
+          "wins": 5,
+          "t_stat": 6.242,
+          "p_raw": 0.00336,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02349
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.51,
+          "base_mean": 67.46,
+          "diff_pp": 4.05,
+          "wins": 4,
+          "t_stat": 2.244,
+          "p_raw": 0.08825,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.26476
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.51,
+          "base_mean": 68.22,
+          "diff_pp": 3.29,
+          "wins": 5,
+          "t_stat": 3.304,
+          "p_raw": 0.02983,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.1193
+        }
+      ],
+      "recall": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.43,
+          "base_mean": 53.75,
+          "diff_pp": 17.68,
+          "wins": 5,
+          "t_stat": 8.244,
+          "p_raw": 0.00118,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00709
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.43,
+          "base_mean": 64.03,
+          "diff_pp": 7.4,
+          "wins": 5,
+          "t_stat": 4.059,
+          "p_raw": 0.01536,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.06244
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.43,
+          "base_mean": 69.79,
+          "diff_pp": 1.64,
+          "wins": 4,
+          "t_stat": 0.591,
+          "p_raw": 0.58612,
+          "sign_flip_p": 0.625,
+          "p_holm": 0.58612
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.43,
+          "base_mean": 65.26,
+          "diff_pp": 6.17,
+          "wins": 4,
+          "t_stat": 2.338,
+          "p_raw": 0.07959,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.23876
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.43,
+          "base_mean": 49.22,
+          "diff_pp": 22.21,
+          "wins": 5,
+          "t_stat": 23.177,
+          "p_raw": 2e-05,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00014
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.43,
+          "base_mean": 67.56,
+          "diff_pp": 3.87,
+          "wins": 4,
+          "t_stat": 2.186,
+          "p_raw": 0.09408,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.23876
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.43,
+          "base_mean": 67.97,
+          "diff_pp": 3.46,
+          "wins": 5,
+          "t_stat": 4.316,
+          "p_raw": 0.01249,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.06244
+        }
+      ],
+      "f1": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.39,
+          "base_mean": 41.58,
+          "diff_pp": 29.81,
+          "wins": 5,
+          "t_stat": 4.948,
+          "p_raw": 0.00777,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.04662
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.39,
+          "base_mean": 63.6,
+          "diff_pp": 7.79,
+          "wins": 5,
+          "t_stat": 3.893,
+          "p_raw": 0.01764,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.08303
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.39,
+          "base_mean": 69.46,
+          "diff_pp": 1.93,
+          "wins": 4,
+          "t_stat": 0.695,
+          "p_raw": 0.52547,
+          "sign_flip_p": 0.5625,
+          "p_holm": 0.52547
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.39,
+          "base_mean": 65.28,
+          "diff_pp": 6.11,
+          "wins": 4,
+          "t_stat": 2.282,
+          "p_raw": 0.08465,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.25394
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.39,
+          "base_mean": 41.93,
+          "diff_pp": 29.47,
+          "wins": 5,
+          "t_stat": 12.627,
+          "p_raw": 0.00023,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00159
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.39,
+          "base_mean": 67.29,
+          "diff_pp": 4.1,
+          "wins": 4,
+          "t_stat": 2.249,
+          "p_raw": 0.08775,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.25394
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.39,
+          "base_mean": 67.92,
+          "diff_pp": 3.47,
+          "wins": 5,
+          "t_stat": 3.965,
+          "p_raw": 0.01661,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.08303
+        }
+      ],
+      "auc": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 78.01,
+          "base_mean": 64.12,
+          "diff_pp": 13.88,
+          "wins": 5,
+          "t_stat": 7.534,
+          "p_raw": 0.00166,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00997
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 78.01,
+          "base_mean": 70.74,
+          "diff_pp": 7.27,
+          "wins": 5,
+          "t_stat": 5.9,
+          "p_raw": 0.00413,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02064
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 78.01,
+          "base_mean": 74.66,
+          "diff_pp": 3.35,
+          "wins": 5,
+          "t_stat": 2.721,
+          "p_raw": 0.05292,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.10585
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 78.01,
+          "base_mean": 72.7,
+          "diff_pp": 5.31,
+          "wins": 4,
+          "t_stat": 2.204,
+          "p_raw": 0.09227,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.10585
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 78.01,
+          "base_mean": 48.48,
+          "diff_pp": 29.53,
+          "wins": 5,
+          "t_stat": 8.293,
+          "p_raw": 0.00115,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00808
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 78.01,
+          "base_mean": 75.64,
+          "diff_pp": 2.37,
+          "wins": 5,
+          "t_stat": 4.233,
+          "p_raw": 0.01334,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.04002
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 78.01,
+          "base_mean": 73.41,
+          "diff_pp": 4.6,
+          "wins": 5,
+          "t_stat": 5.739,
+          "p_raw": 0.00457,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02064
+        }
+      ]
+    },
+    "zscore": {
+      "accuracy": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.19,
+          "base_mean": 50.95,
+          "diff_pp": 20.24,
+          "wins": 5,
+          "t_stat": 5.271,
+          "p_raw": 0.00621,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.03724
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.19,
+          "base_mean": 63.81,
+          "diff_pp": 7.38,
+          "wins": 5,
+          "t_stat": 4.841,
+          "p_raw": 0.00839,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.04196
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.19,
+          "base_mean": 69.52,
+          "diff_pp": 1.67,
+          "wins": 3,
+          "t_stat": 0.588,
+          "p_raw": 0.58784,
+          "sign_flip_p": 0.75,
+          "p_holm": 0.58784
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.19,
+          "base_mean": 65.71,
+          "diff_pp": 5.48,
+          "wins": 4,
+          "t_stat": 1.756,
+          "p_raw": 0.15388,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.30776
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.19,
+          "base_mean": 51.9,
+          "diff_pp": 19.29,
+          "wins": 5,
+          "t_stat": 8.161,
+          "p_raw": 0.00123,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00859
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.19,
+          "base_mean": 67.38,
+          "diff_pp": 3.81,
+          "wins": 4,
+          "t_stat": 2.874,
+          "p_raw": 0.0453,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.16718
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.19,
+          "base_mean": 68.33,
+          "diff_pp": 2.86,
+          "wins": 4,
+          "t_stat": 2.954,
+          "p_raw": 0.04179,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.16718
+        }
+      ],
+      "precision": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.15,
+          "base_mean": 38.04,
+          "diff_pp": 33.11,
+          "wins": 5,
+          "t_stat": 3.367,
+          "p_raw": 0.02813,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.14063
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.15,
+          "base_mean": 64.15,
+          "diff_pp": 7.0,
+          "wins": 5,
+          "t_stat": 5.554,
+          "p_raw": 0.00514,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.03086
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.15,
+          "base_mean": 69.68,
+          "diff_pp": 1.47,
+          "wins": 3,
+          "t_stat": 0.541,
+          "p_raw": 0.61742,
+          "sign_flip_p": 0.625,
+          "p_holm": 0.61742
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.15,
+          "base_mean": 65.43,
+          "diff_pp": 5.72,
+          "wins": 4,
+          "t_stat": 1.86,
+          "p_raw": 0.13645,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.27291
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.15,
+          "base_mean": 40.2,
+          "diff_pp": 30.95,
+          "wins": 5,
+          "t_stat": 5.898,
+          "p_raw": 0.00413,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02893
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.15,
+          "base_mean": 67.46,
+          "diff_pp": 3.69,
+          "wins": 4,
+          "t_stat": 3.231,
+          "p_raw": 0.03195,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.14063
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.15,
+          "base_mean": 68.22,
+          "diff_pp": 2.93,
+          "wins": 5,
+          "t_stat": 3.329,
+          "p_raw": 0.02913,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.14063
+        }
+      ],
+      "recall": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.22,
+          "base_mean": 53.75,
+          "diff_pp": 17.47,
+          "wins": 5,
+          "t_stat": 5.749,
+          "p_raw": 0.00454,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02723
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.22,
+          "base_mean": 64.03,
+          "diff_pp": 7.2,
+          "wins": 5,
+          "t_stat": 5.694,
+          "p_raw": 0.0047,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02723
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.22,
+          "base_mean": 69.79,
+          "diff_pp": 1.43,
+          "wins": 3,
+          "t_stat": 0.522,
+          "p_raw": 0.62952,
+          "sign_flip_p": 0.6875,
+          "p_holm": 0.62952
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.22,
+          "base_mean": 65.26,
+          "diff_pp": 5.96,
+          "wins": 4,
+          "t_stat": 1.981,
+          "p_raw": 0.11868,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.23735
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.22,
+          "base_mean": 49.22,
+          "diff_pp": 22.0,
+          "wins": 5,
+          "t_stat": 14.307,
+          "p_raw": 0.00014,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00097
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.22,
+          "base_mean": 67.56,
+          "diff_pp": 3.66,
+          "wins": 4,
+          "t_stat": 3.113,
+          "p_raw": 0.03576,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.10728
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.22,
+          "base_mean": 67.97,
+          "diff_pp": 3.25,
+          "wins": 5,
+          "t_stat": 3.95,
+          "p_raw": 0.01681,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.06725
+        }
+      ],
+      "f1": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 71.04,
+          "base_mean": 41.58,
+          "diff_pp": 29.46,
+          "wins": 5,
+          "t_stat": 4.374,
+          "p_raw": 0.01193,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.05966
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 71.04,
+          "base_mean": 63.6,
+          "diff_pp": 7.44,
+          "wins": 5,
+          "t_stat": 5.059,
+          "p_raw": 0.00719,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.04312
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 71.04,
+          "base_mean": 69.46,
+          "diff_pp": 1.58,
+          "wins": 3,
+          "t_stat": 0.564,
+          "p_raw": 0.60305,
+          "sign_flip_p": 0.6875,
+          "p_holm": 0.60305
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 71.04,
+          "base_mean": 65.28,
+          "diff_pp": 5.76,
+          "wins": 4,
+          "t_stat": 1.859,
+          "p_raw": 0.13663,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.27326
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 71.04,
+          "base_mean": 41.93,
+          "diff_pp": 29.12,
+          "wins": 5,
+          "t_stat": 11.242,
+          "p_raw": 0.00036,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.0025
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 71.04,
+          "base_mean": 67.29,
+          "diff_pp": 3.75,
+          "wins": 4,
+          "t_stat": 2.91,
+          "p_raw": 0.04369,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.13107
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 71.04,
+          "base_mean": 67.92,
+          "diff_pp": 3.12,
+          "wins": 5,
+          "t_stat": 3.498,
+          "p_raw": 0.02495,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.0998
+        }
+      ],
+      "auc": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 78.55,
+          "base_mean": 64.12,
+          "diff_pp": 14.42,
+          "wins": 5,
+          "t_stat": 6.736,
+          "p_raw": 0.00253,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01518
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 78.55,
+          "base_mean": 70.74,
+          "diff_pp": 7.8,
+          "wins": 5,
+          "t_stat": 4.26,
+          "p_raw": 0.01306,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.05223
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 78.55,
+          "base_mean": 74.66,
+          "diff_pp": 3.89,
+          "wins": 4,
+          "t_stat": 2.191,
+          "p_raw": 0.09357,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.18714
+        },
+        {
+          "baseline": "fbnetgen",
+          "ref_mean": 78.55,
+          "base_mean": 72.7,
+          "diff_pp": 5.85,
+          "wins": 4,
+          "t_stat": 2.021,
+          "p_raw": 0.11339,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.18714
+        },
+        {
+          "baseline": "brainnetgnn",
+          "ref_mean": 78.55,
+          "base_mean": 48.48,
+          "diff_pp": 30.07,
+          "wins": 5,
+          "t_stat": 7.729,
+          "p_raw": 0.00151,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01056
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 78.55,
+          "base_mean": 75.64,
+          "diff_pp": 2.91,
+          "wins": 5,
+          "t_stat": 3.712,
+          "p_raw": 0.02061,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.06183
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 78.55,
+          "base_mean": 73.41,
+          "diff_pp": 5.14,
+          "wins": 5,
+          "t_stat": 4.746,
+          "p_raw": 0.00899,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.04497
+        }
+      ]
+    }
+  },
+  "adhd": {
+    "direct": {
+      "accuracy": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 69.27,
+          "base_mean": 59.76,
+          "diff_pp": 9.51,
+          "wins": 4,
+          "t_stat": 1.792,
+          "p_raw": 0.14756,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.50997
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 69.27,
+          "base_mean": 66.1,
+          "diff_pp": 3.17,
+          "wins": 3,
+          "t_stat": 1.007,
+          "p_raw": 0.3707,
+          "sign_flip_p": 0.5,
+          "p_holm": 0.7414
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 69.27,
+          "base_mean": 68.54,
+          "diff_pp": 0.73,
+          "wins": 3,
+          "t_stat": 0.22,
+          "p_raw": 0.83688,
+          "sign_flip_p": 0.9375,
+          "p_holm": 0.83688
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 69.27,
+          "base_mean": 63.9,
+          "diff_pp": 5.37,
+          "wins": 4,
+          "t_stat": 1.918,
+          "p_raw": 0.12749,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.50997
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 69.27,
+          "base_mean": 55.61,
+          "diff_pp": 13.66,
+          "wins": 5,
+          "t_stat": 4.448,
+          "p_raw": 0.01126,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.05632
+        }
+      ],
+      "precision": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 66.53,
+          "base_mean": 59.83,
+          "diff_pp": 6.69,
+          "wins": 5,
+          "t_stat": 3.111,
+          "p_raw": 0.03582,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.14329
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 66.53,
+          "base_mean": 62.61,
+          "diff_pp": 3.91,
+          "wins": 4,
+          "t_stat": 1.251,
+          "p_raw": 0.27898,
+          "sign_flip_p": 0.3125,
+          "p_holm": 0.55795
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 66.53,
+          "base_mean": 65.85,
+          "diff_pp": 0.68,
+          "wins": 3,
+          "t_stat": 0.239,
+          "p_raw": 0.82298,
+          "sign_flip_p": 0.9375,
+          "p_holm": 0.82298
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 66.53,
+          "base_mean": 62.41,
+          "diff_pp": 4.12,
+          "wins": 4,
+          "t_stat": 1.893,
+          "p_raw": 0.13131,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.39394
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 66.53,
+          "base_mean": 52.72,
+          "diff_pp": 13.81,
+          "wins": 5,
+          "t_stat": 7.651,
+          "p_raw": 0.00157,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00784
+        }
+      ],
+      "recall": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 66.53,
+          "base_mean": 59.63,
+          "diff_pp": 6.9,
+          "wins": 5,
+          "t_stat": 3.111,
+          "p_raw": 0.03584,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.14337
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 66.53,
+          "base_mean": 63.04,
+          "diff_pp": 3.49,
+          "wins": 3,
+          "t_stat": 1.012,
+          "p_raw": 0.36882,
+          "sign_flip_p": 0.3125,
+          "p_holm": 0.73764
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 66.53,
+          "base_mean": 66.74,
+          "diff_pp": -0.21,
+          "wins": 2,
+          "t_stat": -0.097,
+          "p_raw": 0.92705,
+          "sign_flip_p": 0.9375,
+          "p_holm": 0.92705
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 66.53,
+          "base_mean": 63.85,
+          "diff_pp": 2.68,
+          "wins": 4,
+          "t_stat": 1.779,
+          "p_raw": 0.14983,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.44949
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 66.53,
+          "base_mean": 52.39,
+          "diff_pp": 14.14,
+          "wins": 5,
+          "t_stat": 6.176,
+          "p_raw": 0.00349,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01745
+        }
+      ],
+      "f1": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 65.9,
+          "base_mean": 55.93,
+          "diff_pp": 9.96,
+          "wins": 5,
+          "t_stat": 1.943,
+          "p_raw": 0.12389,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.49555
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 65.9,
+          "base_mean": 62.55,
+          "diff_pp": 3.35,
+          "wins": 3,
+          "t_stat": 0.98,
+          "p_raw": 0.38263,
+          "sign_flip_p": 0.375,
+          "p_holm": 0.76527
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 65.9,
+          "base_mean": 65.86,
+          "diff_pp": 0.04,
+          "wins": 3,
+          "t_stat": 0.016,
+          "p_raw": 0.98837,
+          "sign_flip_p": 1.0,
+          "p_holm": 0.98837
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 65.9,
+          "base_mean": 62.07,
+          "diff_pp": 3.82,
+          "wins": 4,
+          "t_stat": 1.88,
+          "p_raw": 0.13328,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.49555
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 65.9,
+          "base_mean": 51.37,
+          "diff_pp": 14.53,
+          "wins": 5,
+          "t_stat": 5.958,
+          "p_raw": 0.00398,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01991
+        }
+      ],
+      "auc": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 69.24,
+          "base_mean": 64.58,
+          "diff_pp": 4.66,
+          "wins": 5,
+          "t_stat": 1.285,
+          "p_raw": 0.26827,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.80481
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 69.24,
+          "base_mean": 69.55,
+          "diff_pp": -0.31,
+          "wins": 3,
+          "t_stat": -0.109,
+          "p_raw": 0.91862,
+          "sign_flip_p": 1.0,
+          "p_holm": 0.91862
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 69.24,
+          "base_mean": 71.03,
+          "diff_pp": -1.79,
+          "wins": 1,
+          "t_stat": -1.057,
+          "p_raw": 0.35007,
+          "sign_flip_p": 0.375,
+          "p_holm": 0.80481
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 69.24,
+          "base_mean": 71.27,
+          "diff_pp": -2.03,
+          "wins": 0,
+          "t_stat": -5.352,
+          "p_raw": 0.00588,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.02351
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 69.24,
+          "base_mean": 54.21,
+          "diff_pp": 15.03,
+          "wins": 5,
+          "t_stat": 7.336,
+          "p_raw": 0.00184,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00919
+        }
+      ]
+    },
+    "zscore": {
+      "accuracy": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 69.27,
+          "base_mean": 59.76,
+          "diff_pp": 9.51,
+          "wins": 4,
+          "t_stat": 1.966,
+          "p_raw": 0.12072,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.48286
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 69.27,
+          "base_mean": 66.1,
+          "diff_pp": 3.17,
+          "wins": 3,
+          "t_stat": 1.359,
+          "p_raw": 0.24571,
+          "sign_flip_p": 0.375,
+          "p_holm": 0.49142
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 69.27,
+          "base_mean": 68.54,
+          "diff_pp": 0.73,
+          "wins": 3,
+          "t_stat": 0.259,
+          "p_raw": 0.8083,
+          "sign_flip_p": 0.9375,
+          "p_holm": 0.8083
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 69.27,
+          "base_mean": 63.9,
+          "diff_pp": 5.37,
+          "wins": 4,
+          "t_stat": 1.849,
+          "p_raw": 0.13808,
+          "sign_flip_p": 0.25,
+          "p_holm": 0.48286
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 69.27,
+          "base_mean": 55.61,
+          "diff_pp": 13.66,
+          "wins": 5,
+          "t_stat": 4.989,
+          "p_raw": 0.00755,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.03775
+        }
+      ],
+      "precision": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 65.85,
+          "base_mean": 59.83,
+          "diff_pp": 6.02,
+          "wins": 4,
+          "t_stat": 3.074,
+          "p_raw": 0.03714,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.14855
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 65.85,
+          "base_mean": 62.61,
+          "diff_pp": 3.23,
+          "wins": 4,
+          "t_stat": 1.324,
+          "p_raw": 0.25605,
+          "sign_flip_p": 0.3125,
+          "p_holm": 0.76816
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 65.85,
+          "base_mean": 65.85,
+          "diff_pp": -0.0,
+          "wins": 3,
+          "t_stat": -0.0,
+          "p_raw": 0.99982,
+          "sign_flip_p": 1.0,
+          "p_holm": 0.99982
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 65.85,
+          "base_mean": 62.41,
+          "diff_pp": 3.44,
+          "wins": 4,
+          "t_stat": 1.278,
+          "p_raw": 0.27051,
+          "sign_flip_p": 0.25,
+          "p_holm": 0.76816
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 65.85,
+          "base_mean": 52.72,
+          "diff_pp": 13.13,
+          "wins": 5,
+          "t_stat": 8.942,
+          "p_raw": 0.00087,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00433
+        }
+      ],
+      "recall": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 65.59,
+          "base_mean": 59.63,
+          "diff_pp": 5.96,
+          "wins": 5,
+          "t_stat": 3.277,
+          "p_raw": 0.03058,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.12233
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 65.59,
+          "base_mean": 63.04,
+          "diff_pp": 2.55,
+          "wins": 2,
+          "t_stat": 0.918,
+          "p_raw": 0.41038,
+          "sign_flip_p": 0.5,
+          "p_holm": 1.0
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 65.59,
+          "base_mean": 66.74,
+          "diff_pp": -1.15,
+          "wins": 2,
+          "t_stat": -0.637,
+          "p_raw": 0.55895,
+          "sign_flip_p": 0.625,
+          "p_holm": 1.0
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 65.59,
+          "base_mean": 63.85,
+          "diff_pp": 1.74,
+          "wins": 4,
+          "t_stat": 0.723,
+          "p_raw": 0.50968,
+          "sign_flip_p": 0.5,
+          "p_holm": 1.0
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 65.59,
+          "base_mean": 52.39,
+          "diff_pp": 13.2,
+          "wins": 5,
+          "t_stat": 6.866,
+          "p_raw": 0.00236,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01178
+        }
+      ],
+      "f1": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 65.34,
+          "base_mean": 55.93,
+          "diff_pp": 9.41,
+          "wins": 5,
+          "t_stat": 2.158,
+          "p_raw": 0.09708,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.38832
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 65.34,
+          "base_mean": 62.55,
+          "diff_pp": 2.79,
+          "wins": 3,
+          "t_stat": 1.035,
+          "p_raw": 0.35927,
+          "sign_flip_p": 0.4375,
+          "p_holm": 0.82708
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 65.34,
+          "base_mean": 65.86,
+          "diff_pp": -0.51,
+          "wins": 3,
+          "t_stat": -0.235,
+          "p_raw": 0.82568,
+          "sign_flip_p": 0.8125,
+          "p_holm": 0.82708
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 65.34,
+          "base_mean": 62.07,
+          "diff_pp": 3.27,
+          "wins": 4,
+          "t_stat": 1.261,
+          "p_raw": 0.27569,
+          "sign_flip_p": 0.3125,
+          "p_holm": 0.82708
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 65.34,
+          "base_mean": 51.37,
+          "diff_pp": 13.97,
+          "wins": 5,
+          "t_stat": 6.557,
+          "p_raw": 0.0028,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.01399
+        }
+      ],
+      "auc": [
+        {
+          "baseline": "braingnn",
+          "ref_mean": 68.65,
+          "base_mean": 64.58,
+          "diff_pp": 4.07,
+          "wins": 4,
+          "t_stat": 1.211,
+          "p_raw": 0.2926,
+          "sign_flip_p": 0.125,
+          "p_holm": 0.58521
+        },
+        {
+          "baseline": "braingb",
+          "ref_mean": 68.65,
+          "base_mean": 69.55,
+          "diff_pp": -0.9,
+          "wins": 3,
+          "t_stat": -0.366,
+          "p_raw": 0.73307,
+          "sign_flip_p": 0.625,
+          "p_holm": 0.73307
+        },
+        {
+          "baseline": "brainnetcnn",
+          "ref_mean": 68.65,
+          "base_mean": 71.03,
+          "diff_pp": -2.38,
+          "wins": 1,
+          "t_stat": -1.641,
+          "p_raw": 0.17618,
+          "sign_flip_p": 0.1875,
+          "p_holm": 0.52853
+        },
+        {
+          "baseline": "brainnettf",
+          "ref_mean": 68.65,
+          "base_mean": 71.27,
+          "diff_pp": -2.63,
+          "wins": 0,
+          "t_stat": -4.402,
+          "p_raw": 0.01167,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.0467
+        },
+        {
+          "baseline": "res_dae",
+          "ref_mean": 68.65,
+          "base_mean": 54.21,
+          "diff_pp": 14.44,
+          "wins": 5,
+          "t_stat": 7.533,
+          "p_raw": 0.00166,
+          "sign_flip_p": 0.0625,
+          "p_holm": 0.00832
+        }
+      ]
+    }
+  }
+}

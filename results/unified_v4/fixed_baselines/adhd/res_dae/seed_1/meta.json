@@ -1,0 +1,35 @@
+{
+  "dataset": "adhd",
+  "model": "res_dae",
+  "seed": 1,
+  "protocol": "official_4cand_dev_auc_youden",
+  "config": {
+    "n_input": 2002,
+    "hidden": 256,
+    "latent": 128,
+    "dropout": 0.5,
+    "lr": 0.001,
+    "epochs": 250,
+    "joint_epochs": 200,
+    "batch_size": 100,
+    "weight_decay": 0.0001
+  },
+  "threshold": 0.9,
+  "seconds": 48.2,
+  "dev_metrics": {
+    "accuracy": 0.5581395348837209,
+    "precision": 0.5092329545454546,
+    "recall": 0.5073529411764706,
+    "f1": 0.49692118226600984,
+    "auc": 0.4886877828054299,
+    "log_loss": 2.5453301021519854
+  },
+  "metrics": {
+    "accuracy": 0.6707317073170732,
+    "precision": 0.6129032258064516,
+    "recall": 0.5942760942760943,
+    "f1": 0.5973813420621932,
+    "auc": 0.6074074074074074,
+    "log_loss": 1.6999511186806104
+  }
+}

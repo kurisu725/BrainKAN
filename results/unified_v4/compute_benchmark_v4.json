@@ -1,0 +1,169 @@
+{
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.2.1",
+    "cuda": "12.1",
+    "cpu_threads": 4,
+    "batch_size": 96,
+    "n_train": 709,
+    "epochs": 50
+  },
+  "benchmarks": [
+    {
+      "model": "KAN (Full, 90 ROIs)",
+      "params": 21171520,
+      "params_M": 21.172,
+      "flops_per_sample": 39071488,
+      "mflops_per_sample": 39.07,
+      "cpu_mem_mb": 80.77,
+      "gpu_peak_mb": 469.48,
+      "train_50ep_sec": 9.64,
+      "gpu_infer_ms_per_sample": 0.0942,
+      "cpu_infer_ms_per_sample": 1.4618
+    },
+    {
+      "model": "BrainKAN Mode 1 (Direct, 89 ROIs)",
+      "params": 20713280,
+      "params_M": 20.713,
+      "flops_per_sample": 38226608,
+      "mflops_per_sample": 38.23,
+      "cpu_mem_mb": 79.02,
+      "gpu_peak_mb": 456.18,
+      "train_50ep_sec": 8.73,
+      "gpu_infer_ms_per_sample": 0.0916,
+      "cpu_infer_ms_per_sample": 2.4779
+    },
+    {
+      "model": "BrainKAN Mode 2 (Min-max, 88 ROIs, ABIDE)",
+      "params": 20260160,
+      "params_M": 20.26,
+      "flops_per_sample": 37391168,
+      "mflops_per_sample": 37.39,
+      "cpu_mem_mb": 77.29,
+      "gpu_peak_mb": 445.9,
+      "train_50ep_sec": 9.91,
+      "gpu_infer_ms_per_sample": 0.0889,
+      "cpu_infer_ms_per_sample": 2.3429
+    },
+    {
+      "model": "BrainKAN Mode 3 (Z-score, 84 ROIs)",
+      "params": 18498880,
+      "params_M": 18.499,
+      "flops_per_sample": 34143808,
+      "mflops_per_sample": 34.14,
+      "cpu_mem_mb": 70.57,
+      "gpu_peak_mb": 413.91,
+      "train_50ep_sec": 8.83,
+      "gpu_infer_ms_per_sample": 0.0808,
+      "cpu_infer_ms_per_sample": 2.1502
+    },
+    {
+      "model": "BrainKAN Mode 2 (Min-max, 67 ROIs, ADHD-200)",
+      "params": 11927360,
+      "params_M": 11.927,
+      "flops_per_sample": 22027568,
+      "mflops_per_sample": 22.03,
+      "cpu_mem_mb": 45.5,
+      "gpu_peak_mb": 274.45,
+      "train_50ep_sec": 8.18,
+      "gpu_infer_ms_per_sample": 0.1188,
+      "cpu_infer_ms_per_sample": 1.5965
+    },
+    {
+      "model": "BrainKAN Compact Ref. (Z<0, 40 ROIs)",
+      "params": 4531520,
+      "params_M": 4.532,
+      "flops_per_sample": 8391488,
+      "mflops_per_sample": 8.39,
+      "cpu_mem_mb": 17.29,
+      "gpu_peak_mb": 110.98,
+      "train_50ep_sec": 6.62,
+      "gpu_infer_ms_per_sample": 0.0654,
+      "cpu_infer_ms_per_sample": 0.8299
+    },
+    {
+      "model": "BrainNetCNN (90x90)",
+      "params": 440477,
+      "params_M": 0.44,
+      "flops_per_sample": 69325816,
+      "mflops_per_sample": 69.33,
+      "cpu_mem_mb": 1.68,
+      "gpu_peak_mb": 1383.08,
+      "train_50ep_sec": 50.83,
+      "gpu_infer_ms_per_sample": 0.1797,
+      "cpu_infer_ms_per_sample": 3.5493
+    },
+    {
+      "model": "BrainNetTF (90x90)",
+      "params": 1066130,
+      "params_M": 1.066,
+      "flops_per_sample": 53436080,
+      "mflops_per_sample": 53.44,
+      "cpu_mem_mb": 4.08,
+      "gpu_peak_mb": 316.92,
+      "train_50ep_sec": 5.21,
+      "gpu_infer_ms_per_sample": 0.0393,
+      "cpu_infer_ms_per_sample": 1.2429
+    },
+    {
+      "model": "BrainGB (90x90)",
+      "params": 1029026,
+      "params_M": 1.029,
+      "flops_per_sample": 8455305733,
+      "mflops_per_sample": 8455.31,
+      "cpu_mem_mb": 3.93,
+      "gpu_peak_mb": 1312.33,
+      "train_50ep_sec": 181.21,
+      "gpu_infer_ms_per_sample": 2.0987,
+      "cpu_infer_ms_per_sample": 64.1166
+    },
+    {
+      "model": "BrainGNN (90x90)",
+      "params": 59842,
+      "params_M": 0.06,
+      "flops_per_sample": 5771572,
+      "mflops_per_sample": 5.77,
+      "cpu_mem_mb": 0.23,
+      "gpu_peak_mb": 345.91,
+      "train_50ep_sec": 13.76,
+      "gpu_infer_ms_per_sample": 0.2252,
+      "cpu_infer_ms_per_sample": 2.001
+    },
+    {
+      "model": "FBNetGen (90 ROIs, T=100)",
+      "params": 225684,
+      "params_M": 0.226,
+      "flops_per_sample": 10988862,
+      "mflops_per_sample": 10.99,
+      "cpu_mem_mb": 0.86,
+      "gpu_peak_mb": 330.32,
+      "train_50ep_sec": 10.97,
+      "gpu_infer_ms_per_sample": 0.1044,
+      "cpu_infer_ms_per_sample": 5.6444
+    },
+    {
+      "model": "BrainNetGNN (90 ROIs, T=100)",
+      "params": 7650047,
+      "params_M": 7.65,
+      "flops_per_sample": 22826963,
+      "mflops_per_sample": 22.83,
+      "cpu_mem_mb": 29.19,
+      "gpu_peak_mb": 795.4,
+      "train_50ep_sec": 150.27,
+      "gpu_infer_ms_per_sample": 1.3229,
+      "cpu_infer_ms_per_sample": 6.8464
+    },
+    {
+      "model": "Res-DAE (90x90 triu=4005)",
+      "params": 5268939,
+      "params_M": 5.269,
+      "flops_per_sample": 5257856,
+      "mflops_per_sample": 5.26,
+      "cpu_mem_mb": 20.1,
+      "gpu_peak_mb": 81.11,
+      "train_50ep_sec": 1.55,
+      "gpu_infer_ms_per_sample": 0.0046,
+      "cpu_infer_ms_per_sample": 0.0654
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "abide",
+  "model": "braingnn",
+  "seed": 3,
+  "protocol": "official_last_epoch",
+  "config": {
+    "epochs": 100,
+    "batch_size": 100,
+    "lr": 0.01,
+    "weight_decay": 0.005,
+    "drop_last": false
+  },
+  "seconds": 29.3,
+  "dev_metrics": {
+    "accuracy": 0.5617977528089888,
+    "precision": 0.5715739484396201,
+    "recall": 0.5533367037411527,
+    "f1": 0.5274336283185841,
+    "auc": 0.5925176946410515,
+    "log_loss": 2.1178095603195635
+  },
+  "metrics": {
+    "accuracy": 0.5714285714285714,
+    "precision": 0.563049853372434,
+    "recall": 0.5491990846681922,
+    "f1": 0.5333333333333333,
+    "auc": 0.597254004576659,
+    "log_loss": 1.9142554937436376
+  }
+}

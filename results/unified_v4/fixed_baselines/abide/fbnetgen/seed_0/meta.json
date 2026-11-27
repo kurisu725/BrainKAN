@@ -1,0 +1,31 @@
+{
+  "dataset": "abide",
+  "model": "fbnetgen",
+  "seed": 0,
+  "protocol": "official_last_epoch",
+  "config": {
+    "embedding_size": 16,
+    "batch_size": 16,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "epochs": 500
+  },
+  "epoch_used": 500,
+  "seconds": 2885.7,
+  "dev_metrics": {
+    "accuracy": 0.6067415730337079,
+    "precision": 0.6065656565656565,
+    "recall": 0.6066734074823054,
+    "f1": 0.6065428824049514,
+    "auc": 0.666835187057634,
+    "log_loss": 1.009289505351493
+  },
+  "metrics": {
+    "accuracy": 0.6547619047619048,
+    "precision": 0.6521367521367522,
+    "recall": 0.652745995423341,
+    "f1": 0.6523476523476524,
+    "auc": 0.6899313501144165,
+    "log_loss": 0.774450130725349
+  }
+}

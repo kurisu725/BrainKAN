@@ -1,0 +1,145 @@
+{
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.2.1",
+    "cuda": "12.1",
+    "cpu_threads": 4,
+    "batch_size": 96,
+    "n_train": 709,
+    "epochs": 50
+  },
+  "benchmarks": [
+    {
+      "model": "KAN (Full, 90 ROIs)",
+      "params": 21171520,
+      "params_M": 21.172,
+      "flops_per_sample": 39071488,
+      "mflops_per_sample": 39.07,
+      "cpu_mem_mb": 80.77,
+      "gpu_peak_mb": 469.48,
+      "train_50ep_sec": 8.84,
+      "gpu_infer_ms_per_sample": 0.0954,
+      "cpu_infer_ms_per_sample": 1.787
+    },
+    {
+      "model": "BrainKAN Mode 1 (Direct, 89 ROIs)",
+      "params": 20713280,
+      "params_M": 20.713,
+      "flops_per_sample": 38226608,
+      "mflops_per_sample": 38.23,
+      "cpu_mem_mb": 79.02,
+      "gpu_peak_mb": 456.18,
+      "train_50ep_sec": 9.92,
+      "gpu_infer_ms_per_sample": 0.0917,
+      "cpu_infer_ms_per_sample": 1.5989
+    },
+    {
+      "model": "BrainKAN Mode 3 (Z-score, 40 ROIs)",
+      "params": 4531520,
+      "params_M": 4.532,
+      "flops_per_sample": 8391488,
+      "mflops_per_sample": 8.39,
+      "cpu_mem_mb": 17.29,
+      "gpu_peak_mb": 110.98,
+      "train_50ep_sec": 7.05,
+      "gpu_infer_ms_per_sample": 0.0625,
+      "cpu_infer_ms_per_sample": 0.4978
+    },
+    {
+      "model": "BrainKAN Mode 2 (Min-max, 25 ROIs)",
+      "params": 2035520,
+      "params_M": 2.036,
+      "flops_per_sample": 3789488,
+      "mflops_per_sample": 3.79,
+      "cpu_mem_mb": 7.77,
+      "gpu_peak_mb": 58.33,
+      "train_50ep_sec": 7.09,
+      "gpu_infer_ms_per_sample": 0.0654,
+      "cpu_infer_ms_per_sample": 0.2695
+    },
+    {
+      "model": "BrainNetCNN (90x90)",
+      "params": 440477,
+      "params_M": 0.44,
+      "flops_per_sample": 69325816,
+      "mflops_per_sample": 69.33,
+      "cpu_mem_mb": 1.68,
+      "gpu_peak_mb": 1383.08,
+      "train_50ep_sec": 50.68,
+      "gpu_infer_ms_per_sample": 0.18,
+      "cpu_infer_ms_per_sample": 2.5435
+    },
+    {
+      "model": "BrainNetTF (90x90)",
+      "params": 1066130,
+      "params_M": 1.066,
+      "flops_per_sample": 53436080,
+      "mflops_per_sample": 53.44,
+      "cpu_mem_mb": 4.08,
+      "gpu_peak_mb": 316.92,
+      "train_50ep_sec": 4.5,
+      "gpu_infer_ms_per_sample": 0.0372,
+      "cpu_infer_ms_per_sample": 0.7362
+    },
+    {
+      "model": "BrainGB (90x90)",
+      "params": 1029026,
+      "params_M": 1.029,
+      "flops_per_sample": 8455305733,
+      "mflops_per_sample": 8455.31,
+      "cpu_mem_mb": 3.93,
+      "gpu_peak_mb": 1312.33,
+      "train_50ep_sec": 179.73,
+      "gpu_infer_ms_per_sample": 2.1104,
+      "cpu_infer_ms_per_sample": 54.0145
+    },
+    {
+      "model": "BrainGNN (90x90)",
+      "params": 59842,
+      "params_M": 0.06,
+      "flops_per_sample": 5771572,
+      "mflops_per_sample": 5.77,
+      "cpu_mem_mb": 0.23,
+      "gpu_peak_mb": 345.91,
+      "train_50ep_sec": 11.84,
+      "gpu_infer_ms_per_sample": 0.2174,
+      "cpu_infer_ms_per_sample": 1.5814
+    },
+    {
+      "model": "FBNetGen (90 ROIs, T=100)",
+      "params": 225684,
+      "params_M": 0.226,
+      "flops_per_sample": 10988862,
+      "mflops_per_sample": 10.99,
+      "cpu_mem_mb": 0.86,
+      "gpu_peak_mb": 330.32,
+      "train_50ep_sec": 9.43,
+      "gpu_infer_ms_per_sample": 0.0959,
+      "cpu_infer_ms_per_sample": 4.4592
+    },
+    {
+      "model": "BrainNetGNN (90 ROIs, T=100)",
+      "params": 7650047,
+      "params_M": 7.65,
+      "flops_per_sample": 22826963,
+      "mflops_per_sample": 22.83,
+      "cpu_mem_mb": 29.19,
+      "gpu_peak_mb": 795.4,
+      "train_50ep_sec": 124.23,
+      "gpu_infer_ms_per_sample": 1.3182,
+      "cpu_infer_ms_per_sample": 4.9417
+    },
+    {
+      "model": "Res-DAE (90x90 triu=4005)",
+      "params": 5268939,
+      "params_M": 5.269,
+      "flops_per_sample": 5257856,
+      "mflops_per_sample": 5.26,
+      "cpu_mem_mb": 20.1,
+      "gpu_peak_mb": 81.11,
+      "train_50ep_sec": 1.48,
+      "gpu_infer_ms_per_sample": 0.0043,
+      "cpu_infer_ms_per_sample": 0.0294
+    }
+  ]
+}

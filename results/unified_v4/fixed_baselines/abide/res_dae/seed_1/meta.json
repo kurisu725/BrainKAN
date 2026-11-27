@@ -1,0 +1,35 @@
+{
+  "dataset": "abide",
+  "model": "res_dae",
+  "seed": 1,
+  "protocol": "official_4cand_dev_auc_youden",
+  "config": {
+    "n_input": 2002,
+    "hidden": 512,
+    "latent": 256,
+    "dropout": 0.5,
+    "lr": 0.0001,
+    "epochs": 250,
+    "joint_epochs": 200,
+    "batch_size": 100,
+    "weight_decay": 0.0001
+  },
+  "threshold": 0.8,
+  "seconds": 43.2,
+  "dev_metrics": {
+    "accuracy": 0.6853932584269663,
+    "precision": 0.6904761904761905,
+    "recall": 0.6820020222446916,
+    "f1": 0.6805128205128206,
+    "auc": 0.7133468149646107,
+    "log_loss": 1.4084240718966416
+  },
+  "metrics": {
+    "accuracy": 0.6904761904761905,
+    "precision": 0.6882352941176471,
+    "recall": 0.6830663615560641,
+    "f1": 0.6840277777777778,
+    "auc": 0.736842105263158,
+    "log_loss": 1.4631999830274574
+  }
+}

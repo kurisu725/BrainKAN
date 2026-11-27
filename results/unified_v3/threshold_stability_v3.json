@@ -1,0 +1,182 @@
+{
+  "abide_fixed": {
+    "score_mean": -0.0011426980284829952,
+    "score_sd": 0.00048502624004805235,
+    "modes": {
+      "direct": {
+        "thresholds": [
+          -0.000243,
+          -0.000121,
+          0.0,
+          0.000121,
+          0.000243
+        ],
+        "threshold_labels": [
+          "-0.50 SD",
+          "-0.25 SD",
+          "0 (nom.)",
+          "+0.25 SD",
+          "+0.50 SD"
+        ],
+        "counts": [
+          89,
+          89,
+          89,
+          89,
+          90
+        ],
+        "nominal_count": 89,
+        "mean_jaccard": 0.9955555555555555,
+        "sd_jaccard": 0.005737753105492449,
+        "per_seed_mean_jaccard": 0.9874998238878516,
+        "per_seed_sd_jaccard": 0.012030275159686025
+      },
+      "minmax": {
+        "thresholds": [
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6
+        ],
+        "threshold_labels": [
+          "0.40",
+          "0.45",
+          "0.50 (nom.)",
+          "0.55",
+          "0.60"
+        ],
+        "counts": [
+          14,
+          20,
+          31,
+          37,
+          50
+        ],
+        "nominal_count": 31,
+        "mean_jaccard": 0.5593530950305146,
+        "sd_jaccard": 0.17924377298760114,
+        "per_seed_mean_jaccard": 0.5492797917625355,
+        "per_seed_sd_jaccard": 0.052294388707462294
+      },
+      "zscore": {
+        "thresholds": [
+          -0.2,
+          -0.1,
+          0.0,
+          0.1,
+          0.2
+        ],
+        "threshold_labels": [
+          "-0.20",
+          "-0.10",
+          "0.00 (nom.)",
+          "+0.10",
+          "+0.20"
+        ],
+        "counts": [
+          33,
+          35,
+          38,
+          42,
+          47
+        ],
+        "nominal_count": 38,
+        "mean_jaccard": 0.840507652108996,
+        "sd_jaccard": 0.07965249166522814,
+        "per_seed_mean_jaccard": 0.8572796584511574,
+        "per_seed_sd_jaccard": 0.017697083637628758
+      }
+    }
+  },
+  "adhd_fixed": {
+    "score_mean": -0.010492898606386655,
+    "score_sd": 0.010270537794176164,
+    "modes": {
+      "direct": {
+        "thresholds": [
+          -0.005135,
+          -0.002568,
+          0.0,
+          0.002568,
+          0.005135
+        ],
+        "threshold_labels": [
+          "-0.50 SD",
+          "-0.25 SD",
+          "0 (nom.)",
+          "+0.25 SD",
+          "+0.50 SD"
+        ],
+        "counts": [
+          57,
+          88,
+          90,
+          90,
+          90
+        ],
+        "nominal_count": 90,
+        "mean_jaccard": 0.8481060606060605,
+        "sd_jaccard": 0.18202356408775539,
+        "per_seed_mean_jaccard": 0.8146643712716347,
+        "per_seed_sd_jaccard": 0.03114485032015076
+      },
+      "minmax": {
+        "thresholds": [
+          0.4,
+          0.45,
+          0.5,
+          0.55,
+          0.6
+        ],
+        "threshold_labels": [
+          "0.40",
+          "0.45",
+          "0.50 (nom.)",
+          "0.55",
+          "0.60"
+        ],
+        "counts": [
+          4,
+          4,
+          5,
+          7,
+          8
+        ],
+        "nominal_count": 5,
+        "mean_jaccard": 0.6957142857142857,
+        "sd_jaccard": 0.16974871384001747,
+        "per_seed_mean_jaccard": 0.61502886002886,
+        "per_seed_sd_jaccard": 0.16196299750298243
+      },
+      "zscore": {
+        "thresholds": [
+          -0.2,
+          -0.1,
+          0.0,
+          0.1,
+          0.2
+        ],
+        "threshold_labels": [
+          "-0.20",
+          "-0.10",
+          "0.00 (nom.)",
+          "+0.10",
+          "+0.20"
+        ],
+        "counts": [
+          22,
+          22,
+          25,
+          27,
+          30
+        ],
+        "nominal_count": 25,
+        "mean_jaccard": 0.8515555555555554,
+        "sd_jaccard": 0.08334436141020683,
+        "per_seed_mean_jaccard": 0.819945359415974,
+        "per_seed_sd_jaccard": 0.05376915822119055
+      }
+    }
+  }
+}

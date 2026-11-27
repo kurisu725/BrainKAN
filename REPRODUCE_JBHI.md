@@ -1,17 +1,17 @@
 # BrainKAN JBHI Experiment Reproduction Guide
 
-This repository builds directly on commit `66df2c7bab9cc490920687f07e6b7e4dd8081c37` of [kurisu725/BrainKAN](https://github.com/kurisu725/BrainKAN) and its `efficient_kan` implementation. Every reported number can either be **verified directly from the sealed prediction files in `results/`** (without GPU or raw MAT data) or **re-run end-to-end from the MAT datasets**.
+Every table (Tables I–IX) and figure (Figs. 1–7) in the manuscript is generated under a single leak-free, deterministic **50-epoch training-only protocol** and can either be **verified directly from the records in `results/unified_v4/`** (without GPU or raw MAT data) or **re-run end-to-end from the MAT datasets**.
 
 ## 1. Environment and Data
 
-The tested reproduction environment used Python 3.11.2 and PyTorch 2.2.1 with CUDA 12.1 on an NVIDIA RTX 4060 Laptop GPU. From the repository root:
+The tested reproduction environment used Python 3.9–3.11 and PyTorch 2.2.1 with CUDA 12.1 on an NVIDIA GeForce RTX 4060 Laptop GPU. From the repository root:
 
 ```sh
 python -m pip install torch==2.2.1 --index-url https://download.pytorch.org/whl/cu121
 python -m pip install -r requirements-reproduction.txt
 ```
 
-Extract the multipart archive `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` (located in the repository root) into `data/` using WinRAR or 7-Zip, and verify the SHA-256 checksums:
+Extract `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` into `data/` using WinRAR or 7-Zip, and verify the SHA-256 checksums:
 
 | Dataset | File | Subjects (train / valid / test) | SHA-256 |
 |---|---|---|---|
@@ -20,86 +20,73 @@ Extract the multipart archive `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.r
 
 ---
 
-## 2. Reproduce the Historical ABIDE 78.6% Result (Table III)
+## 2. Training-Only Protocol Summary
 
-To verify the pre-recorded 5-seed predictions immediately:
-
-```sh
-python run_legacy_78.py verify --out results/legacy_78
-```
-
-To retrain all five seeds (`0–4`) from scratch and verify:
-
-```sh
-python run_legacy_78.py run --data data/ALLASD1_aal.mat --out runs/legacy_78
-python run_legacy_78.py verify --out runs/legacy_78
-```
-
-This replay uses the archived ordered 64-ROI list (`matrixAuto6` in `test_model.py`), the 709 stored `net_train` subjects, and the 84 stored `net_test` subjects. It trains `KAN([4096, 256, 128, 64, 32, 16, 2])` for 50 epochs with batch size 96, fixed batch order (`shuffle=False`), AdamW (`lr=1e-3`, `weight_decay=1e-4`), and `ExponentialLR(gamma=0.8)`. Across seeds `0–4`, the correct test counts are `66, 65, 66, 68, 65`, yielding **78.57% ± 1.46%** accuracy (`78.6 ± 1.5%` in Table III) and matching all five metrics at the manuscript's precision. As noted in Section IV-B of the manuscript, the archived ROI ranking has incomplete provenance (`testXAI()` in `test_model.py` reads `net_test`), so this replay is documented as a historical diagnostic alongside the strictly training-only pipeline below.
+- **Training schedule**: AdamW (`lr=1e-3`, `weight_decay=1e-4`), batch size `96`, `50` epochs, `ExponentialLR(gamma=0.8)`, deterministic seeds `0–4`.
+- **Training-only ROI scoring**: A full-input KAN selector is fitted on the training cohort only and frozen at epoch 50. Structure-preserving congruence attenuation $X'_{s,i} = D_i X_s D_i + I_N - D_i^2$ ($\alpha = 0.5$) is evaluated exclusively on the training matrices to obtain $C_i = \mathcal{L}_{\mathrm{CE}}(X_{\mathrm{tr}}) - \mathcal{L}_{\mathrm{CE}}(X'_{\mathrm{tr},i})$.
+- **Selection rules & validation-recommended thresholds**:
+  - Mode 1 (Direct): $C_i < 0$.
+  - Mode 2 (Min-max): $V_i < \tau_{\mathrm{mm}}$ with validation-selected $\tau_{\mathrm{mm}} = 0.90$ (ABIDE) and $\tau_{\mathrm{mm}} = 0.95$ (ADHD-200).
+  - Mode 3 (Z-score): $Z_i < \tau_z$ with validation-selected $\tau_z = 1.25$ (ABIDE) and $\tau_z = 0.75$ (ADHD-200).
+- **Model selection & single test evaluation**: Candidate checkpoints saved every 5 epochs are ranked by validation AUC (ties broken by lower validation log-loss), sealed with the ROI subset, and evaluated once on the held-out test cohort.
+- **Metrics & statistics**: Macro-averaged Precision, Recall, and F1-score (`zero_division=0`) and concatenated-probability AUC in `jbhi_revision/common.py`. Tables III–IV report two-sided paired $t$-tests with Holm adjustment across seeds `0–4`; Table VI 5-holdout comparisons use the Nadeau & Bengio (2003) corrected resampled $t$-test with Holm adjustment; Table VII within-KAN comparisons use two-sided exact paired sign-flip tests across seeds `0–4`.
 
 ---
 
-## 3. Training-Only ROI Scoring & Development-Selected Checkpoints (Table VI & Table IX)
+## 3. Reproducing Tables I–IX and Figs. 1–7
 
-### 3.1 Verify pre-computed Table VI and Table IX numbers (no GPU required)
+### 3.1 Verify Pre-Computed Records and Regenerate Figures (No GPU Required)
+
+All per-run predictions, ROI selections, statistical summaries, and live benchmarks are stored under `results/unified_v4/`, `results/unified_v3/`, `results/review_v2/`, and `results/holdouts/`:
 
 ```sh
-# Regenerate Table VI (Direct / Min-max / Z-score with development-selected checkpoints)
-python summarize_review_v2.py --out results/review_v2
-
-# Verify Full-input KAN rows, fixed-cohort baselines, paired sign-flip p-values, and ROI stability
-python summarize_review.py --out results/review \
-  --unified advisor_reference/records/advisor/final_test \
-  --legacy results/legacy_78 \
-  --legacy-reference advisor_reference/records/advisor/final_test
-
-# Verify matched five-holdout baseline comparisons and cross-partition ROI stability
-python summarize_holdouts.py --out results/holdouts --baseline-root baseline_reference
+# Regenerate Fig. 1 (workflow diagram) and Figs. 2–7
+python draw_workflow_v4.py
+python generate_unified_figures_v4.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out figures
 ```
 
-### 3.2 Run the training-only experiments from scratch on GPU
+### 3.2 Run the Complete Pipeline from Scratch on GPU
 
 ```sh
-# Step 1: Fit full-input KAN selectors on training cohorts only, compute structure-preserving
-# attenuation scores C_i = L_CE(X_tr) - L_CE(X'_{tr,i}) (alpha = 0.5), and evaluate Full-input KAN
-python run_review_experiments.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out runs/review
-python summarize_review.py --out runs/review
-
-# Step 2: Fit Direct, Min-max, and Z-score reduced KAN classifiers with candidate checkpoints
-# saved every 5 epochs and selected by reserved development-cohort AUC before a single test evaluation
+# Step 1: Training-only full-input selectors and per-seed ROI attenuation scores
+python run_review_experiments.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out results/review
 python run_review_development.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat \
-  --review runs/review --out runs/review_v2
-python summarize_review_v2.py --out runs/review_v2
-
-# Optional: Alternative 4-site development cohort sensitivity check on held-out NYU (Section VI)
-python run_review_dev4.py --abide data/ALLASD1_aal.mat --out runs/review_dev4
-```
-
-### 3.3 Repeat the matched five-holdout runs
-
-```sh
+  --review results/review --out results/review_v2
 python run_review_holdouts.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat \
-  --out runs/holdouts --review runs/review
-python summarize_holdouts.py --out runs/holdouts --baseline-root baseline_reference
+  --review results/review --out results/holdouts
+
+# Step 2: Fixed-cohort baselines on ABIDE (7 models) and ADHD-200 (5 FC models), seeds 0-4 (Tables III-IV)
+python run_fixed_baselines_v4.py
+
+# Step 3: Deterministic BrainKAN suite across all 5 cohorts, within-KAN ablation,
+#         threshold sensitivity (Table VIII), ROI stability (Table IX), and main stats (Tables III-VII)
+python run_brainkan_v4_suite.py
+
+# Step 4: Live GPU/CPU computational benchmark (Table I) and 5-holdout / subject-level paired stats
+python run_v4_compute_and_stats.py
+
+# Step 5: Validation hyperparameter sweep (Table II & Fig. 2) and k-ROI performance curve (Fig. 4)
+python run_unified_v3_extras.py
+
+# Step 6: Regenerate Figs. 1–7
+python draw_workflow_v4.py
+python generate_unified_figures_v4.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out figures
+
+# Optional (Section VI): Alternative 4-site non-NYU validation subset check on held-out NYU
+python run_review_dev4.py --abide data/ALLASD1_aal.mat --out results/review_dev4
 ```
 
 ---
 
-## 4. Verify ABIDE Functional Connectivity & GPU Benchmark
+## 4. Verify ABIDE Functional Connectivity Traceability (Section IV-A)
 
-Rebuild all 882 ABIDE `90 x 90` Pearson FC matrices directly from the public PCP DPARSF `filt_global/rois_aal` time series and confirm exact agreement (`max_abs_difference = 1.554e-15`):
+Rebuild all 882 ABIDE `90 x 90` Pearson FC matrices directly from the public PCP DPARSF `filt_global/rois_aal` time series and confirm agreement (`max_abs_difference = 1.554e-15`):
 
 ```sh
 python verify_abide_fc.py \
   --data data/ALLASD1_aal.mat \
   --manifest advisor_reference/evidence/abide_derivative_verification.json \
   --cache data/dparsf \
-  --out runs/abide_fc_verification.json \
+  --out results/abide_fc_verification.json \
   --download
-```
-
-Run the executable GPU parameter and batch-latency benchmark reported in the Table I notes:
-
-```sh
-python advisor_reference/tools/benchmark_current.py --run-timing --output runs/compute_benchmark_rerun.json
 ```

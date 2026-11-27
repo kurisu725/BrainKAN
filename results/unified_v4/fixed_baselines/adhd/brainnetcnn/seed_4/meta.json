@@ -1,0 +1,30 @@
+{
+  "dataset": "adhd",
+  "model": "brainnetcnn",
+  "seed": 4,
+  "protocol": "official_last_epoch",
+  "config": {
+    "epochs": 50,
+    "batch_size": 96,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "drop_last": false
+  },
+  "seconds": 46.8,
+  "dev_metrics": {
+    "accuracy": 0.6162790697674418,
+    "precision": 0.5971983990851915,
+    "recall": 0.5961538461538461,
+    "f1": 0.5965884861407249,
+    "auc": 0.6402714932126696,
+    "log_loss": 0.6782911519241951
+  },
+  "metrics": {
+    "accuracy": 0.6463414634146342,
+    "precision": 0.6207107843137255,
+    "recall": 0.6326599326599327,
+    "f1": 0.6215183829380868,
+    "auc": 0.6572390572390572,
+    "log_loss": 0.7068274668768794
+  }
+}

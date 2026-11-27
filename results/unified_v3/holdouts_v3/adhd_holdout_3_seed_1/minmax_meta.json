@@ -1,0 +1,15 @@
+{
+  "dataset": "adhd",
+  "holdout": 3,
+  "model": "minmax",
+  "seed": 1,
+  "n_roi": 5,
+  "epoch": 50,
+  "seconds": 20.45,
+  "accuracy": 0.6219512195121951,
+  "precision": 0.31097560975609756,
+  "recall": 0.5,
+  "f1": 0.38345864661654133,
+  "auc": 0.5483870967741936,
+  "log_loss": 0.662169212451713
+}

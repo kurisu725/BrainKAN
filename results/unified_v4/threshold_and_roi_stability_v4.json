@@ -1,0 +1,224 @@
+{
+  "threshold_sensitivity": {
+    "abide": {
+      "direct": {
+        "grid": [
+          -0.5,
+          -0.25,
+          0.0,
+          0.25,
+          0.5
+        ],
+        "roi_min": 89,
+        "roi_max": 90,
+        "mean_profile_jaccard": [
+          0.996,
+          0.006
+        ],
+        "per_seed_jaccard": [
+          0.987,
+          0.012
+        ]
+      },
+      "minmax": {
+        "grid": [
+          0.8,
+          0.85,
+          0.9,
+          0.95,
+          1.0
+        ],
+        "roi_min": 86,
+        "roi_max": 89,
+        "mean_profile_jaccard": [
+          0.987,
+          0.017
+        ],
+        "per_seed_jaccard": [
+          0.968,
+          0.013
+        ]
+      },
+      "zscore": {
+        "grid": [
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75
+        ],
+        "roi_min": 69,
+        "roi_max": 89,
+        "mean_profile_jaccard": [
+          0.89,
+          0.069
+        ],
+        "per_seed_jaccard": [
+          0.9,
+          0.016
+        ]
+      }
+    },
+    "adhd": {
+      "direct": {
+        "grid": [
+          -0.5,
+          -0.25,
+          0.0,
+          0.25,
+          0.5
+        ],
+        "roi_min": 57,
+        "roi_max": 90,
+        "mean_profile_jaccard": [
+          0.848,
+          0.182
+        ],
+        "per_seed_jaccard": [
+          0.815,
+          0.031
+        ]
+      },
+      "minmax": {
+        "grid": [
+          0.85,
+          0.9,
+          0.95,
+          0.975,
+          1.0
+        ],
+        "roi_min": 25,
+        "roi_max": 89,
+        "mean_profile_jaccard": [
+          0.545,
+          0.221
+        ],
+        "per_seed_jaccard": [
+          0.573,
+          0.095
+        ]
+      },
+      "zscore": {
+        "grid": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.25
+        ],
+        "roi_min": 32,
+        "roi_max": 90,
+        "mean_profile_jaccard": [
+          0.641,
+          0.251
+        ],
+        "per_seed_jaccard": [
+          0.659,
+          0.011
+        ]
+      }
+    }
+  },
+  "roi_stability": {
+    "abide_fixed": {
+      "direct": {
+        "mean_roi": 88.6,
+        "sd_roi": 0.55,
+        "jaccard_mean": 0.993,
+        "jaccard_sd": 0.006
+      },
+      "minmax": {
+        "mean_roi": 88.0,
+        "sd_roi": 1.73,
+        "jaccard_mean": 0.98,
+        "jaccard_sd": 0.02
+      },
+      "zscore": {
+        "mean_roi": 84.4,
+        "sd_roi": 1.52,
+        "jaccard_mean": 0.936,
+        "jaccard_sd": 0.017
+      }
+    },
+    "abide_nyu": {
+      "direct": {
+        "mean_roi": 89.6,
+        "sd_roi": 0.55,
+        "jaccard_mean": 0.991,
+        "jaccard_sd": 0.007
+      },
+      "minmax": {
+        "mean_roi": 83.6,
+        "sd_roi": 4.04,
+        "jaccard_mean": 0.913,
+        "jaccard_sd": 0.03
+      },
+      "zscore": {
+        "mean_roi": 84.2,
+        "sd_roi": 2.59,
+        "jaccard_mean": 0.931,
+        "jaccard_sd": 0.025
+      }
+    },
+    "abide_holdouts": {
+      "direct": {
+        "mean_roi": 89.6,
+        "sd_roi": 0.55,
+        "jaccard_mean": 0.991,
+        "jaccard_sd": 0.007
+      },
+      "minmax": {
+        "mean_roi": 78.6,
+        "sd_roi": 6.99,
+        "jaccard_mean": 0.808,
+        "jaccard_sd": 0.058
+      },
+      "zscore": {
+        "mean_roi": 86.0,
+        "sd_roi": 2.74,
+        "jaccard_mean": 0.941,
+        "jaccard_sd": 0.03
+      }
+    },
+    "adhd_fixed": {
+      "direct": {
+        "mean_roi": 89.8,
+        "sd_roi": 0.45,
+        "jaccard_mean": 0.996,
+        "jaccard_sd": 0.006
+      },
+      "minmax": {
+        "mean_roi": 66.8,
+        "sd_roi": 11.1,
+        "jaccard_mean": 0.72,
+        "jaccard_sd": 0.055
+      },
+      "zscore": {
+        "mean_roi": 83.8,
+        "sd_roi": 6.69,
+        "jaccard_mean": 0.885,
+        "jaccard_sd": 0.065
+      }
+    },
+    "adhd_holdouts": {
+      "direct": {
+        "mean_roi": 90.0,
+        "sd_roi": 0.0,
+        "jaccard_mean": 1.0,
+        "jaccard_sd": 0.0
+      },
+      "minmax": {
+        "mean_roi": 66.4,
+        "sd_roi": 8.65,
+        "jaccard_mean": 0.708,
+        "jaccard_sd": 0.063
+      },
+      "zscore": {
+        "mean_roi": 82.8,
+        "sd_roi": 4.32,
+        "jaccard_mean": 0.888,
+        "jaccard_sd": 0.038
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "abide": {
+    "braingnn": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 45.24,
+      "mcnemar_n10": 34,
+      "mcnemar_n01": 11,
+      "mcnemar_p": 0.00082,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 65.73,
+      "boot_auc_diff_pp": 12.41,
+      "boot_auc_p": 0.003
+    },
+    "braingb": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 66.67,
+      "mcnemar_n10": 8,
+      "mcnemar_n01": 3,
+      "mcnemar_p": 0.22656,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 72.71,
+      "boot_auc_diff_pp": 5.43,
+      "boot_auc_p": 0.086
+    },
+    "brainnetcnn": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 71.43,
+      "mcnemar_n10": 5,
+      "mcnemar_n01": 4,
+      "mcnemar_p": 1.0,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 76.77,
+      "boot_auc_diff_pp": 1.37,
+      "boot_auc_p": 0.607
+    },
+    "fbnetgen": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 67.86,
+      "mcnemar_n10": 10,
+      "mcnemar_n01": 6,
+      "mcnemar_p": 0.4545,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 77.92,
+      "boot_auc_diff_pp": 0.23,
+      "boot_auc_p": 0.949
+    },
+    "brainnetgnn": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 53.57,
+      "mcnemar_n10": 27,
+      "mcnemar_n01": 11,
+      "mcnemar_p": 0.01385,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 46.74,
+      "boot_auc_diff_pp": 31.41,
+      "boot_auc_p": 0.0
+    },
+    "brainnettf": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 67.86,
+      "mcnemar_n10": 8,
+      "mcnemar_n01": 4,
+      "mcnemar_p": 0.3877,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 75.69,
+      "boot_auc_diff_pp": 2.46,
+      "boot_auc_p": 0.424
+    },
+    "res_dae": {
+      "ref_ens_acc": 72.62,
+      "base_ens_acc": 70.24,
+      "mcnemar_n10": 6,
+      "mcnemar_n01": 4,
+      "mcnemar_p": 0.75391,
+      "ref_ens_auc": 78.15,
+      "base_ens_auc": 73.57,
+      "boot_auc_diff_pp": 4.58,
+      "boot_auc_p": 0.085
+    }
+  },
+  "adhd": {
+    "braingnn": {
+      "ref_ens_acc": 69.51,
+      "base_ens_acc": 59.76,
+      "mcnemar_n10": 14,
+      "mcnemar_n01": 6,
+      "mcnemar_p": 0.11532,
+      "ref_ens_auc": 69.9,
+      "base_ens_auc": 68.22,
+      "boot_auc_diff_pp": 1.68,
+      "boot_auc_p": 0.665
+    },
+    "braingb": {
+      "ref_ens_acc": 69.51,
+      "base_ens_acc": 69.51,
+      "mcnemar_n10": 7,
+      "mcnemar_n01": 7,
+      "mcnemar_p": 1.0,
+      "ref_ens_auc": 69.9,
+      "base_ens_auc": 72.79,
+      "boot_auc_diff_pp": -2.9,
+      "boot_auc_p": 0.623
+    },
+    "brainnetcnn": {
+      "ref_ens_acc": 69.51,
+      "base_ens_acc": 73.17,
+      "mcnemar_n10": 3,
+      "mcnemar_n01": 6,
+      "mcnemar_p": 0.50781,
+      "ref_ens_auc": 69.9,
+      "base_ens_auc": 73.13,
+      "boot_auc_diff_pp": -3.23,
+      "boot_auc_p": 0.348
+    },
+    "brainnettf": {
+      "ref_ens_acc": 69.51,
+      "base_ens_acc": 63.41,
+      "mcnemar_n10": 12,
+      "mcnemar_n01": 7,
+      "mcnemar_p": 0.35928,
+      "ref_ens_auc": 69.9,
+      "base_ens_auc": 71.52,
+      "boot_auc_diff_pp": -1.62,
+      "boot_auc_p": 0.763
+    },
+    "res_dae": {
+      "ref_ens_acc": 69.51,
+      "base_ens_acc": 52.44,
+      "mcnemar_n10": 25,
+      "mcnemar_n01": 11,
+      "mcnemar_p": 0.02882,
+      "ref_ens_auc": 69.9,
+      "base_ens_auc": 54.34,
+      "boot_auc_diff_pp": 15.56,
+      "boot_auc_p": 0.097
+    }
+  }
+}

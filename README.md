@@ -2,12 +2,12 @@
 
 Official repository for **BrainKAN** (*IEEE Journal of Biomedical and Health Informatics*, JBHI-04004-2025).
 
-- **One-command ABIDE 78.6% replay & JBHI revision walkthrough**: see **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)**.
-- **Pre-computed predictions & verification (no GPU or training required)**: all sealed per-seed predictions, ROI selections, split indices, and paired statistics are included under [`results/`](results/).
+- **Full step-by-step reproduction guide (Tables I–IX & Figs. 1–7)**: see **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)**.
+- **Pre-computed predictions & verification (no GPU or training required)**: all per-seed and per-holdout predictions, training-only ROI selections, split indices, computational benchmarks, and paired statistics are included under [`results/`](results/).
 
 ---
 
-## Quick Start: Reproduce the ABIDE 78.6% Result
+## Quick Start: Training-Only Pipeline (Tables I–IX & Figs. 1–7)
 
 1. **Install dependencies** (Python 3.9–3.11, PyTorch 2.2.1 + CUDA 12.1 recommended):
    ```bash
@@ -19,45 +19,37 @@ Official repository for **BrainKAN** (*IEEE Journal of Biomedical and Health Inf
    - `data/ALLASD1_aal.mat` (ABIDE, 882 subjects: 709 train / 89 valid / 84 test)
    - `data/ADHD1_aal.mat` (ADHD-200, 847 subjects: 679 train / 86 valid / 82 test)
 
-3. **Verify the pre-recorded 5-seed ABIDE 78.6% predictions immediately** (runs in <1 second):
+3. **Regenerate all manuscript figures from pre-computed results** (CPU only, no training required):
    ```bash
-   python run_legacy_78.py verify --out results/legacy_78
-   ```
-   Output across seeds `0–4` (correct test counts `66, 65, 66, 68, 65` out of `84`):
-   - **ACC**: `78.57% ± 1.46%` (`78.6 ± 1.5%` in Table III)
-   - **Macro Precision**: `78.48% ± 1.48%` (`78.5 ± 1.5%`)
-   - **Macro Recall**: `78.15% ± 1.47%` (`78.1 ± 1.5%`)
-   - **Macro F1**: `78.26% ± 1.48%` (`78.3 ± 1.5%`)
-   - **AUC**: `85.56% ± 0.42%` (`85.6 ± 0.4%`)
-
-4. **Retrain all 5 seeds from scratch** on GPU:
-   ```bash
-   python run_legacy_78.py run --data data/ALLASD1_aal.mat --out runs/legacy_78
+   python draw_workflow_v4.py
+   python generate_unified_figures_v4.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out figures
    ```
 
 ---
 
-## JBHI Revision Experiments (Training-Only ROI Scoring & Cross-Site Evaluation)
+## Manuscript Table & Figure Mapping
 
-All scripts and sealed run records for the revised manuscript are provided at the repository root:
+All experiments in the manuscript follow a single leak-free, deterministic **50-epoch training-only protocol** (AdamW, `lr=1e-3`, `weight_decay=1e-4`, `ExponentialLR(gamma=0.8)`, batch size 96, structure-preserving attenuation $\alpha=0.5$ on training cohorts only, validation-recommended cutoffs $\tau_{\mathrm{mm}}\in\{0.90, 0.95\}$ and $\tau_z\in\{1.25, 0.75\}$, and validation-AUC checkpoint selection before a single test evaluation):
 
-| Experiment / Table | Runner Script | Verification / Summary Command | Pre-computed Records |
+| Manuscript Item | Description | Runner / Generator Script | Pre-computed Records |
 |---|---|---|---|
-| **Historical ABIDE 64-ROI replay** (Table III, `78.6 ± 1.5%`) | `run_legacy_78.py` | `python run_legacy_78.py verify --out results/legacy_78` | [`results/legacy_78/`](results/legacy_78/) |
-| **Training-only pipeline with development-selected checkpoints** (Table VI: ABIDE fixed, ADHD-200 fixed, held-out NYU) | `run_review_development.py` | `python summarize_review_v2.py --out results/review_v2` | [`results/review_v2/`](results/review_v2/) |
-| **Full-input KAN, fixed-cohort baselines & seed-wise ROI stability** (Tables VI & IX) | `run_review_experiments.py` | `python summarize_review.py --out results/review --unified advisor_reference/records/advisor/final_test --legacy results/legacy_78 --legacy-reference advisor_reference/records/advisor/final_test` | [`results/review/`](results/review/) |
-| **Matched five-holdout baseline comparisons & split-wise ROI stability** (Table IX) | `run_review_holdouts.py` | `python summarize_holdouts.py --out results/holdouts --baseline-root baseline_reference` | [`results/holdouts/`](results/holdouts/) |
-| **ABIDE PCP DPARSF `filt_global/rois_aal` FC traceability** | `verify_abide_fc.py` | See [`REPRODUCE_JBHI.md`](REPRODUCE_JBHI.md) | [`results/abide_fc_verification.json`](results/abide_fc_verification.json) |
-| **GPU parameter & latency benchmark** (Table I notes) | `advisor_reference/tools/benchmark_current.py` | `python advisor_reference/tools/benchmark_current.py --run-timing` | [`advisor_reference/evidence/compute_benchmark.json`](advisor_reference/evidence/compute_benchmark.json) |
-
-See **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)** for full command-line instructions, SHA-256 dataset checksums, and protocol details.
+| **Fig. 1** | BrainKAN framework diagram | `draw_workflow_v4.py` | [`results/unified_v4/figures/workflow_v4.pdf`](results/unified_v4/figures/workflow_v4.pdf) |
+| **Table I** | Live GPU/CPU computational benchmark (KAN-full, BrainKAN Modes 1–3 with $M\in\{89,88,84,67\}$, 7 baselines) | `run_v4_compute_and_stats.py` | [`results/unified_v4/compute_benchmark_v4.json`](results/unified_v4/compute_benchmark_v4.json) |
+| **Table II & Fig. 2** | 15-configuration validation hyperparameter sweep ($n=89$, seeds 0–4) | `run_unified_v3_extras.py`, `generate_unified_figures_v4.py` | [`results/unified_v3/hyperparam_v3.json`](results/unified_v3/hyperparam_v3.json) |
+| **Tables III–IV** | Fixed-cohort main comparisons on ABIDE (7 baselines) & ADHD-200 (5 FC baselines; Holm-adjusted paired $t$-tests across seeds 0–4) | `run_fixed_baselines_v4.py`, `run_brainkan_v4_suite.py` | [`results/unified_v4/fixed_baselines/summary.json`](results/unified_v4/fixed_baselines/summary.json), [`results/unified_v4/main_comparison_stats_v4.json`](results/unified_v4/main_comparison_stats_v4.json) |
+| **Table V** | Training-only selected ROI counts across all 5 evaluated cohorts | `run_brainkan_v4_suite.py` | [`results/unified_v4/threshold_and_roi_stability_v4.json`](results/unified_v4/threshold_and_roi_stability_v4.json) |
+| **Table VI** | 5-holdout split robustness (ABIDE & ADHD-200) and site-disjoint held-out NYU transfer (171 unseen subjects) | `run_brainkan_v4_suite.py`, `run_v4_compute_and_stats.py` | [`results/unified_v4/brainkan_v4_cohorts.json`](results/unified_v4/brainkan_v4_cohorts.json), [`results/unified_v4/holdouts_comparison_stats_v4.json`](results/unified_v4/holdouts_comparison_stats_v4.json) |
+| **Table VII** | Within-KAN ablation (Full-input KAN vs. ARA+KAN Modes 1–3 on fixed ABIDE split, seeds 0–4) | `run_brainkan_v4_suite.py` | [`results/unified_v4/brainkan_v4_cohorts.json`](results/unified_v4/brainkan_v4_cohorts.json), [`results/unified_v4/backbone_ablation_v4.json`](results/unified_v4/backbone_ablation_v4.json) |
+| **Table VIII & IX** | Threshold perturbation sensitivity around recommended cutoffs (Table VIII) and seed-wise / split-wise pairwise Jaccard ROI stability (Table IX) | `run_brainkan_v4_suite.py` | [`results/unified_v4/threshold_and_roi_stability_v4.json`](results/unified_v4/threshold_and_roi_stability_v4.json) |
+| **Figs. 3–7** | ABIDE glass-brain subnetworks, $k$-ROI performance curves (`roi_curve_v3.json`), top-20 ABIDE/ADHD consensus ROIs, and FC difference heatmaps | `run_unified_v3_extras.py`, `generate_unified_figures_v4.py` | [`results/unified_v4/figures/`](results/unified_v4/figures/), [`results/unified_v3/roi_curve_v3.json`](results/unified_v3/roi_curve_v3.json) |
+| **Section IV-A** | ABIDE PCP DPARSF `filt_global/rois_aal` FC verification ($\max|\Delta| = 1.55\times 10^{-15}$) | `verify_abide_fc.py` | [`results/abide_fc_verification.json`](results/abide_fc_verification.json) |
+| **Section VI** | Alternative 4-site non-NYU validation check on held-out NYU | `run_review_dev4.py` | [`results/review_dev4/`](results/review_dev4/) |
 
 ---
 
-## Original Archived Release (`66df2c7`)
+## Repository Structure
 
-The original source files from the initial release are preserved unchanged for provenance:
 - `efficient_kan/`: B-spline Kolmogorov–Arnold Network layer implementation.
-- `test_model.py` and `utils.py`: original ROI-sweep and evaluation script (`matrixAuto`, `matrixAuto4`–`matrixAuto9`).
-- `requirements.txt`: original Python 3.9 environment freeze.
+- `jbhi_revision/common.py`: shared dataset loader, SHA-256 verification, layer-normalization feature extraction, and macro-metric / AUC evaluation.
+- `baseline_reference/`: official baseline adapters and configurations for BrainGNN, BrainGB, BrainNetCNN, FBNetGen, BrainNetGNN, BrainNetTF, and Res-DAE.
 - `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar`: multipart RAR archive containing `ALLASD1_aal.mat` and `ADHD1_aal.mat`.
