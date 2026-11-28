@@ -2,12 +2,12 @@
 
 Official repository for **BrainKAN** (*IEEE Journal of Biomedical and Health Informatics*, JBHI-04004-2025).
 
-- **Full step-by-step reproduction guide (Tables I–IX & Figs. 1–7)**: see **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)**.
+- **Full step-by-step reproduction guide (Tables I–VIII & Figs. 1–5)**: see **[REPRODUCE_JBHI.md](REPRODUCE_JBHI.md)**.
 - **Pre-computed predictions & verification (no GPU or training required)**: all per-seed and per-holdout predictions, training-only ROI selections, split indices, computational benchmarks, and paired statistics are included under [`results/`](results/).
 
 ---
 
-## Quick Start: Training-Only Pipeline (Tables I–IX & Figs. 1–7)
+## Quick Start: Training-Only Pipeline (Tables I–VIII & Figs. 1–5)
 
 1. **Install dependencies** (Python 3.9–3.11, PyTorch 2.2.1 + CUDA 12.1 recommended):
    ```bash
@@ -35,13 +35,12 @@ All experiments in the manuscript follow a single leak-free, deterministic **50-
 |---|---|---|---|
 | **Fig. 1** | BrainKAN framework diagram | `draw_workflow_v4.py` | [`results/unified_v4/figures/workflow_v4.pdf`](results/unified_v4/figures/workflow_v4.pdf) |
 | **Table I** | Live GPU/CPU computational benchmark (KAN-full, BrainKAN Modes 1–3 with $M\in\{89,88,84,67\}$, 7 baselines) | `run_v4_compute_and_stats.py` | [`results/unified_v4/compute_benchmark_v4.json`](results/unified_v4/compute_benchmark_v4.json) |
-| **Table II & Fig. 2** | 15-configuration validation hyperparameter sweep ($n=89$, seeds 0–4) | `run_unified_v3_extras.py`, `generate_unified_figures_v4.py` | [`results/unified_v3/hyperparam_v3.json`](results/unified_v3/hyperparam_v3.json) |
-| **Tables III–IV** | Fixed-cohort main comparisons on ABIDE (7 baselines) & ADHD-200 (5 FC baselines; Holm-adjusted paired $t$-tests across seeds 0–4) | `run_fixed_baselines_v4.py`, `run_brainkan_v4_suite.py` | [`results/unified_v4/fixed_baselines/summary.json`](results/unified_v4/fixed_baselines/summary.json), [`results/unified_v4/main_comparison_stats_v4.json`](results/unified_v4/main_comparison_stats_v4.json) |
+| **Table II** | 15-configuration validation hyperparameter sweep ($n=89$, seeds 0–4) | `run_unified_v3_extras.py` | [`results/unified_v3/hyperparam_v3.json`](results/unified_v3/hyperparam_v3.json) |
+| **Tables III–IV** | Fixed-cohort main comparisons & within-KAN ablation on ABIDE (7 baselines) & ADHD-200 (5 FC baselines; Holm-adjusted paired $t$-tests & exact sign-flip tests across seeds 0–4) | `run_fixed_baselines_v4.py`, `run_brainkan_v4_suite.py` | [`results/unified_v4/fixed_baselines/summary.json`](results/unified_v4/fixed_baselines/summary.json), [`results/unified_v4/main_comparison_stats_v4.json`](results/unified_v4/main_comparison_stats_v4.json) |
 | **Table V** | Training-only selected ROI counts across all 5 evaluated cohorts | `run_brainkan_v4_suite.py` | [`results/unified_v4/threshold_and_roi_stability_v4.json`](results/unified_v4/threshold_and_roi_stability_v4.json) |
 | **Table VI** | 5-holdout split robustness (ABIDE & ADHD-200) and site-disjoint held-out NYU transfer (171 unseen subjects) | `run_brainkan_v4_suite.py`, `run_v4_compute_and_stats.py` | [`results/unified_v4/brainkan_v4_cohorts.json`](results/unified_v4/brainkan_v4_cohorts.json), [`results/unified_v4/holdouts_comparison_stats_v4.json`](results/unified_v4/holdouts_comparison_stats_v4.json) |
-| **Table VII** | Within-KAN ablation (Full-input KAN vs. ARA+KAN Modes 1–3 on fixed ABIDE split, seeds 0–4) | `run_brainkan_v4_suite.py` | [`results/unified_v4/brainkan_v4_cohorts.json`](results/unified_v4/brainkan_v4_cohorts.json), [`results/unified_v4/backbone_ablation_v4.json`](results/unified_v4/backbone_ablation_v4.json) |
-| **Table VIII & IX** | Threshold perturbation sensitivity around recommended cutoffs (Table VIII) and seed-wise / split-wise pairwise Jaccard ROI stability (Table IX) | `run_brainkan_v4_suite.py` | [`results/unified_v4/threshold_and_roi_stability_v4.json`](results/unified_v4/threshold_and_roi_stability_v4.json) |
-| **Figs. 3–7** | ABIDE glass-brain subnetworks, $k$-ROI performance curves (`roi_curve_v3.json`), top-20 ABIDE/ADHD consensus ROIs, and FC difference heatmaps | `run_unified_v3_extras.py`, `generate_unified_figures_v4.py` | [`results/unified_v4/figures/`](results/unified_v4/figures/), [`results/unified_v3/roi_curve_v3.json`](results/unified_v3/roi_curve_v3.json) |
+| **Tables VII–VIII** | Threshold perturbation sensitivity around recommended cutoffs (Table VII) and seed-wise / split-wise pairwise Jaccard ROI stability (Table VIII) | `run_brainkan_v4_suite.py` | [`results/unified_v4/threshold_and_roi_stability_v4.json`](results/unified_v4/threshold_and_roi_stability_v4.json) |
+| **Figs. 2–5** | ABIDE glass-brain subnetworks (Fig. 2), $k$-ROI performance curves (Fig. 3, canonical $k=90$ matching Table III), top-20 ABIDE/ADHD consensus ROIs (Figs. 4–5), plus supplementary FC difference heatmaps (`heatmap.png`) | `run_unified_v3_extras.py`, `generate_unified_figures_v4.py` | [`results/unified_v4/figures/`](results/unified_v4/figures/), [`results/unified_v4/roi_curve_v4.json`](results/unified_v4/roi_curve_v4.json) |
 | **Section IV-A** | ABIDE PCP DPARSF `filt_global/rois_aal` FC verification ($\max|\Delta| = 1.55\times 10^{-15}$) | `verify_abide_fc.py` | [`results/abide_fc_verification.json`](results/abide_fc_verification.json) |
 | **Section VI** | Alternative 4-site non-NYU validation check on held-out NYU | `run_review_dev4.py` | [`results/review_dev4/`](results/review_dev4/) |
 

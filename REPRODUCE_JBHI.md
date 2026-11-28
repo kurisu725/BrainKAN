@@ -1,6 +1,6 @@
 # BrainKAN JBHI Experiment Reproduction Guide
 
-Every table (Tables I–IX) and figure (Figs. 1–7) in the manuscript is generated under a single leak-free, deterministic **50-epoch training-only protocol** and can either be **verified directly from the records in `results/unified_v4/`** (without GPU or raw MAT data) or **re-run end-to-end from the MAT datasets**.
+Every table (Tables I–VIII) and figure (Figs. 1–5, plus supplementary FC heatmaps in `results/unified_v4/figures/heatmap.png`) in the manuscript is generated under a single leak-free, deterministic **50-epoch training-only protocol** and can either be **verified directly from the records in `results/unified_v4/`** (without GPU or raw MAT data) or **re-run end-to-end from the MAT datasets**.
 
 ## 1. Environment and Data
 
@@ -29,18 +29,18 @@ Extract `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` into `data/` using
   - Mode 2 (Min-max): $V_i < \tau_{\mathrm{mm}}$ with validation-selected $\tau_{\mathrm{mm}} = 0.90$ (ABIDE) and $\tau_{\mathrm{mm}} = 0.95$ (ADHD-200).
   - Mode 3 (Z-score): $Z_i < \tau_z$ with validation-selected $\tau_z = 1.25$ (ABIDE) and $\tau_z = 0.75$ (ADHD-200).
 - **Model selection & single test evaluation**: Candidate checkpoints saved every 5 epochs are ranked by validation AUC (ties broken by lower validation log-loss), sealed with the ROI subset, and evaluated once on the held-out test cohort.
-- **Metrics & statistics**: Macro-averaged Precision, Recall, and F1-score (`zero_division=0`) and concatenated-probability AUC in `jbhi_revision/common.py`. Tables III–IV report two-sided paired $t$-tests with Holm adjustment across seeds `0–4`; Table VI 5-holdout comparisons use the Nadeau & Bengio (2003) corrected resampled $t$-test with Holm adjustment; Table VII within-KAN comparisons use two-sided exact paired sign-flip tests across seeds `0–4`.
+- **Metrics & statistics**: Macro-averaged Precision, Recall, and F1-score (`zero_division=0`) and concatenated-probability AUC in `jbhi_revision/common.py`. Tables III–IV report two-sided paired $t$-tests with Holm adjustment across seeds `0–4`; Table VI 5-holdout comparisons use the Nadeau & Bengio (2003) corrected resampled $t$-test with Holm adjustment; within-KAN comparisons (KAN-full vs. BrainKAN Modes 1–3) use two-sided exact paired sign-flip tests across seeds `0–4`.
 
 ---
 
-## 3. Reproducing Tables I–IX and Figs. 1–7
+## 3. Reproducing Tables I–VIII and Figs. 1–5
 
 ### 3.1 Verify Pre-Computed Records and Regenerate Figures (No GPU Required)
 
 All per-run predictions, ROI selections, statistical summaries, and live benchmarks are stored under `results/unified_v4/`, `results/unified_v3/`, `results/review_v2/`, and `results/holdouts/`:
 
 ```sh
-# Regenerate Fig. 1 (workflow diagram) and Figs. 2–7
+# Regenerate Fig. 1 (workflow diagram) and Figs. 2–5 (plus supplementary heatmap.png)
 python draw_workflow_v4.py
 python generate_unified_figures_v4.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out figures
 ```
@@ -59,16 +59,16 @@ python run_review_holdouts.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal
 python run_fixed_baselines_v4.py
 
 # Step 3: Deterministic BrainKAN suite across all 5 cohorts, within-KAN ablation,
-#         threshold sensitivity (Table VIII), ROI stability (Table IX), and main stats (Tables III-VII)
+#         threshold sensitivity (Table VII), ROI stability (Table VIII), and main stats (Tables III-VI)
 python run_brainkan_v4_suite.py
 
 # Step 4: Live GPU/CPU computational benchmark (Table I) and 5-holdout / subject-level paired stats
 python run_v4_compute_and_stats.py
 
-# Step 5: Validation hyperparameter sweep (Table II & Fig. 2) and k-ROI performance curve (Fig. 4)
+# Step 5: Validation hyperparameter sweep (Table II) and k-ROI performance curve (Fig. 3, canonical k=90)
 python run_unified_v3_extras.py
 
-# Step 6: Regenerate Figs. 1–7
+# Step 6: Regenerate Figs. 1–5 (plus supplementary heatmap.png)
 python draw_workflow_v4.py
 python generate_unified_figures_v4.py --abide data/ALLASD1_aal.mat --adhd data/ADHD1_aal.mat --out figures
 

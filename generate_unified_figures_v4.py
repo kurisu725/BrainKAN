@@ -250,7 +250,10 @@ def plot_fig3_glass_brains(coords90, ab_fc_mean, mean_scores, freq, counts):
 
 
 def plot_fig4_roi_curves(ab_counts):
-    data = read_json(V3_DIR / "roi_curve_v3.json")
+    rc_path = V4_DIR / "roi_curve_v4.json"
+    if not rc_path.exists():
+        rc_path = V3_DIR / "roi_curve_v3.json"
+    data = read_json(rc_path)
     curve = data["curve"]
     ks = [c["k"] for c in curve]
 

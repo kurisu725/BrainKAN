@@ -583,7 +583,7 @@ def run_roi_curve(pools, device):
     for k in ks:
         k_rows = []
         for seed in range(5):
-            rois = per_seed_rankings[seed][:k]
+            rois = np.arange(90, dtype=int) if k == 90 else per_seed_rankings[seed][:k]
             seed_all(seed)
             model = KAN([k * k, *TRAINING["hidden"], 2],
                         grid_size=TRAINING["grid_size"], spline_order=TRAINING["spline_order"]).to(device)
