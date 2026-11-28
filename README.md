@@ -15,7 +15,7 @@ Official repository for **BrainKAN** (*IEEE Journal of Biomedical and Health Inf
    python -m pip install -r requirements-reproduction.txt
    ```
 
-2. **Extract the dataset archive** (`BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` in the repository root) into `data/`:
+2. **Extract the dataset archive** (`BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` in the repository root; identical MAT files are also publicly available under CC0 1.0 in the certified Code Ocean capsule of Ji & Wang (2023): <https://doi.org/10.24433/CO.7899426.v1>) into `data/`:
    - `data/ALLASD1_aal.mat` (ABIDE, 882 subjects: 709 train / 89 valid / 84 test)
    - `data/ADHD1_aal.mat` (ADHD-200, 847 subjects: 679 train / 86 valid / 82 test)
 

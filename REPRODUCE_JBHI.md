@@ -11,7 +11,7 @@ python -m pip install torch==2.2.1 --index-url https://download.pytorch.org/whl/
 python -m pip install -r requirements-reproduction.txt
 ```
 
-Extract `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` into `data/` using WinRAR or 7-Zip, and verify the SHA-256 checksums:
+Extract `BrainKANDATA.part1.rar` – `BrainKANDATA.part6.rar` into `data/` using WinRAR or 7-Zip (the exact same `ALLASD1_aal.mat` and `ADHD1_aal.mat` files are also publicly distributed under CC0 1.0 in the certified Code Ocean capsule of Ji & Wang (2023): <https://doi.org/10.24433/CO.7899426.v1>), and verify the SHA-256 checksums:
 
 | Dataset | File | Subjects (train / valid / test) | SHA-256 |
 |---|---|---|---|
